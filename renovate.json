@@ -4,6 +4,7 @@
     "config:recommended"
   ],
   "ignorePaths": [
-      "cookbooks/Gemfile"
+      "cookbooks/Gemfile",
+      ".github/actions/install-ruby/action.yml"
   ],
 }
