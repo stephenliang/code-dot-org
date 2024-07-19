@@ -5,6 +5,8 @@
   ],
   "ignorePaths": [
       "cookbooks/Gemfile",
-      ".github/actions/install-ruby/action.yml"
+      ".github/actions/install-ruby/action.yml",
+      ".github/actions/install-ruby/action.yml",
+      "dashboard/Gemfile"
   ],
 }
