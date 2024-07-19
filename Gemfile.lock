@@ -341,7 +341,7 @@ GEM
     declarative (0.0.20)
     delayed_job (4.1.11)
       activesupport (>= 3.0, < 8.0)
-    delayed_job_active_record (4.1.7)
+    delayed_job_active_record (4.1.8)
       activerecord (>= 3.0, < 8.0)
       delayed_job (>= 3.0, < 5)
     devise (4.9.3)
@@ -557,7 +557,7 @@ GEM
     mini_portile2 (2.8.2)
     mini_racer (0.8.0)
       libv8-node (~> 18.16.0.0)
-    minitest (5.18.0)
+    minitest (5.18.1)
     minitest-around (0.5.0)
       minitest (~> 5.0)
     minitest-rails (6.1.1)
@@ -967,7 +967,7 @@ GEM
     xxhash (0.4.0)
     youtube-dl.rb (0.3.1.2016.08.19)
       cocaine (>= 0.5.4)
-    zeitwerk (2.6.7)
+    zeitwerk (2.6.16)
 
 PLATFORMS
   ruby
