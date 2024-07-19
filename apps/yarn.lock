@@ -2607,11 +2607,11 @@ __metadata:
   linkType: hard
 
 "@blockly/field-grid-dropdown@npm:~4.0.9":
-  version: 4.0.10
-  resolution: "@blockly/field-grid-dropdown@npm:4.0.10"
+  version: 4.0.16
+  resolution: "@blockly/field-grid-dropdown@npm:4.0.16"
   peerDependencies:
     blockly: ^10.0.0
-  checksum: 76f4e9d92a45ef31dc1c44e83e7ae35aaa9937a56423a808aeb18a3f08c642fa8903dec078129ae622fc5d679da4a7946aa51391738b4f6359f166ab4c01f29f
+  checksum: 1c473655039e890d2f6701affe642b7baab4d294969977fbb5015ec46821a43d45ba10f9f238a89916360761afb4a434054fdac045e4ff9764c848e469d316f0
   languageName: node
   linkType: hard
 
