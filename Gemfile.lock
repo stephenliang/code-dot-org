@@ -267,7 +267,7 @@ GEM
       aws-eventstream (~> 1, >= 1.0.2)
     backports (3.11.3)
     base64 (0.2.0)
-    bcrypt (3.1.13)
+    bcrypt (3.1.20)
     benchmark-ips (2.7.2)
     better_errors (2.10.1)
       erubi (>= 1.0.0)
@@ -999,7 +999,7 @@ DEPENDENCIES
   aws-sdk-s3
   aws-sdk-sagemakerruntime
   aws-sdk-secretsmanager
-  bcrypt (= 3.1.13)
+  bcrypt (= 3.1.20)
   benchmark-ips
   better_errors (>= 2.7.0)
   bootsnap (>= 1.14.0)
