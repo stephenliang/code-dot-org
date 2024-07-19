@@ -2598,11 +2598,11 @@ __metadata:
   linkType: hard
 
 "@blockly/field-colour@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@blockly/field-colour@npm:4.0.0"
+  version: 4.0.4
+  resolution: "@blockly/field-colour@npm:4.0.4"
   peerDependencies:
     blockly: ^10.4.3
-  checksum: 206c614cc3b405d18ecf66f47c0cbe1938726f4a99a48806edda4509f6f6721cc63670bd756d85cf1b0820459af43404a7e7bba6424eff27bcaee291f694845b
+  checksum: 1142406b4c46214e198fe5109ea4df8b667cacc1a8d8a29905c1aa5276721807607af16298e4235e10319d9570761f318cb7a58f634268a5e2d78042d5fba63f
   languageName: node
   linkType: hard
 
