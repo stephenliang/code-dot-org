@@ -295,7 +295,7 @@ GEM
       climate_control (>= 0.0.3, < 1.0)
     coderay (1.1.3)
     colorize (0.8.1)
-    composite_primary_keys (13.0.4)
+    composite_primary_keys (13.0.8)
       activerecord (~> 6.1.0)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
@@ -557,7 +557,7 @@ GEM
     mini_portile2 (2.8.2)
     mini_racer (0.8.0)
       libv8-node (~> 18.16.0.0)
-    minitest (5.18.0)
+    minitest (5.18.1)
     minitest-around (0.5.0)
       minitest (~> 5.0)
     minitest-rails (6.1.1)
@@ -967,7 +967,7 @@ GEM
     xxhash (0.4.0)
     youtube-dl.rb (0.3.1.2016.08.19)
       cocaine (>= 0.5.4)
-    zeitwerk (2.6.7)
+    zeitwerk (2.6.16)
 
 PLATFORMS
   ruby
