@@ -10278,16 +10278,16 @@ canvg@gabelerner/canvg:
   linkType: hard
 
 "csv-parse@npm:^1.1.7":
-  version: 1.1.7
-  resolution: "csv-parse@npm:1.1.7"
-  checksum: af4a5ba7ee66bf63a82016a677b44ad261acadd9ac5635541dcd2184200c586d3769d683352099ae68ea250046dff79e94528840829563f21f65815d74642a02
+  version: 1.3.3
+  resolution: "csv-parse@npm:1.3.3"
+  checksum: de66d6c954fddcc696aecaf6e4204bb52a86a46dc071471194e89364d2b18d22015042dbba4a464ef331824e924722dacbd9f5fc4a0278e1124a6e725914dce9
   languageName: node
   linkType: hard
 
 "csv-parse@npm:^4.4.6":
-  version: 4.4.6
-  resolution: "csv-parse@npm:4.4.6"
-  checksum: 09c37cd2f0179dd420338eb21823bf3cae221ae25e3558d6cecccc0654e6c5e019f34f0f3ce5c7f84cee2cd833e42d48b53e1993c0bcbddfdb7ce07a6760e19c
+  version: 4.16.3
+  resolution: "csv-parse@npm:4.16.3"
+  checksum: 5ad7790fc31c32ca1623bad1a54906134ba44fa109e8dd2dfda440bf7e9fd93610d9076a78f45c872701bfafdf7f93c9b75500c09d7efd6611d863f1d45ec69f
   languageName: node
   linkType: hard
 
