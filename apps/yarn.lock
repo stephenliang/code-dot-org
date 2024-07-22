@@ -22378,15 +22378,15 @@ es6-shim@latest:
   linkType: hard
 
 "react-tether@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "react-tether@npm:1.0.4"
+  version: 1.0.5
+  resolution: "react-tether@npm:1.0.5"
   dependencies:
     prop-types: ^15.6.2
     tether: ^1.4.5
   peerDependencies:
     react: ^0.14.0 || ^15.0.0 || ^16.0.0
     react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0
-  checksum: 72323cbdecdbcd9cbd1ee49e331d415e2f2a75d4a9dfb165d4d95fb3eaaa5eb802aa8aff6f5e2ee362abf1ba231fa38f85ecbaad4ffe6d0379c2ab94bf9dd142
+  checksum: 97eda8b90b9b5d4aab24851673bcd5b7d41d2e2d273a67d41c426df67e41d7519eaada1eaab14da1adaf3e6a3e569410340c4e45018bf0659e19b0996ac301e5
   languageName: node
   linkType: hard
 
