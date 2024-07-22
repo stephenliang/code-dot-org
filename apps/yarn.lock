@@ -27457,16 +27457,16 @@ temporal@latest:
   linkType: hard
 
 "whatwg-fetch@npm:>=0.10.0":
-  version: 3.0.0
-  resolution: "whatwg-fetch@npm:3.0.0"
-  checksum: dcb90ab919e742d275c32d397d7480f6981da4c1b49961f0d0a2fa6825325b553fee2d793bc38ed85b9bcc8c50de39802440e2480fe40243067b3dab228c52c3
+  version: 3.6.20
+  resolution: "whatwg-fetch@npm:3.6.20"
+  checksum: c58851ea2c4efe5c2235f13450f426824cf0253c1d45da28f45900290ae602a20aff2ab43346f16ec58917d5562e159cd691efa368354b2e82918c2146a519c5
   languageName: node
   linkType: hard
 
 "whatwg-fetch@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "whatwg-fetch@npm:2.0.3"
-  checksum: b2b1c94900e51afee17a5a6d05d8058f4dbb7d10868f0f016fff2dbf3a212098e01f8f4bc7d93c7c91b0a6c42f248a1d23c7bec869f2f8c7d6cec5bc4b704d07
+  version: 2.0.4
+  resolution: "whatwg-fetch@npm:2.0.4"
+  checksum: de7c65a68d7d62e2f144a6b30293370b3ad82b65ebcd68f2ac8e8bbe7ede90febd98ba9486b78c1cbc950e0e8838fa5c2727f939899ab3fc7b71a04be52d33a5
   languageName: node
   linkType: hard
 
