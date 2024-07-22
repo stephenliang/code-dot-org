@@ -8379,7 +8379,7 @@ __metadata:
     path-browserify: ^1.0.1
     pepjs: ^0.4.3
     pixelmatch: ^5.2.0
-    playground-io: "code-dot-org/playground-io#v0.6.0-cdo.2"
+    playground-io: "code-dot-org/playground-io#v0.6.0"
     prettier: 2.8.7
     process: ^0.11.10
     progress-bar-webpack-plugin: ^2.1.0
@@ -20755,14 +20755,14 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"playground-io@code-dot-org/playground-io#v0.6.0-cdo.2":
-  version: 0.6.0-cdo.1
-  resolution: "playground-io@https://github.com/code-dot-org/playground-io.git#commit=6ce2d559579b9d671e4fef9855c884560f9c8013"
+"playground-io@code-dot-org/playground-io#v0.6.0":
+  version: 0.6.0
+  resolution: "playground-io@https://github.com/code-dot-org/playground-io.git#commit=1b762e2e913cbaaa6d8b9036a9bbbb5deec63b64"
   dependencies:
     buffer: ^4.6.0
-    firmata: ^2.2.0
+    firmata: ">=0.11.3"
     lodash.debounce: ^4.0.3
-  checksum: c581c93c260a075c0b0a6e67ced30a394bceeadf7686ea32de7765df01edba83892bbc90bb00b31f63a84f4ca031deba3c286bd247eeb62ccd101916946fef7c
+  checksum: 4f49ee59659202f92609e425fad499b8d3d274c01d0cd394d09f5a360a361736879b69a1ae9e82d12f7a728817848588794c61cea2390aff3bd55079f9ea6cf8
   languageName: node
   linkType: hard
 
