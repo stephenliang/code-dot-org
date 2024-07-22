@@ -17388,9 +17388,9 @@ es6-shim@latest:
   linkType: hard
 
 "jsonic@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "jsonic@npm:0.3.0"
-  checksum: 9503edca13cd41ac72fd7187cbdaaeaf1345b5b69c517ea30276acd353f052e7a71d6ddfbcf1df0647d541e260cbc99ab0738931fa0bf168eeb124a2dbe0ca99
+  version: 0.3.1
+  resolution: "jsonic@npm:0.3.1"
+  checksum: 42b932e14c142969c876036e3c3ee2b3ea866cb5438ae7afda43283b88d8e44f13557c25d22ff3cc6a211496fe81c96a3c6c9b7c62133e9b580a2b4445811788
   languageName: node
   linkType: hard
 
