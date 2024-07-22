@@ -17290,9 +17290,9 @@ es6-shim@latest:
   linkType: hard
 
 "json-parse-better-errors@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "json-parse-better-errors@npm:1.0.1"
-  checksum: 3938e20b0a5e21be566315d3d03ee356c1f7e349b4a6624cbbf7b2fec9b2d0d001602f7015e5ac74a0836ceeb39661a4f366885ce4e8990ad5b4aa4d64408320
+  version: 1.0.2
+  resolution: "json-parse-better-errors@npm:1.0.2"
+  checksum: ff2b5ba2a70e88fd97a3cb28c1840144c5ce8fae9cbeeddba15afa333a5c407cf0e42300cd0a2885dbb055227fe68d405070faad941beeffbfde9cf3b2c78c5d
   languageName: node
   linkType: hard
 
