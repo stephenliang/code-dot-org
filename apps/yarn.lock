@@ -23165,11 +23165,11 @@ es6-shim@latest:
   linkType: hard
 
 "remark-rehype@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "remark-rehype@npm:4.0.0"
+  version: 4.0.1
+  resolution: "remark-rehype@npm:4.0.1"
   dependencies:
     mdast-util-to-hast: ^4.0.0
-  checksum: 6f2cb62089a788bf49a7642ddb47fa0953c0bbaa4658d2e4f3edb92db3e47d0c3ed298a271713dbf7adec220cf7b89a81588b009018fe99260989433d1f9b669
+  checksum: a4b3d6c6fc9926883fee86185f44b2c6ebd2bbf6bd95665536cf2878edce1c8c4b3f9c324f2e4f3f739473cce688a64a7cfe861e732a067b53af1cec947926f7
   languageName: node
   linkType: hard
 
