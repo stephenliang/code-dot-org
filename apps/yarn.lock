@@ -23057,11 +23057,11 @@ es6-shim@latest:
   linkType: hard
 
 "rehype-raw@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "rehype-raw@npm:4.0.0"
+  version: 4.0.2
+  resolution: "rehype-raw@npm:4.0.2"
   dependencies:
     hast-util-raw: ^5.0.0
-  checksum: e2a08c21ab8ec1236cbe4f9db7f50231b8d6b4979c9ed582de6c97448b5269b4e0e7da1d58a707f54be6cce729a99b2b267a35fc682fb2b9960bd2cb41a20575
+  checksum: 53956b5ef2eb181dbc6e8858da375590ad45cc2144c2fcdb305411d3b443f638dcadec69eecb1b2d7b20373d95bba7b9cdac4669a939970d885bbf304c84022f
   languageName: node
   linkType: hard
 
