@@ -22026,11 +22026,11 @@ es6-shim@latest:
   linkType: hard
 
 "react-loading-skeleton@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "react-loading-skeleton@npm:3.1.0"
+  version: 3.4.0
+  resolution: "react-loading-skeleton@npm:3.4.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 53d257c88e442e979fb9148ae826fc998a5a54c08a01e894395cf1ebb1e1c83e426f9c4884800e5564ba3308cf33e32d3abc75e07589ae0b48e4a2ed544fda2a
+  checksum: 4ac360e9fffbd9f2a733b2f05b44cd818dff15f55ae130f19e32db7f70a23795ac9d51ba9234b872a25a902514eabffeaf0baf4f251191be1e3a680cd1851231
   languageName: node
   linkType: hard
 
