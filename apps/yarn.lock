@@ -8409,7 +8409,7 @@ __metadata:
     react-lazy-load: ~3.0.13
     react-loading-skeleton: ^3.1.0
     react-motion: ^0.5.2
-    react-onclickoutside: ~5.11.1
+    react-onclickoutside: ~6.13.0
     react-paginate: ^6.3.0
     react-papaparse: ^4.4.0
     react-pointable: ^1.1.1
@@ -10039,7 +10039,7 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"create-react-class@npm:^15.5.1, create-react-class@npm:^15.5.x, create-react-class@npm:^15.6.0":
+"create-react-class@npm:^15.5.1, create-react-class@npm:^15.6.0":
   version: 15.6.3
   resolution: "create-react-class@npm:15.6.3"
   dependencies:
@@ -22057,12 +22057,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-onclickoutside@npm:~5.11.1":
-  version: 5.11.1
-  resolution: "react-onclickoutside@npm:5.11.1"
-  dependencies:
-    create-react-class: ^15.5.x
-  checksum: e15ee1b39af6b7fbdb1fb360e7714e200528a9c771700a9af4afc5ecec0a469779d2e0d562b975f39fd56a19ab591f26c07c451dfd669c70deaaa2eba87c5ce3
+"react-onclickoutside@npm:~6.13.0":
+  version: 6.13.1
+  resolution: "react-onclickoutside@npm:6.13.1"
+  peerDependencies:
+    react: ^15.5.x || ^16.x || ^17.x || ^18.x
+    react-dom: ^15.5.x || ^16.x || ^17.x || ^18.x
+  checksum: 6c5727bfcd6e0ecc1fd83ac865a23382b7784aa54e3d0cb67520a53f9d02a1d312b9493d150fb8fa2f912b6cf4b23b228809c2513096ef6e53c7553162c048c7
   languageName: node
   linkType: hard
 
