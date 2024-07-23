@@ -8444,7 +8444,7 @@ __metadata:
     rosie: ^2.0.1
     sanitize-html: ^1.11.3
     sass: ^1.51.0
-    sass-loader: ^12.1.0
+    sass-loader: ^15.0.0
     save-csv: ^4.0.6
     script-loader: ^0.7.2
     seedrandom: 2.4.2
@@ -17571,13 +17571,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"klona@npm:^2.0.4":
-  version: 2.0.5
-  resolution: "klona@npm:2.0.5"
-  checksum: 8c976126ea252b766e648a4866e1bccff9d3b08432474ad80c559f6c7265cf7caede2498d463754d8c88c4759895edd8210c85c0d3155e6aae4968362889466f
-  languageName: node
-  linkType: hard
-
 "known-css-properties@npm:^0.27.0":
   version: 0.27.0
   resolution: "known-css-properties@npm:0.27.0"
@@ -23721,20 +23714,19 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^12.1.0":
-  version: 12.6.0
-  resolution: "sass-loader@npm:12.6.0"
+"sass-loader@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "sass-loader@npm:15.0.0"
   dependencies:
-    klona: ^2.0.4
     neo-async: ^2.6.2
   peerDependencies:
-    fibers: ">= 3.1.0"
-    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+    "@rspack/core": 0.x || 1.x
+    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
     sass: ^1.3.0
     sass-embedded: "*"
     webpack: ^5.0.0
   peerDependenciesMeta:
-    fibers:
+    "@rspack/core":
       optional: true
     node-sass:
       optional: true
@@ -23742,7 +23734,9 @@ es6-shim@latest:
       optional: true
     sass-embedded:
       optional: true
-  checksum: 5d73a428588150f704016aa27397941bb9246cecd2ee083b573e95d969fc080ac6a16f2fe1cc64aca08f6e70da6f3c586ee68f0efc9f527fecc360e5f1c299ec
+    webpack:
+      optional: true
+  checksum: caa5f420fd278929f80a9d230ca86a86a146c1c055e7040da6c6b86b54dc9e14bab10ffdfff85b2dbfa2f7ba81e65a5d436772018ce0e5173446bfb0493e84dd
   languageName: node
   linkType: hard
 
