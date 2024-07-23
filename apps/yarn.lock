@@ -8384,7 +8384,7 @@ __metadata:
     process: ^0.11.10
     progress-bar-webpack-plugin: ^2.1.0
     prop-types: ^15.6.2
-    pusher-js: 4.1.0
+    pusher-js: 8.3.0
     pyodide: ^0.25.1
     qrcode.react: ^0.8.0
     qtip2: 2.2.0
@@ -12874,15 +12874,6 @@ es6-shim@latest:
   dependencies:
     reusify: ^1.0.4
   checksum: 32cf15c29afe622af187d12fc9cd93e160a0cb7c31a3bb6ace86b7dea3b28e7b72acde89c882663f307b2184e14782c6c664fa315973c03626c7d4bff070bb0b
-  languageName: node
-  linkType: hard
-
-"faye-websocket@npm:0.9.4":
-  version: 0.9.4
-  resolution: "faye-websocket@npm:0.9.4"
-  dependencies:
-    websocket-driver: ">=0.5.1"
-  checksum: 382913a6c799040f3e0203f2fa474374a23c99822ca32c2391464774c3999f03328f11d3fbbded8cdc8ebbeaa4ce10fabeed14f9227747f2c2b210b8e93c8b4d
   languageName: node
   linkType: hard
 
@@ -21367,13 +21358,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pusher-js@npm:4.1.0":
-  version: 4.1.0
-  resolution: "pusher-js@npm:4.1.0"
+"pusher-js@npm:8.3.0":
+  version: 8.3.0
+  resolution: "pusher-js@npm:8.3.0"
   dependencies:
-    faye-websocket: 0.9.4
-    xmlhttprequest: ^1.8.0
-  checksum: d1a11de48abf47f0939010eeda5da2acac3b2d177b29847a0f73003da978d641b8346c62d94556795bc05b5feb8ab1b7811d010692ffa348df20c6b8f0daa612
+    tweetnacl: ^1.0.3
+  checksum: 4a8a8e2c3079724e1918bbe11b948fdf6ff27287be482f60df8ef78f8c8910f549dba0938eb0b3e3014612aeacf72cdcc13aead47176bf0d0754b81ea98747c5
   languageName: node
   linkType: hard
 
@@ -25979,6 +25969,13 @@ temporal@latest:
   languageName: node
   linkType: hard
 
+"tweetnacl@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "tweetnacl@npm:1.0.3"
+  checksum: e4a57cac188f0c53f24c7a33279e223618a2bfb5fea426231991652a13247bea06b081fd745d71291fcae0f4428d29beba1b984b1f1ce6f66b06a6d1ab90645c
+  languageName: node
+  linkType: hard
+
 "type-check@npm:^0.4.0, type-check@npm:~0.4.0":
   version: 0.4.0
   resolution: "type-check@npm:0.4.0"
@@ -27960,13 +27957,6 @@ temporal@latest:
   version: 2.2.0
   resolution: "xmlchars@npm:2.2.0"
   checksum: 8c70ac94070ccca03f47a81fcce3b271bd1f37a591bf5424e787ae313fcb9c212f5f6786e1fa82076a2c632c0141552babcd85698c437506dfa6ae2d58723062
-  languageName: node
-  linkType: hard
-
-"xmlhttprequest@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "xmlhttprequest@npm:1.8.0"
-  checksum: c891cf0d7884b4f5cce835aa01f1965727cd352cbd2d7a2e0605bf11ec99ae2198364cca54656ec8b2581a5704dee6c2bf9911922a0ff2a71b613455d32e81b7
   languageName: node
   linkType: hard
 
