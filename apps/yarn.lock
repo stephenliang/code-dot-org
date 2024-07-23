@@ -17630,9 +17630,9 @@ es6-shim@latest:
   linkType: hard
 
 "lazysizes@npm:^4.0.0-rc1":
-  version: 4.0.0-rc1
-  resolution: "lazysizes@npm:4.0.0-rc1"
-  checksum: d31d70093a07c3e666cba2942c2c4fbf6f9b2489b02e9de9cc5c08720cc78081d853207935d5ea010e482a23b2ea7940c1d2f8e134a38f01cbb420cf0d700fb9
+  version: 4.1.8
+  resolution: "lazysizes@npm:4.1.8"
+  checksum: bb3eca658383daadb96ca85d01bb2f1cdc2240eb0d892f97eff963b25d0d77d7690746c3b9097606dad8c94998086bbdc20468c7b7bb248bc8c1f914e481bf4c
   languageName: node
   linkType: hard
 
