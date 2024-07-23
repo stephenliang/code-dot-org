@@ -317,7 +317,7 @@
     "redux": "^4.2.1",
     "redux-logger": "^2.6.1",
     "redux-thunk": "^2.0.1",
-    "rehype-raw": "^4.0.0",
+    "rehype-raw": "^7.0.0",
     "rehype-react": "^3.1.0",
     "rehype-sanitize": "^2.0.2",
     "remark-parse": "~8.0.3",
