@@ -11089,6 +11089,15 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
+"domhandler@npm:^3.0.0":
+  version: 3.3.0
+  resolution: "domhandler@npm:3.3.0"
+  dependencies:
+    domelementtype: ^2.0.1
+  checksum: 850e5e9fee7834ab4314811e18bc1f4294d7eafbf6a79ad03cbe50cf964108935c97257ac248944d72a9312b4a18dfa8323e857d23278964dc83b1f124467fa3
+  languageName: node
+  linkType: hard
+
 "domhandler@npm:^4.0.0, domhandler@npm:^4.2.0, domhandler@npm:^4.3.1":
   version: 4.3.1
   resolution: "domhandler@npm:4.3.1"
@@ -11108,7 +11117,7 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"domutils@npm:^2.5.2, domutils@npm:^2.8.0":
+"domutils@npm:^2.0.0, domutils@npm:^2.5.2, domutils@npm:^2.8.0":
   version: 2.8.0
   resolution: "domutils@npm:2.8.0"
   dependencies:
@@ -15066,7 +15075,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:^3.9.0, htmlparser2@npm:^3.9.1":
+"htmlparser2@npm:^3.9.1":
   version: 3.9.2
   resolution: "htmlparser2@npm:3.9.2"
   dependencies:
@@ -15077,6 +15086,18 @@ es6-shim@latest:
     inherits: ^2.0.1
     readable-stream: ^2.0.2
   checksum: ac515644e6c2885a949dcb766dfb541452a55f28d6efc05390b9bad629792b1fa7a33f4ade12f9236e184d5ef826ea40fcb18659049860a2be82170e6f7b091b
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "htmlparser2@npm:4.1.0"
+  dependencies:
+    domelementtype: ^2.0.1
+    domhandler: ^3.0.0
+    domutils: ^2.0.0
+    entities: ^2.0.0
+  checksum: 615fcf34ae74775eba9d2c7c54034201645ac4146dfe2889cda21939aa77806ad3aee27963ae72c5c2da23ce7b0b99b2533e1d9f327b74821cc11f755cc5153f
   languageName: node
   linkType: hard
 
@@ -20395,6 +20416,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"parse-srcset@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "parse-srcset@npm:1.0.2"
+  checksum: 3a0380380c6082021fcce982f0b89fb8a493ce9dfd7d308e5e6d855201e80db8b90438649b31fdd82a3d6089a8ca17dccddaa2b730a718389af4c037b8539ebf
+  languageName: node
+  linkType: hard
+
 "parse5@npm:^3.0.1":
   version: 3.0.3
   resolution: "parse5@npm:3.0.3"
@@ -20636,6 +20664,13 @@ es6-shim@latest:
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
   checksum: 534e641aa8f7cba160f0afec0599b6cecefbb516a2e837b512be0adbe6c1da5550e89c78059c7fabc5c9ffdf6627edabe23eb7c518c4500067a898fa65c2b550
+  languageName: node
+  linkType: hard
+
+"picocolors@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "picocolors@npm:0.2.1"
+  checksum: 3b0f441f0062def0c0f39e87b898ae7461c3a16ffc9f974f320b44c799418cabff17780ee647fda42b856a1dc45897e2c62047e1b546d94d6d5c6962f45427b2
   languageName: node
   linkType: hard
 
@@ -20931,6 +20966,16 @@ es6-shim@latest:
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
   checksum: 819ffab0c9d51cf0acbabf8996dffbfafbafa57afc0e4c98db88b67f2094cb44488758f06e5da95d7036f19556a4a732525e84289a425f4f6fd8e412a9d7442f
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^7.0.27":
+  version: 7.0.39
+  resolution: "postcss@npm:7.0.39"
+  dependencies:
+    picocolors: ^0.2.1
+    source-map: ^0.6.1
+  checksum: 4ac793f506c23259189064bdc921260d869a115a82b5e713973c5af8e94fbb5721a5cc3e1e26840500d7e1f1fa42a209747c5b1a151918a9bc11f0d7ed9048e3
   languageName: node
   linkType: hard
 
@@ -22944,13 +22989,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"regexp-quote@npm:0.0.0":
-  version: 0.0.0
-  resolution: "regexp-quote@npm:0.0.0"
-  checksum: 78244ed6fa614f37c858e694b9e418e289e2c192251002c59e24f847d8186ed9293496bbb5f182687b10f15353996416edbcdc20b37932a2152e826b67f852a0
-  languageName: node
-  linkType: hard
-
 "regexp.prototype.flags@npm:^1.4.3":
   version: 1.4.3
   resolution: "regexp.prototype.flags@npm:1.4.3"
@@ -23711,13 +23749,14 @@ es6-shim@latest:
   linkType: hard
 
 "sanitize-html@npm:^1.11.3":
-  version: 1.13.0
-  resolution: "sanitize-html@npm:1.13.0"
+  version: 1.27.5
+  resolution: "sanitize-html@npm:1.27.5"
   dependencies:
-    htmlparser2: ^3.9.0
-    regexp-quote: 0.0.0
-    xtend: ^4.0.0
-  checksum: a6a1769b9ab04c48586a593cd858514c26d9e8bee67afec51df1892b28741251c15460c6a899c989d312d11825c78f1ac5eb7b4b08ca2ea8ad940e460551fd00
+    htmlparser2: ^4.1.0
+    lodash: ^4.17.15
+    parse-srcset: ^1.0.2
+    postcss: ^7.0.27
+  checksum: 883cfe20e094b2861bffbbdf7dd4cb9dde5d7fe14b83b3d4a1e22160172126f9fd120cd9c9a0257a473bfe824daec92a29bebd1712d5e08437add14f6846d871
   languageName: node
   linkType: hard
 
