@@ -2363,6 +2363,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.7.6":
+  version: 7.24.8
+  resolution: "@babel/runtime@npm:7.24.8"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 6b1e4230580f67a807ad054720812bbefbb024cc2adc1159d050acbb764c4c81c7ac5f7a042c48f578987c5edc2453c71039268df059058e9501fa6023d764b0
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15":
   version: 7.23.9
   resolution: "@babel/template@npm:7.23.9"
@@ -8330,7 +8339,7 @@ __metadata:
     grunt-sass: 3.1.0
     grunt-webpack: ^6.0.0
     hammerjs: ^2.0.8
-    history: ^2.0.1
+    history: ^5.0.0
     html2canvas: ^0.5.0-beta4
     htmlhint: ^1.1.4
     identity-obj-proxy: ^3.0.0
@@ -10547,13 +10556,6 @@ canvg@gabelerner/canvg:
   dependencies:
     type-detect: 0.1.1
   checksum: 959734acb233d00727b3e64c8c803d233315ad8d4f7ccf89455a8a12f745055e78df087d1afabbe8931a9387f585d3bc4bf57bdb94e5e52055b38f5ae9360ca7
-  languageName: node
-  linkType: hard
-
-"deep-equal@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "deep-equal@npm:1.0.1"
-  checksum: 5af8cbfcebf190491878a498caccc7dc9592f8ebd1685b976eacc3825619d222b5e929923163b92c4f414494e2b884f7ebf00c022e8198e8292deb70dd9785f4
   languageName: node
   linkType: hard
 
@@ -14782,18 +14784,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"history@npm:^2.0.1":
-  version: 2.1.2
-  resolution: "history@npm:2.1.2"
-  dependencies:
-    deep-equal: ^1.0.0
-    invariant: ^2.0.0
-    query-string: ^3.0.0
-    warning: ^2.0.0
-  checksum: 46f3afac566129802620a6e000c504e08101d2d80026f7be771429678c8cc110fc3e71649d124dd9e8fd060934fe9062e0ff2601338d8f3c6b55716d9ec36aef
-  languageName: node
-  linkType: hard
-
 "history@npm:^3.0.0":
   version: 3.3.0
   resolution: "history@npm:3.3.0"
@@ -14816,6 +14806,15 @@ es6-shim@latest:
     value-equal: ^0.4.0
     warning: ^3.0.0
   checksum: 66ffc537ceb9ed8e092ea31e2090d1888abba67e830549aa669cecb4cf0f06a234ae7d616f92904bdcb5cbf428acefe6fc3451d8e5edcb05172b61f1567e0061
+  languageName: node
+  linkType: hard
+
+"history@npm:^5.0.0":
+  version: 5.3.0
+  resolution: "history@npm:5.3.0"
+  dependencies:
+    "@babel/runtime": ^7.7.6
+  checksum: d73c35df49d19ac172f9547d30a21a26793e83f16a78386d99583b5bf1429cc980799fcf1827eb215d31816a6600684fba9686ce78104e23bd89ec239e7c726f
   languageName: node
   linkType: hard
 
@@ -15510,15 +15509,6 @@ es6-shim@latest:
   version: 7.2.0
   resolution: "intro.js@npm:7.2.0"
   checksum: 466b95f64d746890e1dce20c28c9813e74ea238fbd7270abf90997c1e70d8ad146a7035feee02f47a5b9328b65fdc54a4b2c204bfca07c605f18122d888de3a3
-  languageName: node
-  linkType: hard
-
-"invariant@npm:^2.0.0":
-  version: 2.2.1
-  resolution: "invariant@npm:2.2.1"
-  dependencies:
-    loose-envify: ^1.0.0
-  checksum: 9153fc9073d210ae3ca1b398b4a0ffaa8865d0ea1105f9bd027eea7cdef8ad3d87eb09d0bfe3f2e44c1a2ecf78b0dc7d35cc7abb2dbb2d32cb472cf17a598f01
   languageName: node
   linkType: hard
 
@@ -21454,15 +21444,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"query-string@npm:^3.0.0":
-  version: 3.0.3
-  resolution: "query-string@npm:3.0.3"
-  dependencies:
-    strict-uri-encode: ^1.0.0
-  checksum: 72a1c559afce1fe4dfdb41de2962b3bafbebb3cf47dc200a4bd34fcb19ad93aef0e44185adf74375e129b888eb3f55a289e700d4b275a2835a15b9ede5ad22ed
-  languageName: node
-  linkType: hard
-
 "query-string@npm:^4.2.2":
   version: 4.3.4
   resolution: "query-string@npm:4.3.4"
@@ -27022,15 +27003,6 @@ temporal@latest:
   dependencies:
     makeerror: 1.0.12
   checksum: ad7a257ea1e662e57ef2e018f97b3c02a7240ad5093c392186ce0bcf1f1a60bbadd520d073b9beb921ed99f64f065efb63dfc8eec689a80e569f93c1c5d5e16c
-  languageName: node
-  linkType: hard
-
-"warning@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "warning@npm:2.1.0"
-  dependencies:
-    loose-envify: ^1.0.0
-  checksum: ffde73563b851122fa9c196939c578ff271b0067065728ad8a4cc5a03255764352288882283bee26de50058b00c9c374ee0e1e9539655104779591b4be393ba7
   languageName: node
   linkType: hard
 
