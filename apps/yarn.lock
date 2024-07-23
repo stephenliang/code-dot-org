@@ -8313,7 +8313,7 @@ __metadata:
     eslint-plugin-storybook: ^0.6.15
     events: ^3.3.0
     fast-memoize: 2.0.2
-    filesaver.js: 0.2.0
+    filesaver.js: 1.3.4
     firmata: ^2.2.0
     focus-trap-react: ^10.1.1
     fork-ts-checker-webpack-plugin: ^8.0.0
@@ -13018,10 +13018,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"filesaver.js@npm:0.2.0":
-  version: 0.2.0
-  resolution: "filesaver.js@npm:0.2.0"
-  checksum: e6ac60f7893cbf693dbd58e04d63def4b8da1593214a68db28f8a518a38d3de01f2f79e99b0479aa17aaab59bfd0b2bf3ba8a4b3472d80944372d2d1346c6866
+"filesaver.js@npm:1.3.4":
+  version: 1.3.4
+  resolution: "filesaver.js@npm:1.3.4"
+  checksum: b084bf948912a0040ec13effc775fa4bc7138f34a6e695fbdf2c49591e718a541586c9c9a20206cf374ebaaeed80e9ec822d102c924863f1d837a3f06b2563e8
   languageName: node
   linkType: hard
 
