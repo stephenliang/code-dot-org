@@ -8406,7 +8406,7 @@ __metadata:
     react-google-charts: 2
     react-idle-timer: ^4.2.7
     react-inspector: 2.3.1
-    react-lazy-load: ~3.0.13
+    react-lazy-load: ~4.0.0
     react-loading-skeleton: ^3.1.0
     react-motion: ^0.5.2
     react-onclickoutside: ~5.11.1
@@ -12598,13 +12598,6 @@ es6-shim@latest:
   version: 5.0.1
   resolution: "eventemitter3@npm:5.0.1"
   checksum: 543d6c858ab699303c3c32e0f0f47fc64d360bf73c3daf0ac0b5079710e340d6fe9f15487f94e66c629f5f82cd1a8678d692f3dbb6f6fcd1190e1b97fcad36f8
-  languageName: node
-  linkType: hard
-
-"eventlistener@npm:0.0.1":
-  version: 0.0.1
-  resolution: "eventlistener@npm:0.0.1"
-  checksum: bf28b97f330931da8b771c26744b2d17e06851da76c727c73fdbd12b8f6f8fbdba8e6d87b4f5119f93896bcc09365a0735d0f7f3bc91255e2d39a7b5a351accb
   languageName: node
   linkType: hard
 
@@ -17828,7 +17821,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"lodash.debounce@npm:^4, lodash.debounce@npm:^4.0.0, lodash.debounce@npm:^4.0.3, lodash.debounce@npm:^4.0.8":
+"lodash.debounce@npm:^4, lodash.debounce@npm:^4.0.3, lodash.debounce@npm:^4.0.8":
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
   checksum: a3f527d22c548f43ae31c861ada88b2637eb48ac6aa3eb56e82d44917971b8aa96fbb37aa60efea674dc4ee8c42074f90f7b1f772e9db375435f6c83a19b3bc6
@@ -17944,13 +17937,6 @@ es6-shim@latest:
   version: 4.6.0
   resolution: "lodash.some@npm:4.6.0"
   checksum: 4469e76a389446d1166a29f844fb21398c36060d00258ce799710e046c55ed3c1af150c31b4856504e252bc813ba3fdcb6f255c490d9846738dd363a44665322
-  languageName: node
-  linkType: hard
-
-"lodash.throttle@npm:^4.0.0":
-  version: 4.1.1
-  resolution: "lodash.throttle@npm:4.1.1"
-  checksum: 129c0a28cee48b348aef146f638ef8a8b197944d4e9ec26c1890c19d9bf5a5690fe11b655c77a4551268819b32d27f4206343e30c78961f60b561b8608c8c805
   languageName: node
   linkType: hard
 
@@ -21993,18 +21979,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-lazy-load@npm:~3.0.13":
-  version: 3.0.13
-  resolution: "react-lazy-load@npm:3.0.13"
-  dependencies:
-    eventlistener: 0.0.1
-    lodash.debounce: ^4.0.0
-    lodash.throttle: ^4.0.0
-    prop-types: ^15.5.8
+"react-lazy-load@npm:~4.0.0":
+  version: 4.0.1
+  resolution: "react-lazy-load@npm:4.0.1"
   peerDependencies:
-    react: ^0.14.0 || ^15.0.0-0 || ^16.0.0
-    react-dom: ^0.14.0 || ^15.0.0-0 || ^16.0.0
-  checksum: cd9fb2589a1dad90f8efcd09ed30e86a42244475a9a4f4657b2da51dce02176b345950c3ab747c3bd2a6c5b6debd7da1c1ea905b5456d156ace7aed86cbd4071
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: 84fe61a68ae8b705cff0b1a5364d7af654dbe3e49153c39088d44e706c4bd7fba8776476ed2ac9af19cb33a70e9f694d0c67246da0167e736d1153204f5fc951
   languageName: node
   linkType: hard
 
