@@ -6283,12 +6283,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/sinon@npm:^10.0.14":
-  version: 10.0.14
-  resolution: "@types/sinon@npm:10.0.14"
+"@types/sinon@npm:^17.0.0":
+  version: 17.0.3
+  resolution: "@types/sinon@npm:17.0.3"
   dependencies:
     "@types/sinonjs__fake-timers": "*"
-  checksum: b6e1d46bfb03fa5c11ba4a84790795dcb72dae4e599318ca6983affff106bf56874a0b1b5e263ca15319c7e7bd92132d6db30fa62890ffb2ee29b011bdd5d548
+  checksum: c8e9956d9c90fe1ec1cc43085ae48897f93f9ea86e909ab47f255ea71f5229651faa070393950fb6923aef426c84e92b375503f9f8886ef44668b82a8ee49e9a
   languageName: node
   linkType: hard
 
@@ -8264,7 +8264,7 @@ __metadata:
     "@types/react-bootstrap": ^0.32.36
     "@types/react-dom": ^18.0.11
     "@types/reactabular-table": ^8.14.6
-    "@types/sinon": ^10.0.14
+    "@types/sinon": ^17.0.0
     "@typescript-eslint/eslint-plugin": ^7.16.1
     "@typescript-eslint/parser": ^7.16.1
     acorn-import-assertions: ^1.9.0
