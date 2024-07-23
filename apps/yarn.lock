@@ -8403,7 +8403,7 @@ __metadata:
     react-dom-confetti: ^0.2.0
     react-draggable: ^4.4.6
     react-focus-lock: ^2.11.2
-    react-google-charts: 2
+    react-google-charts: 4
     react-idle-timer: ^4.2.7
     react-inspector: 2.3.1
     react-lazy-load: ~3.0.13
@@ -21904,15 +21904,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-google-charts@npm:2":
-  version: 2.0.29
-  resolution: "react-google-charts@npm:2.0.29"
-  dependencies:
-    react-load-script: ^0.0.6
+"react-google-charts@npm:4":
+  version: 4.0.1
+  resolution: "react-google-charts@npm:4.0.1"
   peerDependencies:
-    react: ">=15.0.0"
-    react-dom: ">=15.0.0"
-  checksum: cc3ea2d8c0944811f772f318cc5d266c525bb903755abe45957aab8da672b4556939b1a6e8cc396a8904ca3f4a4b8075804d5f62bbd4f50f8fb03d55e407f1bf
+    react: ">=16.3.0"
+    react-dom: ">=16.3.0"
+  checksum: 874a552b07cc67d6b830718dd5e71055c46fbd0c7a12bca14078c0744111d8fead833e36a16bd0b0ea5c26f6cff0eb84b4b6de62845c945b3c47c6cc75233f9d
   languageName: node
   linkType: hard
 
@@ -22012,16 +22010,6 @@ es6-shim@latest:
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
   checksum: a904b0fc0a8eeb15a148c9feb7bc17cec7ef96e71188280061fc340043fd6d8ee3ff233381f0e8f95c1cf926210b2c4a31f38182c8f35ac55057e453d6df204f
-  languageName: node
-  linkType: hard
-
-"react-load-script@npm:^0.0.6":
-  version: 0.0.6
-  resolution: "react-load-script@npm:0.0.6"
-  peerDependencies:
-    prop-types: ">=15"
-    react: ">=0.14.9"
-  checksum: c8a19d785ecf907ddaa869a6c93b8f627dbef64a0f81bca612743a22157f32458b7ff67d56c868b09e5edce18d4cfdbd9a6f605353b8e00c3bb29569971e1427
   languageName: node
   linkType: hard
 
