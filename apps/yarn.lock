@@ -8384,7 +8384,7 @@ __metadata:
     process: ^0.11.10
     progress-bar-webpack-plugin: ^2.1.0
     prop-types: ^15.6.2
-    pusher-js: 4.1.0
+    pusher-js: 4.4.0
     pyodide: ^0.25.1
     qrcode.react: ^0.8.0
     qtip2: 2.2.0
@@ -21367,13 +21367,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pusher-js@npm:4.1.0":
-  version: 4.1.0
-  resolution: "pusher-js@npm:4.1.0"
+"pusher-js@npm:4.4.0":
+  version: 4.4.0
+  resolution: "pusher-js@npm:4.4.0"
   dependencies:
     faye-websocket: 0.9.4
+    tweetnacl: ^1.0.0
+    tweetnacl-util: ^0.15.0
     xmlhttprequest: ^1.8.0
-  checksum: d1a11de48abf47f0939010eeda5da2acac3b2d177b29847a0f73003da978d641b8346c62d94556795bc05b5feb8ab1b7811d010692ffa348df20c6b8f0daa612
+  checksum: c9f683d78a7fca8bcaf3e5b82888843e9a9377dded86063c275d3552746c36863138a90904e439b4f697908250ba81ad04f5f2420fb2baeb88a42cc8dc8a96ec
   languageName: node
   linkType: hard
 
@@ -25976,6 +25978,20 @@ temporal@latest:
   dependencies:
     safe-buffer: ^5.0.1
   checksum: 05f6510358f8afc62a057b8b692f05d70c1782b70db86d6a1e0d5e28a32389e52fa6e7707b6c5ecccacc031462e4bc35af85ecfe4bbc341767917b7cf6965711
+  languageName: node
+  linkType: hard
+
+"tweetnacl-util@npm:^0.15.0":
+  version: 0.15.1
+  resolution: "tweetnacl-util@npm:0.15.1"
+  checksum: ae6aa8a52cdd21a95103a4cc10657d6a2040b36c7a6da7b9d3ab811c6750a2d5db77e8c36969e75fdee11f511aa2b91c552496c6e8e989b6e490e54aca2864fc
+  languageName: node
+  linkType: hard
+
+"tweetnacl@npm:^1.0.0":
+  version: 1.0.3
+  resolution: "tweetnacl@npm:1.0.3"
+  checksum: e4a57cac188f0c53f24c7a33279e223618a2bfb5fea426231991652a13247bea06b081fd745d71291fcae0f4428d29beba1b984b1f1ce6f66b06a6d1ab90645c
   languageName: node
   linkType: hard
 
