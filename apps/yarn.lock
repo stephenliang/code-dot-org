@@ -23579,9 +23579,9 @@ es6-shim@latest:
   linkType: hard
 
 "rosie@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "rosie@npm:2.0.1"
-  checksum: 0599851caec6a9236d8358ee371c8b81f9837a9e27524030a561e2a930b209c9e5b710fe7126adb5d10176e9db4895578ccbdd3a12587bba1f0e6ee67dd49d88
+  version: 2.1.1
+  resolution: "rosie@npm:2.1.1"
+  checksum: f259fa9f3ffbef6eb78b9996706755a2cd0e00a43d6ded229355a198f02289529201e114b6459f3fe311c1eb5d695a4645a508453657876c56fb13eeb0fe3711
   languageName: node
   linkType: hard
 
