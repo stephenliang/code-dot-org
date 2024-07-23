@@ -20691,13 +20691,13 @@ es6-shim@latest:
   linkType: hard
 
 "pixelmatch@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "pixelmatch@npm:5.2.0"
+  version: 5.3.0
+  resolution: "pixelmatch@npm:5.3.0"
   dependencies:
-    pngjs: ^4.0.1
+    pngjs: ^6.0.0
   bin:
     pixelmatch: bin/pixelmatch
-  checksum: 941d4e83cabebe3aafed9b7879449744088aa43ac2c2287d3cff9b155876ba973c52e0677e47483ed3fd0e32092c04cf2fcb86d70e9ba9d55639f93db287c442
+  checksum: f542713d89536551181ad9ddb666a1792ba00a8632d831093232a075cb3ccac05856e7a453ed7d0a41aaef64dcb5962e8ae5cbe646dd2761790d8ee51b0a0743
   languageName: node
   linkType: hard
 
@@ -20766,10 +20766,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pngjs@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "pngjs@npm:4.0.1"
-  checksum: 9497e08a6c2d850630ba7c8d3738fd36c9db1af7ee8b8c2d4b664e450807a280936dfa1489deb60e6943b968bedd58c9aa93def25a765579d745ea44467fc47f
+"pngjs@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "pngjs@npm:6.0.0"
+  checksum: ab6c285086060087097eab9fe6b5a528a24f9e79c03dea2b4fd6264ed4fdb5beff4a3257eeeaf2a9dc18249b539609c2a4e4013c567164a1f6b5ba2c974d5ecb
   languageName: node
   linkType: hard
 
