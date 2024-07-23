@@ -338,7 +338,7 @@
     "swiper": "^11.0.5",
     "timers-browserify": "^2.0.12",
     "tone": "14.7.77",
-    "unified": "~9.2.0",
+    "unified": "~11.0.0",
     "video.js": "7.6.6",
     "vm-browserify": "^1.1.2",
     "vmsg": "^0.3.6",
