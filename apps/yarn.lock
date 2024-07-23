@@ -6009,6 +6009,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/minimatch@npm:^3.0.3":
+  version: 3.0.5
+  resolution: "@types/minimatch@npm:3.0.5"
+  checksum: c41d136f67231c3131cf1d4ca0b06687f4a322918a3a5adddc87ce90ed9dbd175a3610adee36b106ae68c0b92c637c35e02b58c8a56c424f71d30993ea220b92
+  languageName: node
+  linkType: hard
+
 "@types/minimist@npm:^1.2.0":
   version: 1.2.2
   resolution: "@types/minimist@npm:1.2.2"
@@ -7425,10 +7432,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-differ@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "array-differ@npm:1.0.0"
-  checksum: ac6060952c7cb0a534c06ea3c6c960432d605d905e9901afe386e841aadc6e102ed81e0e6abe5eb4b50dd43907fc6426f6012b5ca784ec7741a5b398690c0998
+"array-differ@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "array-differ@npm:3.0.0"
+  checksum: 117edd9df5c1530bd116c6e8eea891d4bd02850fd89b1b36e532b6540e47ca620a373b81feca1c62d1395d9ae601516ba538abe5e8172d41091da2c546b05fb7
   languageName: node
   linkType: hard
 
@@ -7636,10 +7643,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"arrify@npm:^1.0.0, arrify@npm:^1.0.1":
+"arrify@npm:^1.0.1":
   version: 1.0.1
   resolution: "arrify@npm:1.0.1"
   checksum: 745075dd4a4624ff0225c331dacb99be501a515d39bcb7c84d24660314a6ec28e68131b137e6f7e16318170842ce97538cd298fc4cd6b2cc798e0b957f2747e7
+  languageName: node
+  linkType: hard
+
+"arrify@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "arrify@npm:2.0.1"
+  checksum: 067c4c1afd182806a82e4c1cb8acee16ab8b5284fbca1ce29408e6e91281c36bb5b612f6ddfbd40a0f7a7e0c75bf2696eb94c027f6e328d6e9c52465c98e4209
   languageName: node
   linkType: hard
 
@@ -8361,7 +8375,7 @@ __metadata:
     karma-sourcemap-loader: ^0.4.0
     karma-webpack: ^5.0.0
     lazysizes: ^4.0.0-rc1
-    load-grunt-tasks: 3.5.0
+    load-grunt-tasks: 5.1.0
     loadable-components: 2.2.3
     lodash: ^4.17.21
     magicast: ^0.3.3
@@ -17701,17 +17715,17 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"load-grunt-tasks@npm:3.5.0":
-  version: 3.5.0
-  resolution: "load-grunt-tasks@npm:3.5.0"
+"load-grunt-tasks@npm:5.1.0":
+  version: 5.1.0
+  resolution: "load-grunt-tasks@npm:5.1.0"
   dependencies:
-    arrify: ^1.0.0
-    multimatch: ^2.0.0
-    pkg-up: ^1.0.0
-    resolve-pkg: ^0.1.0
+    arrify: ^2.0.1
+    multimatch: ^4.0.0
+    pkg-up: ^3.1.0
+    resolve-pkg: ^2.0.0
   peerDependencies:
-    grunt: ">=0.4.0"
-  checksum: f7e0d7bd4b95a21a8f4236cc47dc34d85171753786dc4d78da08f1e94e5669fa0d171b375347251662808b6f3e02f55a36ee629d999364130ad60e222b91a1ed
+    grunt: ">=1"
+  checksum: eae32caf57e819bc00730ce606e30babf77cb0b193e1c7f52eca1c8f4eb5c6986d2e60d90fcad3fe6e29e893fb26a4009ca907cbf46b02ba67f9fc5ad4e1fa70
   languageName: node
   linkType: hard
 
@@ -18673,7 +18687,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.0.0, minimatch@npm:^3.0.2":
+"minimatch@npm:^3.0.2":
   version: 3.0.3
   resolution: "minimatch@npm:3.0.3"
   dependencies:
@@ -19039,15 +19053,16 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"multimatch@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "multimatch@npm:2.1.0"
+"multimatch@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "multimatch@npm:4.0.0"
   dependencies:
-    array-differ: ^1.0.0
-    array-union: ^1.0.1
-    arrify: ^1.0.0
-    minimatch: ^3.0.0
-  checksum: 19259848ec28e5b3ee150ef3ac4a7d3d4afd0c285556e58f349e393b6b4cb6d99abe14415aa2183f4e6309c42d4d3cf941da7ad1b088753024c41ad8b280b03b
+    "@types/minimatch": ^3.0.3
+    array-differ: ^3.0.0
+    array-union: ^2.1.0
+    arrify: ^2.0.1
+    minimatch: ^3.0.4
+  checksum: bdb6a98dad4e919d9a1a2a0db872f44fa2337315f2fd5827d91ae005cf22f4425782bdfa97c10b80d567f0cb3c226c31f4e85f8f6a4a4be4facf9af0de1bb0c2
   languageName: node
   linkType: hard
 
@@ -20746,12 +20761,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pkg-up@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "pkg-up@npm:1.0.0"
+"pkg-up@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "pkg-up@npm:3.1.0"
   dependencies:
-    find-up: ^1.0.0
-  checksum: cffd99b39385147a42a4c7822326777be05be1fbbc3d6e20aa5d82a2d8e9a78de28488b0edb8331329ee27f0ad08aa3a5793566983701df2e5edc430654d617f
+    find-up: ^3.0.0
+  checksum: 5bac346b7c7c903613c057ae3ab722f320716199d753f4a7d053d38f2b5955460f3e6ab73b4762c62fd3e947f58e04f1343e92089e7bb6091c90877406fcd8c8
   languageName: node
   linkType: hard
 
@@ -23304,13 +23319,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"resolve-from@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "resolve-from@npm:2.0.0"
-  checksum: 02db4c30fecddef0efafbafb2d66b96c4a80f91d103d9850be3b85d1feb65b6af6c818d137dc546cea7d0288c21e13aa0fb4580af9af34b08052b3516690c5f3
-  languageName: node
-  linkType: hard
-
 "resolve-from@npm:^4.0.0":
   version: 4.0.0
   resolution: "resolve-from@npm:4.0.0"
@@ -23339,12 +23347,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"resolve-pkg@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "resolve-pkg@npm:0.1.0"
+"resolve-pkg@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "resolve-pkg@npm:2.0.0"
   dependencies:
-    resolve-from: ^2.0.0
-  checksum: 9be3d5e3875ee41cc41e82fd369e128c0eb17243e00dbe2ca565502c2938c3312ee5936f932b7e15d15fa0a196a963f2acf0af7983cedda843bbe4d17c747f8c
+    resolve-from: ^5.0.0
+  checksum: 4a14cc38effed20ff362c8f377719af9a45ebe27ee07d79d4802b4568858cd96033f4edc3a2add7fd27e361d24101a042047297a9ef9476696ba16b72e0a05fc
   languageName: node
   linkType: hard
 
