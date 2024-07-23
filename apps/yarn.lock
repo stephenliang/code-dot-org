@@ -22813,14 +22813,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"redux-thunk@npm:^2.0.1":
-  version: 2.1.0
-  resolution: "redux-thunk@npm:2.1.0"
-  checksum: e9ba506ed1243ffaba9438dd14cd813ba73662da244502658da2f80d2d49f1140bcbb025c44d169afc68dd4e90eb6672543056437eadc3de61945e382f06862d
-  languageName: node
-  linkType: hard
-
-"redux-thunk@npm:^2.4.2":
+"redux-thunk@npm:^2.0.1, redux-thunk@npm:^2.4.2":
   version: 2.4.2
   resolution: "redux-thunk@npm:2.4.2"
   peerDependencies:
