@@ -275,7 +275,7 @@
     "qrcode.react": "^0.8.0",
     "qtip2": "2.2.0",
     "query-string": "4.1.0",
-    "radium": "^0.25.2",
+    "radium": "^0.26.0",
     "react": "~16.14.0",
     "react-beautiful-dnd": "^13.1.0",
     "react-bootstrap": "^0.33.1",
