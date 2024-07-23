@@ -233,7 +233,7 @@
     "classnames": "^2.3.2",
     "codemirror": "5.5",
     "codemirror-spell-checker": "^1.1.2",
-    "csv-parse": "^4.4.6",
+    "csv-parse": "^5.0.0",
     "dapjs": "^2.3.0",
     "details-element-polyfill": "https://github.com/javan/details-element-polyfill",
     "fast-memoize": "2.0.2",
