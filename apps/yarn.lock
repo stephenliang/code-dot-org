@@ -8432,7 +8432,7 @@ __metadata:
     reactabular-virtualized: ^8.18.0
     recorder-js: ^1.0.7
     redux: ^4.2.1
-    redux-logger: ^2.6.1
+    redux-logger: ^3.0.0
     redux-mock-store: ^1.2.3
     redux-thunk: ^2.0.1
     rehype-raw: ^4.0.0
@@ -10534,10 +10534,10 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"deep-diff@npm:0.3.4":
-  version: 0.3.4
-  resolution: "deep-diff@npm:0.3.4"
-  checksum: bc0e2c517c6c9ffb4f4d5e9135155176ca2511f68719d30b7f7235a339c4d09f938d715150a165f533fc46edac61c26a7969377e40515ea78e1cf037727c3777
+"deep-diff@npm:^0.3.5":
+  version: 0.3.8
+  resolution: "deep-diff@npm:0.3.8"
+  checksum: 8a0fb6cbe468e50211836f8daa1c14798b2d7436bfbcb7d8eb0902e0d61bf1dfd48d5b9edd46a10596182b90ad25f87461b8e55111ff9257b6067ad0676f79c9
   languageName: node
   linkType: hard
 
@@ -22797,12 +22797,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"redux-logger@npm:^2.6.1":
-  version: 2.7.4
-  resolution: "redux-logger@npm:2.7.4"
+"redux-logger@npm:^3.0.0":
+  version: 3.0.6
+  resolution: "redux-logger@npm:3.0.6"
   dependencies:
-    deep-diff: 0.3.4
-  checksum: 0b54c99e8c8ca9d408988e504de820187099bb27987c9b33e8e13d6947d305356c4df28d851f57ea24789dda8c65933a8144733139142167e7786e42a503870c
+    deep-diff: ^0.3.5
+  checksum: c40f63c44c6475cf6374ae0eaa810d913f142614cb80692a0beacaf135c5dc3eb3e2cdd4296f01446ba48cb69b82e81363b84d829f1f6659382c991022a814ac
   languageName: node
   linkType: hard
 
