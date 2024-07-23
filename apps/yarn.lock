@@ -8345,7 +8345,7 @@ __metadata:
     jest-html-reporter: ^3.10.2
     jest-scss-transform: ^1.0.3
     jest-transform-stub: ^2.0.0
-    jquery: 1.12.1
+    jquery: 3.7.1
     jquery-ui: ^1.12.1
     js-cookie: ^2.1.2
     js-file-download: ^0.4.12
@@ -17050,10 +17050,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"jquery@npm:1.12.1":
-  version: 1.12.1
-  resolution: "jquery@npm:1.12.1"
-  checksum: 4afcb8f64ff5b8da69da4afc4ff7f732569c6006c4104870a0533f721bce7f89deb60942569a744cfc05177a5f0372aabaa937692b5102eb4beb2b0cc908c9e4
+"jquery@npm:3.7.1":
+  version: 3.7.1
+  resolution: "jquery@npm:3.7.1"
+  checksum: 4370b8139d6ae82867eb6f7f21d1edccf1d1bdf41c0840920ea80d366c2cd5dbe1ceebb110ee9772aa839b04400faa1572c5c560b507c688ed7b61cea26c0e27
   languageName: node
   linkType: hard
 
