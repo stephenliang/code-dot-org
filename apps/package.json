@@ -273,7 +273,7 @@
     "pusher-js": "4.1.0",
     "pyodide": "^0.25.1",
     "qrcode.react": "^0.8.0",
-    "qtip2": "2.2.0",
+    "qtip2": "3.0.3",
     "query-string": "4.1.0",
     "radium": "^0.25.2",
     "react": "~16.14.0",
