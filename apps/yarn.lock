@@ -22084,13 +22084,13 @@ es6-shim@latest:
   linkType: hard
 
 "react-paginate@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "react-paginate@npm:6.3.0"
+  version: 6.5.0
+  resolution: "react-paginate@npm:6.5.0"
   dependencies:
     prop-types: ^15.6.1
   peerDependencies:
     react: ^16.0.0
-  checksum: 9810a693a394ea648ccec068d29e827fb59bd364f444ca76eded437c7eb5bf3b0d87fe787be871bdc7203daa97955f05953ee980955ab6d0049078e7126257ad
+  checksum: 39397de9a330e9ed16b2422d5893f47e16b5f7f188bf59ce4f60beeb16cfdba0ba76c7f0ca1b733d7282821a4e984ae64fb1a7086ecc22b416af95c1ff974fec
   languageName: node
   linkType: hard
 
