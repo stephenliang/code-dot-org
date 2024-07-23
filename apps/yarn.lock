@@ -2624,12 +2624,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blockly/plugin-cross-tab-copy-paste@npm:~5.0.4":
-  version: 5.0.5
-  resolution: "@blockly/plugin-cross-tab-copy-paste@npm:5.0.5"
+"@blockly/plugin-cross-tab-copy-paste@npm:~6.0.0":
+  version: 6.0.4
+  resolution: "@blockly/plugin-cross-tab-copy-paste@npm:6.0.4"
   peerDependencies:
-    blockly: ^10.2.0
-  checksum: 27b7da1ef3c21287619e1cd9d9ad6a5db67a83968d1acbb5d5fecfee9a7dc63146da505cceebe4b68befc6bf5fac7a5787221cb4ab8997b2611a2c3273f3c375
+    blockly: ^11.0.0
+  checksum: ca46c99a32199f3d278bfe6e35fe331571c548c99eb6f2f62eea4d5165752e1ea93055d1db1896cc7d1dca9e7bc7a3a9057a92667b220d9dc9c6040211a41693
   languageName: node
   linkType: hard
 
@@ -8202,7 +8202,7 @@ __metadata:
     "@blockly/field-colour": ^4.0.0
     "@blockly/field-grid-dropdown": ~4.0.9
     "@blockly/keyboard-navigation": ~0.5.6
-    "@blockly/plugin-cross-tab-copy-paste": ~5.0.4
+    "@blockly/plugin-cross-tab-copy-paste": ~6.0.0
     "@blockly/plugin-scroll-options": ~5.0.8
     "@blockly/theme-dark": 6.0.4
     "@blockly/theme-highcontrast": 5.0.4
