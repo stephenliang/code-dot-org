@@ -8390,7 +8390,7 @@ __metadata:
     qtip2: 2.2.0
     query-string: 4.1.0
     radium: ^0.25.2
-    react: ~16.14.0
+    react: ~18.3.0
     react-addons-test-utils: ~15.4.0
     react-beautiful-dnd: ^13.1.0
     react-bootstrap: ^0.33.1
@@ -8399,7 +8399,7 @@ __metadata:
     react-csv: ^2.0.3
     react-datepicker: 1.6.0
     react-debounce-input: ^3.2.2
-    react-dom: ~16.14.0
+    react-dom: ~18.3.0
     react-dom-confetti: ^0.2.0
     react-draggable: ^4.4.6
     react-focus-lock: ^2.11.2
@@ -21843,17 +21843,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-dom@npm:~16.14.0":
-  version: 16.14.0
-  resolution: "react-dom@npm:16.14.0"
+"react-dom@npm:~18.3.0":
+  version: 18.3.1
+  resolution: "react-dom@npm:18.3.1"
   dependencies:
     loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-    scheduler: ^0.19.1
+    scheduler: ^0.23.2
   peerDependencies:
-    react: ^16.14.0
-  checksum: 5a5c49da0f106b2655a69f96c622c347febcd10532db391c262b26aec225b235357d9da1834103457683482ab1b229af7a50f6927a6b70e53150275e31785544
+    react: ^18.3.1
+  checksum: 298954ecd8f78288dcaece05e88b570014d8f6dce5db6f66e6ee91448debeb59dcd31561dddb354eee47e6c1bb234669459060deb238ed0213497146e555a0b9
   languageName: node
   linkType: hard
 
@@ -22540,14 +22538,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react@npm:~16.14.0":
-  version: 16.14.0
-  resolution: "react@npm:16.14.0"
+"react@npm:~18.3.0":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-  checksum: 8484f3ecb13414526f2a7412190575fc134da785c02695eb92bb6028c930bfe1c238d7be2a125088fec663cc7cda0a3623373c46807cf2c281f49c34b79881ac
+  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
   languageName: node
   linkType: hard
 
@@ -23805,6 +23801,15 @@ es6-shim@latest:
   dependencies:
     loose-envify: ^1.1.0
   checksum: d79192eeaa12abef860c195ea45d37cbf2bbf5f66e3c4dcd16f54a7da53b17788a70d109ee3d3dde1a0fd50e6a8fc171f4300356c5aee4fc0171de526bf35f8a
+  languageName: node
+  linkType: hard
+
+"scheduler@npm:^0.23.2":
+  version: 0.23.2
+  resolution: "scheduler@npm:0.23.2"
+  dependencies:
+    loose-envify: ^1.1.0
+  checksum: 3e82d1f419e240ef6219d794ff29c7ee415fbdc19e038f680a10c067108e06284f1847450a210b29bbaf97b9d8a97ced5f624c31c681248ac84c80d56ad5a2c4
   languageName: node
   linkType: hard
 
