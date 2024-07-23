@@ -8406,7 +8406,7 @@ __metadata:
     react-google-charts: 2
     react-idle-timer: ^4.2.7
     react-inspector: 2.3.1
-    react-lazy-load: ~3.0.13
+    react-lazy-load: ~3.1.0
     react-loading-skeleton: ^3.1.0
     react-motion: ^0.5.2
     react-onclickoutside: ~5.11.1
@@ -21993,18 +21993,18 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-lazy-load@npm:~3.0.13":
-  version: 3.0.13
-  resolution: "react-lazy-load@npm:3.0.13"
+"react-lazy-load@npm:~3.1.0":
+  version: 3.1.14
+  resolution: "react-lazy-load@npm:3.1.14"
   dependencies:
     eventlistener: 0.0.1
     lodash.debounce: ^4.0.0
     lodash.throttle: ^4.0.0
     prop-types: ^15.5.8
   peerDependencies:
-    react: ^0.14.0 || ^15.0.0-0 || ^16.0.0
-    react-dom: ^0.14.0 || ^15.0.0-0 || ^16.0.0
-  checksum: cd9fb2589a1dad90f8efcd09ed30e86a42244475a9a4f4657b2da51dce02176b345950c3ab747c3bd2a6c5b6debd7da1c1ea905b5456d156ace7aed86cbd4071
+    react: ^0.14.0 || ^15.0.0-0 || ^16.0.0 || ^17.0.0
+    react-dom: ^0.14.0 || ^15.0.0-0 || ^16.0.0 || ^17.0.0
+  checksum: f04bd1608591ae6a4badb405663a49ca454315a79039c402afee506210a2fbb1b09ae9c3853d53ebeabd18a0aa70b590dc2c20b8224b6226c09a4c192b793c3a
   languageName: node
   linkType: hard
 
