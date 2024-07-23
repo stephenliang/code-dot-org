@@ -10,6 +10,6 @@ runs:
       id: nvm
       shell: bash
     - name: Use Node.js ${{ steps.nvm.outputs.NODE_VERSION }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
