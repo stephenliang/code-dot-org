@@ -219,7 +219,7 @@
     "@lezer/highlight": "^1.2.0",
     "@microsoft/immersive-reader-sdk": "^1.1.0",
     "@react-bootstrap/pagination": "^1.0.0",
-    "@reduxjs/toolkit": "^1.9.3",
+    "@reduxjs/toolkit": "^2.2.6",
     "@types/htmlhint": "^1.1.5",
     "@types/papaparse": "^5.3.14",
     "@types/qrcode.react": "^1.0.5",
