@@ -2873,9 +2873,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@codemirror/lang-html@npm:^6.4.8":
-  version: 6.4.8
-  resolution: "@codemirror/lang-html@npm:6.4.8"
+"@codemirror/lang-html@npm:^6.4.9":
+  version: 6.4.9
+  resolution: "@codemirror/lang-html@npm:6.4.9"
   dependencies:
     "@codemirror/autocomplete": ^6.0.0
     "@codemirror/lang-css": ^6.0.0
@@ -2886,7 +2886,7 @@ __metadata:
     "@lezer/common": ^1.0.0
     "@lezer/css": ^1.1.0
     "@lezer/html": ^1.3.0
-  checksum: 9aec56c333cc06f9e4bb6d09806ae83e4a7f235a26b3244010e2dcea83a923cfcd7bec84904b8a59bc81256b0bb579a52bf5614962dad031d7577db1c49a216a
+  checksum: ac8c3ceb0396f2e032752c5079bd950124dca708bc64e96fc147dc5fe7133e5cee0814fe951abdb953ec1d11fa540e4b30a712b5149d9a36016a197a28de45d7
   languageName: node
   linkType: hard
 
@@ -8224,7 +8224,7 @@ __metadata:
     "@codemirror/autocomplete": ^6.11.1
     "@codemirror/commands": ^6.3.2
     "@codemirror/lang-css": ^6.2.1
-    "@codemirror/lang-html": ^6.4.8
+    "@codemirror/lang-html": ^6.4.9
     "@codemirror/lang-java": ^6.0.1
     "@codemirror/lang-python": ^6.1.3
     "@codemirror/language": ^6.9.3
