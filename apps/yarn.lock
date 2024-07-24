@@ -2597,12 +2597,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blockly/field-colour@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@blockly/field-colour@npm:4.0.0"
+"@blockly/field-colour@npm:^5.0.4":
+  version: 5.0.4
+  resolution: "@blockly/field-colour@npm:5.0.4"
   peerDependencies:
-    blockly: ^10.4.3
-  checksum: 206c614cc3b405d18ecf66f47c0cbe1938726f4a99a48806edda4509f6f6721cc63670bd756d85cf1b0820459af43404a7e7bba6424eff27bcaee291f694845b
+    blockly: ^11.0.0
+  checksum: d503fe8b5e893690e30356e04595957315a4ac6d2ed95f2b627a2e8cbbb52334fe27b0df25e1caa5a50c013044bf38a1e625cd4838bb1f985b344ed8c808ba5a
   languageName: node
   linkType: hard
 
@@ -8199,7 +8199,7 @@ __metadata:
     "@blockly/block-shareable-procedures": ~4.0.5
     "@blockly/field-angle": ^4.0.0
     "@blockly/field-bitmap": ^4.1.0
-    "@blockly/field-colour": ^4.0.0
+    "@blockly/field-colour": ^5.0.4
     "@blockly/field-grid-dropdown": ~4.0.9
     "@blockly/keyboard-navigation": ~0.5.6
     "@blockly/plugin-cross-tab-copy-paste": ~5.0.4
