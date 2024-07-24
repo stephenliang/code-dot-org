@@ -8451,7 +8451,7 @@ __metadata:
     selectize: ^0.12.4
     sinon: ^11.0.0
     sinon-chai: ^3.1.0
-    slate: ^0.81.0
+    slate: ^0.103.0
     slate-react: ^0.81.0
     sortabular: ^1.6.0
     source-map-loader: ^4.0.1
@@ -15327,17 +15327,17 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"immer@npm:^10.0.3":
+  version: 10.1.1
+  resolution: "immer@npm:10.1.1"
+  checksum: 07c67970b7d22aded73607193d84861bf786f07d47f7d7c98bb10016c7a88f6654ad78ae1e220b3c623695b133aabbf24f5eb8d9e8060cff11e89ccd81c9c10b
+  languageName: node
+  linkType: hard
+
 "immer@npm:^9.0.16":
   version: 9.0.19
   resolution: "immer@npm:9.0.19"
   checksum: f02ee53989989c287cd548a3d817fccf0bfe56db919755ee94a72ea3ae78a00363fba93ee6c010fe54a664380c29c53d44ed4091c6a86cae60957ad2cfabc010
-  languageName: node
-  linkType: hard
-
-"immer@npm:^9.0.6":
-  version: 9.0.14
-  resolution: "immer@npm:9.0.14"
-  checksum: 17f1365c06d653e672a4f609f08e7203e9ab4b4284818332d6ca9b3f3577a0e3c0066ca7933b636fbae560df79a4b3fde70ed717ce3c6e95c39bf3d5861d5be9
   languageName: node
   linkType: hard
 
@@ -24365,14 +24365,14 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"slate@npm:^0.81.0":
-  version: 0.81.0
-  resolution: "slate@npm:0.81.0"
+"slate@npm:^0.103.0":
+  version: 0.103.0
+  resolution: "slate@npm:0.103.0"
   dependencies:
-    immer: ^9.0.6
+    immer: ^10.0.3
     is-plain-object: ^5.0.0
     tiny-warning: ^1.0.3
-  checksum: 6c20dde53662239075915b3dd46cd809be3b90d7102d040222bc4f641dccd099219e7f817ab053c8d200810dac5eb5ddd3563eb79166323f4504238dc1dc9912
+  checksum: 50a2f79f80b11be7f475c74d666bdccd39720354cb08932864161dd48094e991f10f66a4d8ecc455fff9327895a6d7cf8591d113c606ca2565404d56d4d7fea3
   languageName: node
   linkType: hard
 
