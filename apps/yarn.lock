@@ -2579,12 +2579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blockly/field-angle@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@blockly/field-angle@npm:4.0.0"
+"@blockly/field-angle@npm:^5.0.4":
+  version: 5.0.4
+  resolution: "@blockly/field-angle@npm:5.0.4"
   peerDependencies:
-    blockly: ^10.0.0
-  checksum: d21b7ad0785b579eb9fee8945709dce2fe7a5a773d0bda18cb38fa253a5da1781f19cd93babbe7a21b8884fdf3b862634504211b41dc61f3edd994534b6137cb
+    blockly: ^11.0.0
+  checksum: e57fe3e69afdefd1bc6f2d4ebf0abe92329e359d88fb498378de98270917ad1713f3822c67392d5806080bc22424546c70b19d39e3968335708235b02e5d1577
   languageName: node
   linkType: hard
 
@@ -8197,7 +8197,7 @@ __metadata:
     "@babel/preset-env": ^7.24.4
     "@babel/preset-react": ^7.24.1
     "@blockly/block-shareable-procedures": ~4.0.5
-    "@blockly/field-angle": ^4.0.0
+    "@blockly/field-angle": ^5.0.4
     "@blockly/field-bitmap": ^4.1.0
     "@blockly/field-colour": ^4.0.0
     "@blockly/field-grid-dropdown": ~4.0.9
