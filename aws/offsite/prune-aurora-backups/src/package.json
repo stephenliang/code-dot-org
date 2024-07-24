@@ -7,13 +7,13 @@
   "author": "SAM CLI",
   "license": "apache-2.0",
   "dependencies": {
-    "aws-sdk": "^2.481.0"
+    "aws-sdk": "^2.1662.0"
   },
   "scripts": {
     "test": "mocha tests"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^10.7.0"
   }
 }
