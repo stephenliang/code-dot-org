@@ -8387,7 +8387,7 @@ __metadata:
     pusher-js: 4.1.0
     pyodide: ^0.25.1
     qrcode.react: ^0.8.0
-    qtip2: 2.2.0
+    qtip2: 3.0.3
     query-string: 4.1.0
     radium: ^0.25.2
     react: ~16.14.0
@@ -12580,6 +12580,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"ev-emitter@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "ev-emitter@npm:2.1.2"
+  checksum: 1102823ef040684869256100e19a6c6aeeecd422d09a267d7c74e77023136eede2ee86ee475ad1019d30d1f7917557d74542d5665e9f91c398bd5814260af6b3
+  languageName: node
+  linkType: hard
+
 "eventemitter2@npm:~0.4.13":
   version: 0.4.14
   resolution: "eventemitter2@npm:0.4.14"
@@ -15320,6 +15327,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"imagesloaded@npm:>=3.0.0":
+  version: 5.0.0
+  resolution: "imagesloaded@npm:5.0.0"
+  dependencies:
+    ev-emitter: ^2.1.2
+  checksum: aec1826e866bcf2f92fc533b78e431597096c32dda3cf6de060f9dc2bdf1e39bb600eda244a7280ed09a7d12462fb63cf01e723799d35a86a326592e2f23751b
+  languageName: node
+  linkType: hard
+
 "immediate@npm:~3.0.5":
   version: 3.0.6
   resolution: "immediate@npm:3.0.6"
@@ -17054,6 +17070,13 @@ es6-shim@latest:
   version: 1.12.1
   resolution: "jquery@npm:1.12.1"
   checksum: 4afcb8f64ff5b8da69da4afc4ff7f732569c6006c4104870a0533f721bce7f89deb60942569a744cfc05177a5f0372aabaa937692b5102eb4beb2b0cc908c9e4
+  languageName: node
+  linkType: hard
+
+"jquery@npm:>=1.6.0":
+  version: 3.7.1
+  resolution: "jquery@npm:3.7.1"
+  checksum: 4370b8139d6ae82867eb6f7f21d1edccf1d1bdf41c0840920ea80d366c2cd5dbe1ceebb110ee9772aa839b04400faa1572c5c560b507c688ed7b61cea26c0e27
   languageName: node
   linkType: hard
 
@@ -21438,10 +21461,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"qtip2@npm:2.2.0":
-  version: 2.2.0
-  resolution: "qtip2@npm:2.2.0"
-  checksum: 42a9c6f65faf4f4f9639e400f5e00f838b0aa8fa1e34c5f6f80fa0f919faac97ad294613e2c10617e573e7410b313cb67df31b9c1e5d82cdfbf5d96af006d90e
+"qtip2@npm:3.0.3":
+  version: 3.0.3
+  resolution: "qtip2@npm:3.0.3"
+  dependencies:
+    imagesloaded: ">=3.0.0"
+    jquery: ">=1.6.0"
+  checksum: a0ed9f829c5aa4d71d486cab15afd5d6e6b5e9caf55168d373cc3e16a8af0e40f7b47cb490e3189eaae6fe7a5d00e36d78cdb762b3835ae9a05aaeae4cda74dc
   languageName: node
   linkType: hard
 
