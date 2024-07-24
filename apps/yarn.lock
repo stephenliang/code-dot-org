@@ -8297,7 +8297,7 @@ __metadata:
     ejs: ^3.1.10
     ejs-webpack-loader: ^2.2.2
     enzyme: ^3.9.0
-    enzyme-adapter-react-16: ^1.15.6
+    enzyme-adapter-react-16: ^1.15.8
     eslint: ^8.56.0
     eslint-config-prettier: ^8.8.0
     eslint-import-resolver-typescript: ^3.6.1
@@ -11422,51 +11422,51 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"enzyme-adapter-react-16@npm:^1.15.6":
-  version: 1.15.6
-  resolution: "enzyme-adapter-react-16@npm:1.15.6"
+"enzyme-adapter-react-16@npm:^1.15.8":
+  version: 1.15.8
+  resolution: "enzyme-adapter-react-16@npm:1.15.8"
   dependencies:
-    enzyme-adapter-utils: ^1.14.0
-    enzyme-shallow-equal: ^1.0.4
-    has: ^1.0.3
-    object.assign: ^4.1.2
-    object.values: ^1.1.2
-    prop-types: ^15.7.2
+    enzyme-adapter-utils: ^1.14.2
+    enzyme-shallow-equal: ^1.0.7
+    hasown: ^2.0.0
+    object.assign: ^4.1.5
+    object.values: ^1.1.7
+    prop-types: ^15.8.1
     react-is: ^16.13.1
     react-test-renderer: ^16.0.0-0
-    semver: ^5.7.0
+    semver: ^5.7.2
   peerDependencies:
     enzyme: ^3.0.0
     react: ^16.0.0-0
     react-dom: ^16.0.0-0
-  checksum: b0f31037c7595558d504c060e19db542723789a41e0598b97345b89855cb03ac86a706440106ef5d4a6c95431e455ea0cad58ca5b287bdb771915b5c6210da84
+  checksum: 650de38b8d8e2ceab69b81c1c65900186d7ca9b19de347afda2b7e7afdf36b5b8f69898072a57a5ddfeb612c30e531a082fd89c805edf9ccf3c8bd4483848f62
   languageName: node
   linkType: hard
 
-"enzyme-adapter-utils@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "enzyme-adapter-utils@npm:1.14.0"
+"enzyme-adapter-utils@npm:^1.14.2":
+  version: 1.14.2
+  resolution: "enzyme-adapter-utils@npm:1.14.2"
   dependencies:
     airbnb-prop-types: ^2.16.0
-    function.prototype.name: ^1.1.3
-    has: ^1.0.3
-    object.assign: ^4.1.2
-    object.fromentries: ^2.0.3
-    prop-types: ^15.7.2
-    semver: ^5.7.1
+    function.prototype.name: ^1.1.6
+    hasown: ^2.0.0
+    object.assign: ^4.1.5
+    object.fromentries: ^2.0.7
+    prop-types: ^15.8.1
+    semver: ^6.3.1
   peerDependencies:
     react: 0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0
-  checksum: a96a0a1bdf66417ff751e465c33733f58127b043013ec288429bc9113defa4f8ac23d806be4f3cf399cf23401cd3fdd88383ea146bc1d8f1e4258ecf35611c62
+  checksum: dd262728af5a5b7e42f4db440aee04e3d1a25f006cf1cbcb79f60080d49b7301e2e19a230fd8c0456b4db0dd8abb1b11ca7aa8ea7aeb6a47575ae7d779755878
   languageName: node
   linkType: hard
 
-"enzyme-shallow-equal@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "enzyme-shallow-equal@npm:1.0.4"
+"enzyme-shallow-equal@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "enzyme-shallow-equal@npm:1.0.7"
   dependencies:
-    has: ^1.0.3
-    object-is: ^1.1.2
-  checksum: 54bbad0955683f09252568bfcb9d7e934a27c06634057db9e82b54c0d9f7a27b6160d77643177d973c133b87d404f284cc6aa0481c0a1c81cdff05b072e2bb49
+    hasown: ^2.0.0
+    object-is: ^1.1.5
+  checksum: ecbdf5a897ba33e699316f1456c7865b8140a6fc7916b700721964fe169e750be35f1fff5184a80e35b39e793523d678f4f4d12f48fce15145d206f5db01daa9
   languageName: node
   linkType: hard
 
@@ -13518,7 +13518,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"function.prototype.name@npm:^1.1.2, function.prototype.name@npm:^1.1.3":
+"function.prototype.name@npm:^1.1.2":
   version: 1.1.4
   resolution: "function.prototype.name@npm:1.1.4"
   dependencies:
@@ -19716,18 +19716,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"object.fromentries@npm:^2.0.3":
-  version: 2.0.4
-  resolution: "object.fromentries@npm:2.0.4"
-  dependencies:
-    call-bind: ^1.0.2
-    define-properties: ^1.1.3
-    es-abstract: ^1.18.0-next.2
-    has: ^1.0.3
-  checksum: 1e8e991c43a463a6389c6ee6935ef3843931fb012c5eed2ec30e3d5cf3760cb853f527723cdc98fb770d9c0cd068449448b03c303f527e7926a97d43daaa5c66
-  languageName: node
-  linkType: hard
-
 "object.fromentries@npm:^2.0.6":
   version: 2.0.6
   resolution: "object.fromentries@npm:2.0.6"
@@ -19801,17 +19789,6 @@ es6-shim@latest:
     function-bind: ^1.1.0
     has: ^1.0.1
   checksum: 82d7c42647d5c7eda63adcfcd06e468fcd7f01ecb28fa3ea7d5c67357226e61513de292b5cf60b22fe2673932290cfdfc1ef6ffa722670784cd6d946d8380e29
-  languageName: node
-  linkType: hard
-
-"object.values@npm:^1.1.2":
-  version: 1.1.4
-  resolution: "object.values@npm:1.1.4"
-  dependencies:
-    call-bind: ^1.0.2
-    define-properties: ^1.1.3
-    es-abstract: ^1.18.2
-  checksum: 1a2f1e9d0bcfc299b8491170a50e6e7ca23392641d7781a8528e96c72f0013ba7ee731792ff8586c8eaec0328acda16c59622924c82c58bd0eb5c4ee67794856
   languageName: node
   linkType: hard
 
@@ -23905,7 +23882,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"semver@npm:^5.4.1, semver@npm:^5.7.0":
+"semver@npm:^5.4.1":
   version: 5.7.0
   resolution: "semver@npm:5.7.0"
   bin:
@@ -23923,12 +23900,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"semver@npm:^5.7.1":
-  version: 5.7.1
-  resolution: "semver@npm:5.7.1"
+"semver@npm:^5.7.2":
+  version: 5.7.2
+  resolution: "semver@npm:5.7.2"
   bin:
-    semver: ./bin/semver
-  checksum: 57fd0acfd0bac382ee87cd52cd0aaa5af086a7dc8d60379dfe65fea491fb2489b6016400813930ecd61fd0952dae75c115287a1b16c234b1550887117744dfaf
+    semver: bin/semver
+  checksum: fb4ab5e0dd1c22ce0c937ea390b4a822147a9c53dbd2a9a0132f12fe382902beef4fbf12cf51bb955248d8d15874ce8cd89532569756384f994309825f10b686
   languageName: node
   linkType: hard
 
