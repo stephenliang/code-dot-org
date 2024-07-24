@@ -4046,10 +4046,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/immersive-reader-sdk@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@microsoft/immersive-reader-sdk@npm:1.1.0"
-  checksum: 386fae0062af1770272f23347dce8a93fc702f2d0708b2d24fcad8596ce4343e68fc564d88cd669343466594d0494ebf4220ea924879d939c430fc967512e372
+"@microsoft/immersive-reader-sdk@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@microsoft/immersive-reader-sdk@npm:1.4.0"
+  dependencies:
+    decode-uri-component: 0.2.1
+    json-schema: ^0.4.0
+    loader-utils: ^3.2.1
+    minimatch: 3.0.5
+    string_decoder: ^1.3.0
+    terser: ^5.14.2
+  checksum: 419877f74d82040073872679628c8d8733c9be44a988fde7bafa777e901d39a009422e1a2b6f80198abf104f085bbe033b4d45e3bf68b6914c509ad43f1b9d54
   languageName: node
   linkType: hard
 
@@ -8238,7 +8245,7 @@ __metadata:
     "@dnd-kit/utilities": ^3.2.2
     "@dsco_/link": ^1.1.2
     "@lezer/highlight": ^1.2.0
-    "@microsoft/immersive-reader-sdk": ^1.1.0
+    "@microsoft/immersive-reader-sdk": ^1.4.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.11
     "@pyodide/webpack-plugin": ^1.3.2
     "@react-bootstrap/pagination": ^1.0.0
@@ -10484,6 +10491,13 @@ canvg@gabelerner/canvg:
   version: 10.4.3
   resolution: "decimal.js@npm:10.4.3"
   checksum: 796404dcfa9d1dbfdc48870229d57f788b48c21c603c3f6554a1c17c10195fc1024de338b0cf9e1efe0c7c167eeb18f04548979bcc5fdfabebb7cc0ae3287bae
+  languageName: node
+  linkType: hard
+
+"decode-uri-component@npm:0.2.1":
+  version: 0.2.1
+  resolution: "decode-uri-component@npm:0.2.1"
+  checksum: 6417d3aee8822f3e01010723936e0b2142c0ee5b1261d6d49643ae38d90ef490f0d7d12972da2790251cf6b85b1cbdec7ed304e6d31814c8b0a341d005b5f0e4
   languageName: node
   linkType: hard
 
@@ -17317,6 +17331,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"json-schema@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "json-schema@npm:0.4.0"
+  checksum: 66389434c3469e698da0df2e7ac5a3281bcff75e797a5c127db7c5b56270e01ae13d9afa3c03344f76e32e81678337a8c912bdbb75101c62e487dc3778461d72
+  languageName: node
+  linkType: hard
+
 "json-stable-stringify-without-jsonify@npm:^1.0.1":
   version: 1.0.1
   resolution: "json-stable-stringify-without-jsonify@npm:1.0.1"
@@ -17767,6 +17788,13 @@ es6-shim@latest:
     emojis-list: ^3.0.0
     json5: ^2.1.2
   checksum: a5281f5fff1eaa310ad5e1164095689443630f3411e927f95031ab4fb83b4a98f388185bb1fe949e8ab8d4247004336a625e9255c22122b815bb9a4c5d8fc3b7
+  languageName: node
+  linkType: hard
+
+"loader-utils@npm:^3.2.1":
+  version: 3.3.1
+  resolution: "loader-utils@npm:3.3.1"
+  checksum: d35808e081635e5bc50228a52ed79f83e2c82bd8f7578818c12b1b4cf0b7f409d72d9b93a683ec36b9eaa93346693d3f3c8380183ba2ff81599b0829d685de39
   languageName: node
   linkType: hard
 
@@ -18670,6 +18698,15 @@ es6-shim@latest:
   dependencies:
     brace-expansion: ^1.1.7
   checksum: 66ac295f8a7b59788000ea3749938b0970344c841750abd96694f80269b926ebcafad3deeb3f1da2522978b119e6ae3a5869b63b13a7859a456b3408bd18a078
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:3.0.5":
+  version: 3.0.5
+  resolution: "minimatch@npm:3.0.5"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: a3b84b426eafca947741b864502cee02860c4e7b145de11ad98775cfcf3066fef422583bc0ffce0952ddf4750c1ccf4220b1556430d4ce10139f66247d87d69e
   languageName: node
   linkType: hard
 
@@ -23658,7 +23695,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"safe-buffer@npm:5.2.1, safe-buffer@npm:>=5.1.0, safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.0":
+"safe-buffer@npm:5.2.1, safe-buffer@npm:>=5.1.0, safe-buffer@npm:^5.0.1, safe-buffer@npm:^5.1.0, safe-buffer@npm:~5.2.0":
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
   checksum: b99c4b41fdd67a6aaf280fcd05e9ffb0813654894223afb78a31f14a19ad220bba8aba1cb14eddce1fcfb037155fe6de4e861784eb434f7d11ed58d1e70dd491
@@ -24999,6 +25036,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"string_decoder@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "string_decoder@npm:1.3.0"
+  dependencies:
+    safe-buffer: ~5.2.0
+  checksum: 8417646695a66e73aefc4420eb3b84cc9ffd89572861fe004e6aeb13c7bc00e2f616247505d2dbbef24247c372f70268f594af7126f43548565c68c117bdeb56
+  languageName: node
+  linkType: hard
+
 "string_decoder@npm:~1.0.3":
   version: 1.0.3
   resolution: "string_decoder@npm:1.0.3"
@@ -25555,6 +25601,20 @@ temporal@latest:
   bin:
     terser: bin/terser
   checksum: b2358c989fcb76b4a1c265f60e175c950d3f776e5f619a9f58f54e8d2d792cd6b4cca86071834075f3b9943556d695357bafdd4ee2390de2fc9fd96ba3efa8c8
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.14.2":
+  version: 5.31.3
+  resolution: "terser@npm:5.31.3"
+  dependencies:
+    "@jridgewell/source-map": ^0.3.3
+    acorn: ^8.8.2
+    commander: ^2.20.0
+    source-map-support: ~0.5.20
+  bin:
+    terser: bin/terser
+  checksum: cb4ccd5cb42c719272959dcae63d41e4696fb304123392943282caa6dfcdc49f94e7c48353af8bcd4fbc34457b240b7f843db7fec21bb2bdc18e01d4f45b035e
   languageName: node
   linkType: hard
 
