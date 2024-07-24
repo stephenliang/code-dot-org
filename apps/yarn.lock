@@ -4725,13 +4725,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:~8.1.11":
-  version: 8.1.11
-  resolution: "@storybook/addon-a11y@npm:8.1.11"
+"@storybook/addon-a11y@npm:~8.2.6":
+  version: 8.2.6
+  resolution: "@storybook/addon-a11y@npm:8.2.6"
   dependencies:
-    "@storybook/addon-highlight": 8.1.11
+    "@storybook/addon-highlight": 8.2.6
     axe-core: ^4.2.0
-  checksum: bbe4e822e3bb401bea46a170368a72ce7229248389ca7e74e6bffdd1582dc92878971adf1ec0e2806d4e470632b2941610c1e81126d334bafeb1033447ac9617
+  peerDependencies:
+    storybook: ^8.2.6
+  checksum: 121301b3b03b2fb5d82fae63ce185c1ddaa8dccbc9e74770bd76aa278d6e74b2cf5cdefb88480a0c4ab5aa9c6c59abc946c5748e9c5c1cef70eb5cd77593d1b9
   languageName: node
   linkType: hard
 
@@ -4828,6 +4830,17 @@ __metadata:
   dependencies:
     "@storybook/global": ^5.0.0
   checksum: 36a3c9e732557f0cfb20a437d777689b9621101f80c379b96ac9da645a0e3d8e8773f540308220194f507968ce42d2bbaa814307f01ee4974fdd3fade7d16835
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-highlight@npm:8.2.6":
+  version: 8.2.6
+  resolution: "@storybook/addon-highlight@npm:8.2.6"
+  dependencies:
+    "@storybook/global": ^5.0.0
+  peerDependencies:
+    storybook: ^8.2.6
+  checksum: 35f8129c75c9ba6113fbcbc70a867708e53de0c85a2bc5d38354ae3e0101c6bec35733d62408b14e56d7d03f052c7ddcf8e52fcb41d85e00ec8b9304ebc6219f
   languageName: node
   linkType: hard
 
@@ -8243,7 +8256,7 @@ __metadata:
     "@pyodide/webpack-plugin": ^1.3.2
     "@react-bootstrap/pagination": ^1.0.0
     "@reduxjs/toolkit": ^1.9.3
-    "@storybook/addon-a11y": ~8.1.11
+    "@storybook/addon-a11y": ~8.2.6
     "@storybook/addon-essentials": ~8.1.11
     "@storybook/addon-webpack5-compiler-babel": ^3.0.0
     "@storybook/core-common": ~8.1.11
