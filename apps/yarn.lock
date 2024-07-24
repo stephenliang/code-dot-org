@@ -8077,13 +8077,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"base-64@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "base-64@npm:1.0.0"
-  checksum: d10b64a1fc9b2c5a5f39f1ce1e6c9d1c5b249222bbfa3a0604c592d90623caf74419983feadd8a170f27dc0c3389704f72faafa3e645aeb56bfc030c93ff074a
-  languageName: node
-  linkType: hard
-
 "base64-js@npm:^1.0.2":
   version: 1.2.0
   resolution: "base64-js@npm:1.2.0"
@@ -8385,7 +8378,7 @@ __metadata:
     progress-bar-webpack-plugin: ^2.1.0
     prop-types: ^15.6.2
     pusher-js: 4.1.0
-    pyodide: ^0.25.1
+    pyodide: ^0.26.1
     qrcode.react: ^0.8.0
     qtip2: 2.2.0
     query-string: 4.1.0
@@ -21377,13 +21370,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pyodide@npm:^0.25.1":
-  version: 0.25.1
-  resolution: "pyodide@npm:0.25.1"
+"pyodide@npm:^0.26.1":
+  version: 0.26.1
+  resolution: "pyodide@npm:0.26.1"
   dependencies:
-    base-64: ^1.0.0
     ws: ^8.5.0
-  checksum: 744a88a4ab024ff58881e5d526a494fda83d2d65ec142bf9fb26c8a3a9140fcd7a98c03b4e41d8a0b32e9f8dd34ca4ff2ce43cc7b55ff29cbed3e7df130b4030
+  checksum: c94e81cce97f5894d7a5f5ab58019f8d445e3e8432a233463f2f8d381d78d8d96c168dc40aada3287399052859198d48a96095c9028e8c6791bae202ac0a0e0b
   languageName: node
   linkType: hard
 
