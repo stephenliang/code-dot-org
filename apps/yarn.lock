@@ -8469,7 +8469,7 @@ __metadata:
     terser-webpack-plugin: ^5.3.10
     timers-browserify: ^2.0.12
     tone: 14.7.77
-    ts-jest: ^29.1.2
+    ts-jest: ^29.2.3
     ts-loader: ^9.5.1
     ts-sinon: ^2.0.2
     typescript: ^5.5.3
@@ -25837,11 +25837,12 @@ temporal@latest:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^29.1.2":
-  version: 29.1.4
-  resolution: "ts-jest@npm:29.1.4"
+"ts-jest@npm:^29.2.3":
+  version: 29.2.3
+  resolution: "ts-jest@npm:29.2.3"
   dependencies:
     bs-logger: 0.x
+    ejs: ^3.1.10
     fast-json-stable-stringify: 2.x
     jest-util: ^29.0.0
     json5: ^2.2.3
@@ -25869,7 +25870,7 @@ temporal@latest:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: e36cba389adbb3700b46422e883c8d25e76febcc01c4a39c801ef15e6edbd6da1695bdd144100153e992f98a754aea4099906955b1b9a83c3c72d77009c3d7e2
+  checksum: b405fe2f5f9b8aee8ec83520e91ce61a43b3025069dc59809cfbee7255ac1710d694a6bdfecc5bba5f365b9605d0520d62855d0c1bbf0665096e12a71ed3a642
   languageName: node
   linkType: hard
 
