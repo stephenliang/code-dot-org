@@ -680,6 +680,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-plugin-utils@npm:^7.24.7":
+  version: 7.24.8
+  resolution: "@babel/helper-plugin-utils@npm:7.24.8"
+  checksum: 73b1a83ba8bcee21dc94de2eb7323207391715e4369fd55844bb15cf13e3df6f3d13a40786d990e6370bf0f571d94fc31f70dec96c1d1002058258c35ca3767a
+  languageName: node
+  linkType: hard
+
 "@babel/helper-plugin-utils@npm:^7.8.0":
   version: 7.13.0
   resolution: "@babel/helper-plugin-utils@npm:7.13.0"
@@ -1961,6 +1968,18 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: a04319388a0a7931c3f8e15715d01444c32519692178b70deccc86d53304e74c0f589a4268f6c68578d86f75e934dd1fe6e6ed9071f54ee8379f356f88ef6e42
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-regenerator@npm:^7.24.7":
+  version: 7.24.7
+  resolution: "@babel/plugin-transform-regenerator@npm:7.24.7"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.24.7
+    regenerator-transform: ^0.15.2
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 20c6c3fb6fc9f407829087316653388d311e8c1816b007609bb09aeef254092a7157adace8b3aaa8f34be752503717cb85c88a5fe482180a9b11bcbd676063be
   languageName: node
   linkType: hard
 
@@ -8192,7 +8211,7 @@ __metadata:
     "@babel/plugin-syntax-dynamic-import": ^7.8.3
     "@babel/plugin-transform-class-properties": ^7.24.1
     "@babel/plugin-transform-classes": ^7.24.1
-    "@babel/plugin-transform-regenerator": ^7.24.1
+    "@babel/plugin-transform-regenerator": ^7.24.7
     "@babel/polyfill": ^7.12.1
     "@babel/preset-env": ^7.24.4
     "@babel/preset-react": ^7.24.1
