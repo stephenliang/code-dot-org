@@ -254,7 +254,7 @@
     "jshint": "^2.13.6",
     "jsonic": "^0.3.0",
     "jszip": "3.10.1",
-    "lazysizes": "^4.0.0-rc1",
+    "lazysizes": "^5.3.2",
     "loadable-components": "2.2.3",
     "lodash": "^4.17.21",
     "md5": "^2.3.0",
