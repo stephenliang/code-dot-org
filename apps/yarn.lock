@@ -4125,18 +4125,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.11":
-  version: 0.5.11
-  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.11"
+"@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.15":
+  version: 0.5.15
+  resolution: "@pmmmwh/react-refresh-webpack-plugin@npm:0.5.15"
   dependencies:
-    ansi-html-community: ^0.0.8
-    common-path-prefix: ^3.0.0
+    ansi-html: ^0.0.9
     core-js-pure: ^3.23.3
     error-stack-parser: ^2.0.6
-    find-up: ^5.0.0
     html-entities: ^2.1.0
     loader-utils: ^2.0.4
-    schema-utils: ^3.0.0
+    schema-utils: ^4.2.0
     source-map: ^0.7.3
   peerDependencies:
     "@types/webpack": 4.x || 5.x
@@ -4144,7 +4142,7 @@ __metadata:
     sockjs-client: ^1.4.0
     type-fest: ">=0.17.0 <5.0.0"
     webpack: ">=4.43.0 <6.0.0"
-    webpack-dev-server: 3.x || 4.x
+    webpack-dev-server: 3.x || 4.x || 5.x
     webpack-hot-middleware: 2.x
     webpack-plugin-serve: 0.x || 1.x
   peerDependenciesMeta:
@@ -4160,7 +4158,7 @@ __metadata:
       optional: true
     webpack-plugin-serve:
       optional: true
-  checksum: a82eced9519f4dcac424acae719f819ab4150bfcf2874ac7daaf25a4f1c409e3d8b9d693fea0c686c24d520a5473756df32da90d8b89739670f8f8084c600bb4
+  checksum: 82df6244146209d63a12f0ca2e70b05274ee058c7e6d6eb4ced1228afde3b039a7f3f3cc0c76f1bb4b28deadbcf08bc2821c814f0bfee06979128578300fff3d
   languageName: node
   linkType: hard
 
@@ -7220,6 +7218,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ansi-html@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "ansi-html@npm:0.0.9"
+  bin:
+    ansi-html: bin/ansi-html
+  checksum: a03754d6f66bae33938ed8bb3dd98174b7f4895ebe45226185036ed4a1388a7aaf2f2b9581608f0626432ba7add92cfc590aa6475a78bbb90d9d1e1d1af8cbe6
+  languageName: node
+  linkType: hard
+
 "ansi-regex@npm:^2.0.0":
   version: 2.0.0
   resolution: "ansi-regex@npm:2.0.0"
@@ -8239,7 +8246,7 @@ __metadata:
     "@dsco_/link": ^1.1.2
     "@lezer/highlight": ^1.2.0
     "@microsoft/immersive-reader-sdk": ^1.1.0
-    "@pmmmwh/react-refresh-webpack-plugin": ^0.5.11
+    "@pmmmwh/react-refresh-webpack-plugin": ^0.5.15
     "@pyodide/webpack-plugin": ^1.3.2
     "@react-bootstrap/pagination": ^1.0.0
     "@reduxjs/toolkit": ^1.9.3
@@ -23820,7 +23827,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^3.0.0, schema-utils@npm:^3.1.1":
+"schema-utils@npm:^3.1.1":
   version: 3.1.1
   resolution: "schema-utils@npm:3.1.1"
   dependencies:
