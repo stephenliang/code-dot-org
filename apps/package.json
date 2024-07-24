@@ -84,7 +84,7 @@
     "circular-dependency-plugin": "^5.2.2",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",
-    "dedent": "^1.5.1",
+    "dedent": "^1.5.3",
     "ejs": "^3.1.10",
     "ejs-webpack-loader": "^2.2.2",
     "enzyme": "^3.9.0",
