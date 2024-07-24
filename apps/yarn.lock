@@ -8433,7 +8433,7 @@ __metadata:
     recorder-js: ^1.0.7
     redux: ^4.2.1
     redux-logger: ^2.6.1
-    redux-mock-store: ^1.2.3
+    redux-mock-store: ^1.5.4
     redux-thunk: ^2.0.1
     rehype-raw: ^4.0.0
     rehype-react: ^3.1.0
@@ -22806,10 +22806,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"redux-mock-store@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "redux-mock-store@npm:1.2.3"
-  checksum: 5f0b17d03005424876729bd49f0dadece78dfd0a52346811fe6187407ebd9f6362658539dc2e8cdb93ccd1781123931c6eedac2f25eea6e918eacd25eb7cd4a9
+"redux-mock-store@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "redux-mock-store@npm:1.5.4"
+  dependencies:
+    lodash.isplainobject: ^4.0.6
+  checksum: 571eab2cca3e46321969025af865ddd780804c811be9db277fddf772d86e3ea67b4ef1b19ea3866417d41eb1b73605103020321f68cf68f379a52679a6823d12
   languageName: node
   linkType: hard
 
