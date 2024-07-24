@@ -8317,7 +8317,7 @@ __metadata:
     firmata: ^2.2.0
     focus-trap-react: ^10.1.1
     fork-ts-checker-webpack-plugin: ^8.0.0
-    grunt: ^1.4.1
+    grunt: ^1.6.1
     grunt-cli: 1.4.3
     grunt-concurrent: 1.0.1
     grunt-contrib-clean: ^2.0.0
@@ -10392,10 +10392,10 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"dateformat@npm:~3.0.3":
-  version: 3.0.3
-  resolution: "dateformat@npm:3.0.3"
-  checksum: ca4911148abb09887bd9bdcd632c399b06f3ecad709a18eb594d289a1031982f441e08e281db77ffebcb2cbcbfa1ac578a7cbfbf8743f41009aa5adc1846ed34
+"dateformat@npm:~4.6.2":
+  version: 4.6.3
+  resolution: "dateformat@npm:4.6.3"
+  checksum: c3aa0617c0a5b30595122bc8d1bee6276a9221e4d392087b41cbbdf175d9662ae0e50d0d6dcdf45caeac5153c4b5b0844265f8cd2b2245451e3da19e39e3b65d
   languageName: node
   linkType: hard
 
@@ -13157,12 +13157,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"findup-sync@npm:~0.3.0":
-  version: 0.3.0
-  resolution: "findup-sync@npm:0.3.0"
+"findup-sync@npm:~5.0.0":
+  version: 5.0.0
+  resolution: "findup-sync@npm:5.0.0"
   dependencies:
-    glob: ~5.0.0
-  checksum: 44d9ca92aba973781c9560d015f1a3b62a21236e198890d877f4e1113b9d7a0b40a5568516eacce18a6e9cc43a16b27d6c8de10bff26333ebdf86f8804970480
+    detect-file: ^1.0.0
+    is-glob: ^4.0.3
+    micromatch: ^4.0.4
+    resolve-dir: ^1.0.1
+  checksum: 576716c77a0e8330b17ae9cba27d1fda8907c8cda7bf33a47f1999e16e089bfc6df4dd62933e0760f430736183c054348c34aa45dd882d49c8c098f55b89ee1d
   languageName: node
   linkType: hard
 
@@ -13907,19 +13910,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"glob@npm:~5.0.0":
-  version: 5.0.15
-  resolution: "glob@npm:5.0.15"
-  dependencies:
-    inflight: ^1.0.4
-    inherits: 2
-    minimatch: 2 || 3
-    once: ^1.3.0
-    path-is-absolute: ^1.0.0
-  checksum: f9742448303460672607e569457f1b57e486a79a985e269b69465834d2075b243378225f65dc54c09fcd4b75e4fb34442aec88f33f8c65fa4abccc8ee2dc2f5d
-  languageName: node
-  linkType: hard
-
 "glob@npm:~7.0.6":
   version: 7.0.6
   resolution: "glob@npm:7.0.6"
@@ -14335,28 +14325,26 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"grunt@npm:^1.4.1":
-  version: 1.5.3
-  resolution: "grunt@npm:1.5.3"
+"grunt@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "grunt@npm:1.6.1"
   dependencies:
-    dateformat: ~3.0.3
+    dateformat: ~4.6.2
     eventemitter2: ~0.4.13
     exit: ~0.1.2
-    findup-sync: ~0.3.0
+    findup-sync: ~5.0.0
     glob: ~7.1.6
     grunt-cli: ~1.4.3
     grunt-known-options: ~2.0.0
     grunt-legacy-log: ~3.0.0
     grunt-legacy-util: ~2.0.1
-    iconv-lite: ~0.4.13
+    iconv-lite: ~0.6.3
     js-yaml: ~3.14.0
     minimatch: ~3.0.4
-    mkdirp: ~1.0.4
     nopt: ~3.0.6
-    rimraf: ~3.0.2
   bin:
     grunt: bin/grunt
-  checksum: 3cf1dfed5b3641d59e315f4062921aa902c0e2aaefb2f2b18b7439c5b9cce12551f689b0390290cb2f55e276e75622e61469374c044382c3abb9dc1776a12dc1
+  checksum: bc03f5bba1edee2f3ac01cf8c5d4a2fe787d2244b7aa7bf73278b1295489dcf10639e531fe0a0af5d2e83e4df2a15cd9bde495f510ffb0b5c3126b16bf37993d
   languageName: node
   linkType: hard
 
@@ -15251,7 +15239,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"iconv-lite@npm:0.6.3, iconv-lite@npm:^0.6.2, iconv-lite@npm:^0.6.3":
+"iconv-lite@npm:0.6.3, iconv-lite@npm:^0.6.2, iconv-lite@npm:^0.6.3, iconv-lite@npm:~0.6.3":
   version: 0.6.3
   resolution: "iconv-lite@npm:0.6.3"
   dependencies:
@@ -18664,21 +18652,21 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"minimatch@npm:2 || 3, minimatch@npm:^3.0.4, minimatch@npm:~3.0.2":
-  version: 3.0.4
-  resolution: "minimatch@npm:3.0.4"
-  dependencies:
-    brace-expansion: ^1.1.7
-  checksum: 66ac295f8a7b59788000ea3749938b0970344c841750abd96694f80269b926ebcafad3deeb3f1da2522978b119e6ae3a5869b63b13a7859a456b3408bd18a078
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:^3.0.0, minimatch@npm:^3.0.2":
   version: 3.0.3
   resolution: "minimatch@npm:3.0.3"
   dependencies:
     brace-expansion: ^1.0.0
   checksum: 4524cf7a05629e9fb7fa304b9ee007241f685d3f7dd6fbe0175f1e4271cc2f97c46ba039a0bda8fdb6b9f67a39c6541e7a34322c19298422b375a3ed0e93a477
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^3.0.4, minimatch@npm:~3.0.2":
+  version: 3.0.4
+  resolution: "minimatch@npm:3.0.4"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 66ac295f8a7b59788000ea3749938b0970344c841750abd96694f80269b926ebcafad3deeb3f1da2522978b119e6ae3a5869b63b13a7859a456b3408bd18a078
   languageName: node
   linkType: hard
 
@@ -18904,7 +18892,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:^1.0.3, mkdirp@npm:~1.0.4":
+"mkdirp@npm:^1.0.3":
   version: 1.0.4
   resolution: "mkdirp@npm:1.0.4"
   bin:
@@ -23556,7 +23544,7 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"rimraf@npm:^3.0.2, rimraf@npm:~3.0.2":
+"rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
