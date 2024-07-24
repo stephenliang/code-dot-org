@@ -8337,7 +8337,7 @@ __metadata:
     immutable: 3.8.1
     intro.js: ^7.2.0
     intro.js-react: ^1.0.0
-    isolate-react: ^2.3.0
+    isolate-react: ^2.4.7
     jest: ^29.7.0
     jest-canvas-mock: ^2.5.2
     jest-environment-jsdom: ^29.7.0
@@ -16375,12 +16375,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"isolate-react@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "isolate-react@npm:2.3.0"
-  dependencies:
-    "@types/react": ^18.0.9
-  checksum: 87ff015ecc6606ef0ec4c586edc36d3387408841d832dd69ed2a3f47ae296ccf820236814c79b7604c5dfe61b68a646b03f827a22e8306ebf1104667baf7ae18
+"isolate-react@npm:^2.4.7":
+  version: 2.4.7
+  resolution: "isolate-react@npm:2.4.7"
+  checksum: cd68da2a7cec41412490b8c5a189a018a272053570325aefbd9ffe7cc729833c0c5a7b4c6a7be8a3a276e3081d88c8d1cd72a6f6260fc6f378e4a21b4434ccfa
   languageName: node
   linkType: hard
 
