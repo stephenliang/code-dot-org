@@ -4,7 +4,7 @@ updates:
     directory: "/apps"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 300
     labels:
       - "npm"
       - "dependencies"
