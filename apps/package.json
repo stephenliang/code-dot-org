@@ -230,7 +230,7 @@
     "bootstrap-sass": "^3.3.6",
     "buffer": "^6.0.3",
     "canvg": "gabelerner/canvg",
-    "classnames": "^2.3.2",
+    "classnames": "^2.5.1",
     "codemirror": "5.5",
     "codemirror-spell-checker": "^1.1.2",
     "csv-parse": "^4.4.6",
