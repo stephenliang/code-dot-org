@@ -8447,7 +8447,7 @@ __metadata:
     sass-loader: ^12.1.0
     save-csv: ^4.0.6
     script-loader: ^0.7.2
-    seedrandom: 2.4.2
+    seedrandom: 3.0.5
     selectize: ^0.12.4
     sinon: ^11.0.0
     sinon-chai: ^3.1.0
@@ -23860,10 +23860,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"seedrandom@npm:2.4.2":
-  version: 2.4.2
-  resolution: "seedrandom@npm:2.4.2"
-  checksum: 09b4a2883e667601338964f86c000839f64ca8f811c41b4b425a03eabc5c4d243e09b5d15c29c3441cd61a384a316b02d341dbfaf3b0097b5973aa12544f9435
+"seedrandom@npm:3.0.5":
+  version: 3.0.5
+  resolution: "seedrandom@npm:3.0.5"
+  checksum: 728b56bc3bc1b9ddeabd381e449b51cb31bdc0aa86e27fcd0190cea8c44613d5bcb2f6bb63ed79f78180cbe791c20b8ec31a9627f7b7fc7f476fd2bdb7e2da9f
   languageName: node
   linkType: hard
 
