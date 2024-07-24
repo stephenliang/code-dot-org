@@ -8440,7 +8440,7 @@ __metadata:
     rehype-sanitize: ^2.0.2
     remark-parse: ~8.0.3
     remark-rehype: ^4.0.0
-    rgbcolor: 0.0.4
+    rgbcolor: 1.0.1
     rosie: ^2.0.1
     sanitize-html: ^1.11.3
     sass: ^1.51.0
@@ -23533,6 +23533,13 @@ es6-shim@latest:
   version: 0.0.4
   resolution: "rgbcolor@npm:0.0.4"
   checksum: a8bee641463a572212be7db4c002bd8247f32220e192c85ac1e0d53dd46f8dc0e0c8345df39c583d5bd5f06fb068b5e61690ef643e0342e1c13650fd20b8ceb3
+  languageName: node
+  linkType: hard
+
+"rgbcolor@npm:1.0.1":
+  version: 1.0.1
+  resolution: "rgbcolor@npm:1.0.1"
+  checksum: bd062ac007a3e979e2f83dc69feb3cc4f9bca7d8631899548394160e30c47e4f7e52b31aa3f66a69061ad56e899e812ec52f5c33686c085d72c9b3d22faed1c8
   languageName: node
   linkType: hard
 
