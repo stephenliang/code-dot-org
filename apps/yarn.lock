@@ -8434,7 +8434,7 @@ __metadata:
     redux: ^4.2.1
     redux-logger: ^2.6.1
     redux-mock-store: ^1.2.3
-    redux-thunk: ^2.0.1
+    redux-thunk: ^3.1.0
     rehype-raw: ^4.0.0
     rehype-react: ^3.1.0
     rehype-sanitize: ^2.0.2
@@ -22813,19 +22813,21 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"redux-thunk@npm:^2.0.1":
-  version: 2.1.0
-  resolution: "redux-thunk@npm:2.1.0"
-  checksum: e9ba506ed1243ffaba9438dd14cd813ba73662da244502658da2f80d2d49f1140bcbb025c44d169afc68dd4e90eb6672543056437eadc3de61945e382f06862d
-  languageName: node
-  linkType: hard
-
 "redux-thunk@npm:^2.4.2":
   version: 2.4.2
   resolution: "redux-thunk@npm:2.4.2"
   peerDependencies:
     redux: ^4
   checksum: c7f757f6c383b8ec26152c113e20087818d18ed3edf438aaad43539e9a6b77b427ade755c9595c4a163b6ad3063adf3497e5fe6a36c68884eb1f1cfb6f049a5c
+  languageName: node
+  linkType: hard
+
+"redux-thunk@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "redux-thunk@npm:3.1.0"
+  peerDependencies:
+    redux: ^5.0.0
+  checksum: bea96f8233975aad4c9f24ca1ffd08ac7ec91eaefc26e7ba9935544dc55d7f09ba2aa726676dab53dc79d0c91e8071f9729cddfea927f4c41839757d2ade0f50
   languageName: node
   linkType: hard
 
