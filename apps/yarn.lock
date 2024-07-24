@@ -5225,7 +5225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/csf-tools@npm:8.1.11, @storybook/csf-tools@npm:~8.1.11":
+"@storybook/csf-tools@npm:8.1.11":
   version: 8.1.11
   resolution: "@storybook/csf-tools@npm:8.1.11"
   dependencies:
@@ -5239,6 +5239,15 @@ __metadata:
     recast: ^0.23.5
     ts-dedent: ^2.0.0
   checksum: b4eb8eef3f62528e5486ea206b53d674203f48cef0d7dac47579bd0698f69dc8071d624abecfe1f0031c80d3526fac647db1019582a8ae40a923515468ee1aac
+  languageName: node
+  linkType: hard
+
+"@storybook/csf-tools@npm:~8.2.6":
+  version: 8.2.6
+  resolution: "@storybook/csf-tools@npm:8.2.6"
+  peerDependencies:
+    storybook: ^8.2.6
+  checksum: 473a16c5d26abdefe3517bd23fdff4786d012d905f37a92a99c651c53c7cb45983ab4bff8c2212c4032f9982243b76f761d5d59178e8d12f91bee23e6f7b4134
   languageName: node
   linkType: hard
 
@@ -8247,7 +8256,7 @@ __metadata:
     "@storybook/addon-essentials": ~8.1.11
     "@storybook/addon-webpack5-compiler-babel": ^3.0.0
     "@storybook/core-common": ~8.1.11
-    "@storybook/csf-tools": ~8.1.11
+    "@storybook/csf-tools": ~8.2.6
     "@storybook/react": ~8.1.11
     "@storybook/react-webpack5": ~8.1.11
     "@testing-library/react": ^12.1.5
