@@ -5097,7 +5097,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/core-common@npm:8.1.11, @storybook/core-common@npm:~8.1.11":
+"@storybook/core-common@npm:8.1.11":
   version: 8.1.11
   resolution: "@storybook/core-common@npm:8.1.11"
   dependencies:
@@ -5136,6 +5136,15 @@ __metadata:
     prettier:
       optional: true
   checksum: a404dda8784319a1e00cc02e0855a27e8da28ae2fbf07b9b066651477e048c577548a08622875afea3d35f74ff87b5ba38f7d5ecf81e9b5c282501c69859903e
+  languageName: node
+  linkType: hard
+
+"@storybook/core-common@npm:~8.2.6":
+  version: 8.2.6
+  resolution: "@storybook/core-common@npm:8.2.6"
+  peerDependencies:
+    storybook: ^8.2.6
+  checksum: 7b0be0932cba4f5137b07726d169fe16cbd2061d076b53878a1b3bdf306f1a615895efb58202f95b21e79b2e3336a2924cfcd4f40954aaa6f9d1ae92bcfd194f
   languageName: node
   linkType: hard
 
@@ -8246,7 +8255,7 @@ __metadata:
     "@storybook/addon-a11y": ~8.1.11
     "@storybook/addon-essentials": ~8.1.11
     "@storybook/addon-webpack5-compiler-babel": ^3.0.0
-    "@storybook/core-common": ~8.1.11
+    "@storybook/core-common": ~8.2.6
     "@storybook/csf-tools": ~8.1.11
     "@storybook/react": ~8.1.11
     "@storybook/react-webpack5": ~8.1.11
