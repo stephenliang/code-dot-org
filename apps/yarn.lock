@@ -8450,7 +8450,7 @@ __metadata:
     seedrandom: 2.4.2
     selectize: ^0.12.4
     sinon: ^11.0.0
-    sinon-chai: ^3.1.0
+    sinon-chai: ^4.0.0
     slate: ^0.81.0
     slate-react: ^0.81.0
     sortabular: ^1.6.0
@@ -24268,13 +24268,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"sinon-chai@npm:^3.1.0":
-  version: 3.3.0
-  resolution: "sinon-chai@npm:3.3.0"
+"sinon-chai@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "sinon-chai@npm:4.0.0"
   peerDependencies:
-    chai: ^4.0.0
-    sinon: ">=4.0.0 <8.0.0"
-  checksum: 8d00646886206eaac11c0b09eff689ff201f43cd8122cb8f7d8b719ff47fac1e6d0837fe11b0dbbb92c195041b7048883bcb915b715d0a8a6e2234666d3c5710
+    chai: ^5.0.0
+    sinon: ">=4.0.0"
+  checksum: 3c2f4eddfff44497cb5097673c7cb174b8f05802a75472a8173b0c736db6a376bfbf2fc4eec3153ede85ea4c19ec06cae3df37abbb5c6823441b27e7e88a0e2e
   languageName: node
   linkType: hard
 
