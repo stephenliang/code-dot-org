@@ -2633,12 +2633,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blockly/plugin-scroll-options@npm:~5.0.8":
-  version: 5.0.9
-  resolution: "@blockly/plugin-scroll-options@npm:5.0.9"
+"@blockly/plugin-scroll-options@npm:~6.0.5":
+  version: 6.0.5
+  resolution: "@blockly/plugin-scroll-options@npm:6.0.5"
   peerDependencies:
-    blockly: ^10.0.0
-  checksum: 365c2750f6b55e5eac70c158cade9b6d1c7106ff9e9d9db9d62335135a1f994d1329db865b16f46c2bc1a07059d9aa588fe94b5efd0ef13861cceb70ca037d1d
+    blockly: ^11.0.0
+  checksum: 1eaee9241f5a2846c400501bb67949a26678a71507b3db3a59451dd7fdd28b78312a5fbf665ee0090a497dba31f1a5c9eaf9d695a67400391140dd3ca436aa2b
   languageName: node
   linkType: hard
 
@@ -8203,7 +8203,7 @@ __metadata:
     "@blockly/field-grid-dropdown": ~4.0.9
     "@blockly/keyboard-navigation": ~0.5.6
     "@blockly/plugin-cross-tab-copy-paste": ~5.0.4
-    "@blockly/plugin-scroll-options": ~5.0.8
+    "@blockly/plugin-scroll-options": ~6.0.5
     "@blockly/theme-dark": 6.0.4
     "@blockly/theme-highcontrast": 5.0.4
     "@cdo/interpreted": "link:../dashboard/config/libraries"
