@@ -6,12 +6,111 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 300
     groups:
+      amplitude:
+        patterns:
+        - "@amplitude/*"
       babel:
         patterns:
-        - "@babel*"
-        - "babel*"
+        - "@babel/*"
+        - "babel"
+        - "babel-*"
+      blockly:
+        patterns:
+        - "@blockly/*"
+        - "blockly"
+        - "pepjs"
+      codemirror:
+        patterns:
+        - "@codemirror/*"
+        - "codemirror"
+        - "codemirror-*"
+      dnd-kit:
+        patterns:
+        - "@dnd-kit/*"
+      eslint:
+        patterns:
+        - "eslint*"
+        - "@typescript-eslint/*"
+      grunt:
+        patterns:
+        - "grunt"
+        - "grunt-*"
+        - "chalk"
+        - "load-grunt-tasks"
+      jquery:
+        - "jquery"
+        - "jquery-*"
+        - "@types/jquery"
+      react:
+        - "@types/react-dom"
+        - "@types/react"
+        - "react-dom"
+        - "react"
+      redux:
+        - "@reduxjs/*"
+        - "react-redux"
+        - "redux*"
+      safe-markdown:
+        - "rehype-*"
+        - "remark-*"
+      storybook:
+        - "@storybook/*"
+        - "storybook"
+        - "storybook-*"
+        - "magicast"
+        - "unified"
+        - "unplugin"
+      stylelint:
+        - "stylelint*"
+      testing-library:
+        - "@testing-library/*"
+      unit-tests:
+        - "@types/chai"
+        - "@types/jest"
+        - "@types/mocha"
+        - "@types/sinon"
+        - "@wojtekmaj/enzyme-adapter-react-17"
+        - "chai"
+        - "chai-*"
+        - "enzyme"
+        - "identity-obj-proxy"
+        - "isolate-react"
+        - "jest"
+        - "jest-*"
+        - "karma"
+        - "karma-*"
+        - "mocha"
+        - "pixelmatch"
+        - "sinon"
+        - "sinon-*"
+        - "ts-jest"
+        - "ts-sinon"
+      webpack:
+        - "@pmmmwh/react-refresh-webpack-plugin"
+        - "acorn-import-assertions"
+        - "circular-dependency-plugin"
+        - "copy-webpack-plugin"
+        - "css-loader"
+        - "fork-ts-checker-webpack-plugin"
+        - "loader-utils"
+        - "path-browserify"
+        - "process"
+        - "progress-bar-webpack-plugin"
+        - "react-refresh-typescript"
+        - "react-refresh"
+        - "sass-loader"
+        - "sass"
+        - "script-loader"
+        - "source-map-loader"
+        - "stream-browserify"
+        - "style-loader"
+        - "terser-webpack-plugin"
+        - "timers-browserify"
+        - "ts-loader"
+        - "unminified-webpack-plugin"
+        - "vm-browserify"
+        - "webpack"
+        - "webpack-*"
     labels:
       - "npm"
       - "dependencies"
-    ignore:
-      - dependency-name: "react*"
