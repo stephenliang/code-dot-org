@@ -8465,7 +8465,7 @@ __metadata:
     stylelint-config-standard: ^33.0.0
     stylelint-config-standard-scss: ^9.0.0
     survey-react: ^1.9.28
-    swiper: ^11.0.5
+    swiper: ^11.1.9
     terser-webpack-plugin: ^5.3.10
     timers-browserify: ^2.0.12
     tone: 14.7.77
@@ -25396,10 +25396,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"swiper@npm:^11.0.5":
-  version: 11.0.5
-  resolution: "swiper@npm:11.0.5"
-  checksum: 83b125d16733a66ed5f58627c81263116e39eea5cead92667d2e24692ff94632de9aa05fec1ed80dc352779c0d7525e9a18424fce1c39c5e970823414b212edb
+"swiper@npm:^11.1.9":
+  version: 11.1.9
+  resolution: "swiper@npm:11.1.9"
+  checksum: 8c8c94df1e515f3f5ee675afc65ba1b6b819addc3a6d2bd542866ad7eaea8f2c284c1d976444bec730055e9d47fcee0bb6ad3355c4514dd1d499eb5edcaec33f
   languageName: node
   linkType: hard
 
