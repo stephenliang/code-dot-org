@@ -8395,7 +8395,7 @@ __metadata:
     react-beautiful-dnd: ^13.1.0
     react-bootstrap: ^0.33.1
     react-bootstrap-2: "npm:react-bootstrap@^2.7.4"
-    react-color: ^2.17.3
+    react-color: ^2.19.3
     react-csv: ^2.0.3
     react-datepicker: 1.6.0
     react-debounce-input: ^3.2.2
@@ -17807,6 +17807,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"lodash-es@npm:^4.17.15":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
+  languageName: node
+  linkType: hard
+
 "lodash.assignin@npm:^4.0.9":
   version: 4.2.0
   resolution: "lodash.assignin@npm:4.2.0"
@@ -21734,17 +21741,20 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-color@npm:^2.17.3":
-  version: 2.17.3
-  resolution: "react-color@npm:2.17.3"
+"react-color@npm:^2.19.3":
+  version: 2.19.3
+  resolution: "react-color@npm:2.19.3"
   dependencies:
     "@icons/material": ^0.2.4
-    lodash: ^4.17.11
+    lodash: ^4.17.15
+    lodash-es: ^4.17.15
     material-colors: ^1.2.1
     prop-types: ^15.5.10
     reactcss: ^1.2.0
     tinycolor2: ^1.4.1
-  checksum: cffa63de74d3181e85afbe3cf67688d479a58f50a344a000f78eac7cf2455807e4dd6eed69eb61e9d8cd9102d81e9f614c544793c13e90f3be0bfab36ca48aa1
+  peerDependencies:
+    react: "*"
+  checksum: 40b49e1aa2ab27a099cc37a3fa2d5bb906b8def4dbe2d922c0e42365e386d82b03f9b06a2b29a44a51f1e114cef72e61c0ba0740581a128d951936ea4617429b
   languageName: node
   linkType: hard
 
