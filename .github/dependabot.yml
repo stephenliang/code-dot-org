@@ -24,10 +24,12 @@ updates:
         - "rubocop"
         - "rubocop-*"
       sass:
+        patterns:
         - "sass-*"
         - "sassc-*"
         - "bootstrap-sass"
       unit-tests:
+        patterns:
         - "fakefs"
         - "minitest"
         - "minitest-*"
