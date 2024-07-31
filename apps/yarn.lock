@@ -6331,6 +6331,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/tether@npm:^1.4.6":
+  version: 1.4.9
+  resolution: "@types/tether@npm:1.4.9"
+  checksum: 32d9b5dd88ecc2c5cb70e2d7c24794901231ddf6fb30e52caf26658efa8d9d08dc6546ff45bf023beacd5a7e5fa9cd5cc3255e07a15de3190483b3b5dfd8c951
+  languageName: node
+  linkType: hard
+
 "@types/tough-cookie@npm:*":
   version: 4.0.5
   resolution: "@types/tough-cookie@npm:4.0.5"
@@ -8421,7 +8428,7 @@ __metadata:
     react-router-dom: ^4.3.1
     react-select: ^1.2.1
     react-sticky: ^6.0.3
-    react-tether: ^1.0.4
+    react-tether: ^3.0.3
     react-tooltip: ^3.2.7
     react-transition-group: 2.9.0
     react-virtualized: ^9.18.5
@@ -22377,16 +22384,16 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-tether@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "react-tether@npm:1.0.4"
+"react-tether@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "react-tether@npm:3.0.3"
   dependencies:
-    prop-types: ^15.6.2
-    tether: ^1.4.5
+    "@types/tether": ^1.4.6
+    tether: ^1.4.7
   peerDependencies:
-    react: ^0.14.0 || ^15.0.0 || ^16.0.0
-    react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0
-  checksum: 72323cbdecdbcd9cbd1ee49e331d415e2f2a75d4a9dfb165d4d95fb3eaaa5eb802aa8aff6f5e2ee362abf1ba231fa38f85ecbaad4ffe6d0379c2ab94bf9dd142
+    react: "*"
+    react-dom: "*"
+  checksum: 91234bc73adc94a62d4bd7934e9fa25b323cd5de5565b6c3e99110d073a28d9242f56fb73578600c2a71d7bdeeba01401c68a777e2191d122fc4aa1b05b81529
   languageName: node
   linkType: hard
 
@@ -25583,10 +25590,10 @@ temporal@latest:
   languageName: node
   linkType: hard
 
-"tether@npm:^1.4.5":
-  version: 1.4.6
-  resolution: "tether@npm:1.4.6"
-  checksum: 0b46fc33bac735b2492f833a20ec1c3cc1931a75ac500265f8346bcacd0ce130eb95d79e3d535d0c9ffadf86a6ebbc40cd3e8c1171108789be57e1281a39712e
+"tether@npm:^1.4.7":
+  version: 1.4.7
+  resolution: "tether@npm:1.4.7"
+  checksum: 766ac802654064b05e5785584a109101fc184266a0df99581a3ac45d33706c39d9fed314bd28daddf3532bfa0c41f81ebc133ce2c51995101ac922d3fb0477b8
   languageName: node
   linkType: hard
 
