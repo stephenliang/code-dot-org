@@ -8410,7 +8410,7 @@ __metadata:
     react-loading-skeleton: ^3.1.0
     react-motion: ^0.5.2
     react-onclickoutside: ~5.11.1
-    react-paginate: ^6.3.0
+    react-paginate: ^8.2.0
     react-papaparse: ^4.4.0
     react-pointable: ^1.1.1
     react-portal: ^4.2.1
@@ -21208,6 +21208,17 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15, prop-types@npm:^15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
+  languageName: node
+  linkType: hard
+
 "prop-types@npm:^15.5.10, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2":
   version: 15.6.2
   resolution: "prop-types@npm:15.6.2"
@@ -21226,17 +21237,6 @@ es6-shim@latest:
     object-assign: ^4.1.1
     react-is: ^16.8.1
   checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
-  languageName: node
-  linkType: hard
-
-"prop-types@npm:^15.8.1":
-  version: 15.8.1
-  resolution: "prop-types@npm:15.8.1"
-  dependencies:
-    loose-envify: ^1.4.0
-    object-assign: ^4.1.1
-    react-is: ^16.13.1
-  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
   languageName: node
   linkType: hard
 
@@ -22083,14 +22083,14 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-paginate@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "react-paginate@npm:6.3.0"
+"react-paginate@npm:^8.2.0":
+  version: 8.2.0
+  resolution: "react-paginate@npm:8.2.0"
   dependencies:
-    prop-types: ^15.6.1
+    prop-types: ^15
   peerDependencies:
-    react: ^16.0.0
-  checksum: 9810a693a394ea648ccec068d29e827fb59bd364f444ca76eded437c7eb5bf3b0d87fe787be871bdc7203daa97955f05953ee980955ab6d0049078e7126257ad
+    react: ^16 || ^17 || ^18
+  checksum: a0969b4ef27be466ef3e052e2c7c61fca60af24e0d10c76770ebd9953ad6131206a276dfc335e61cf35aa494ff3aacc2610682e3192d7f2ee9541928edb46721
   languageName: node
   linkType: hard
 
