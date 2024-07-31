@@ -288,7 +288,7 @@
     "react-dom-confetti": "^0.2.0",
     "react-draggable": "^4.4.6",
     "react-focus-lock": "^2.11.2",
-    "react-google-charts": "2",
+    "react-google-charts": "4",
     "react-idle-timer": "^4.2.7",
     "react-inspector": "2.3.1",
     "react-lazy-load": "~3.0.13",
