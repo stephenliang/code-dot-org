@@ -1,5 +1,39 @@
 version: 2
 updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      auth:
+        patterns:
+        - "devise"
+        - "devise_*"
+        - "omniauth"
+        - "omniauth-*"
+      aws:
+        patterns:
+        - "aws-sdk-*"
+      integration-tests:
+        patterns:
+        - "webmock"
+        - "mocha"
+        - "timecop"
+      rubocop:
+        patterns:
+        - "rubocop"
+        - "rubocop-*"
+      sass:
+        - "sass-*"
+        - "sassc-*"
+        - "bootstrap-sass"
+      unit-tests:
+        - "fakefs"
+        - "minitest"
+        - "minitest-*"
+        - "rspec"
+        - "simplecov"
+        - "parallel_tests"
   - package-ecosystem: "npm"
     directory: "/apps"
     schedule:
