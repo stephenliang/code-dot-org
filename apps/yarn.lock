@@ -8398,7 +8398,7 @@ __metadata:
     react-color: ^2.17.3
     react-csv: ^2.0.3
     react-datepicker: 1.6.0
-    react-debounce-input: ^3.2.2
+    react-debounce-input: ^3.3.0
     react-dom: ~16.14.0
     react-dom-confetti: ^0.2.0
     react-draggable: ^4.4.6
@@ -21781,15 +21781,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-debounce-input@npm:^3.2.2":
-  version: 3.2.2
-  resolution: "react-debounce-input@npm:3.2.2"
+"react-debounce-input@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "react-debounce-input@npm:3.3.0"
   dependencies:
     lodash.debounce: ^4
-    prop-types: ^15.7.2
+    prop-types: ^15.8.1
   peerDependencies:
-    react: ^15.3.0 || ^16.0.0
-  checksum: b68d93dfbfb6d6c18a5eb5d5986aeed294f4ab5c3c753fc706bd873ea9995eb321b5532e086a543c39f05ca0a330b3017f7693c41ef09419e943028f78408bdf
+    react: ^15.3.0 || 16 || 17 || 18
+  checksum: c391ddc73047df759a68913ab8cb0444d211ab91657d94b3b1660ca434ece4a9ac611a7b8b3e82c89d3b7c3d061d0c99bdf6a426e61802848d1c783acb44b69f
   languageName: node
   linkType: hard
 
