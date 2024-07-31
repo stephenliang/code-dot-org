@@ -5,6 +5,11 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 300
+    groups:
+      babel:
+        patterns:
+        - "@babel*"
+        - "babel*"
     labels:
       - "npm"
       - "dependencies"
