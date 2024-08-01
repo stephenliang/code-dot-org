@@ -36,7 +36,7 @@ updates:
         - "rspec"
         - "simplecov"
         - "parallel_tests"
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directory: "/apps"
     schedule:
       interval: "daily"
@@ -160,7 +160,7 @@ updates:
       - "npm"
       - "dependencies"
   # Platform Packages
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directories: 
     - "/apps/eslint"
     - "/bin/i18n"
@@ -168,7 +168,7 @@ updates:
     schedule:
       interval: "daily"
   # Infrastructure Packages
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directories: 
     - "/aws/cloudformation"
     - "/aws/cloudformation/lambdas/sql-user"
@@ -177,7 +177,7 @@ updates:
     schedule:
       interval: "daily"
   # Teacher Tools Packages
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directories: 
     - "/bin/generate-pdf"
     schedule:
