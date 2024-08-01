@@ -159,7 +159,7 @@ updates:
     labels:
       - "npm"
       - "dependencies"
-  # Platform Packages
+  # Platform NPM/Yarn Packages
   - package-ecosystem: "npm"
     directories: 
     - "/apps/eslint"
@@ -167,7 +167,8 @@ updates:
     - "/tools/scripts/brokenLinkChecker"
     schedule:
       interval: "daily"
-  # Infrastructure Packages
+    open-pull-requests-limit: 20
+  # Infrastructure NPM/Yarn Packages
   - package-ecosystem: "npm"
     directories: 
     - "/aws/cloudformation"
@@ -176,9 +177,26 @@ updates:
     - "/aws/offsite/prune-aurora-backups/src"
     schedule:
       interval: "daily"
-  # Teacher Tools Packages
+    open-pull-requests-limit: 20
+  # Teacher Tools NPM/Yarn Packages
   - package-ecosystem: "npm"
     directories: 
     - "/bin/generate-pdf"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 20
+  # Docker Images
+  - package-ecosystem: "docker"
+  directories: 
+  - "/aws/offsite/aurora-snapshots-fargate"
+  - "/docker/dockerfiles"
+  schedule:
+    interval: "daily"
+  open-pull-requests-limit: 20
+  # Github Actions
+  - package-ecosystem: "github-actions"
+  directories: 
+  - "/.github"
+  schedule:
+    interval: "daily"
+  open-pull-requests-limit: 20
