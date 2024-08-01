@@ -126,7 +126,7 @@ group :development, :test do
 end
 
 # Needed for unit testing, and also for /rails/mailers email previews.
-gem 'factory_bot_rails', '~> 6.2', group: [:development, :staging, :test, :adhoc]
+gem 'factory_bot_rails', '~> 6.4', group: [:development, :staging, :test, :adhoc]
 
 # For pegasus PDF generation.
 gem 'open_uri_redirections', require: false
@@ -161,7 +161,7 @@ gem 'gemoji'
 # Authentication and permissions.
 gem 'cancancan', '~> 3.5.0'
 gem 'devise', '~> 4.9.0'
-gem 'devise_invitable', '~> 2.0.2'
+gem 'devise_invitable', '~> 2.0.9'
 
 # Ref: https://github.com/daynew/omniauth-clever/pull/1
 gem 'omniauth-clever', '~> 2.0.0', github: 'daynew/omniauth-clever', branch: 'clever-v2.1-upgrade'
@@ -176,11 +176,11 @@ gem 'omniauth-windowslive', '~> 0.0.11', github: 'code-dot-org/omniauth-windowsl
 # see: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9284
 gem 'omniauth-rails_csrf_protection', '~> 0.1'
 
-gem 'bootstrap-sass', '~> 2.3.2.2'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'haml', '~> 5.2.0'
 
-gem 'jquery-ui-rails', '~> 6.0.1'
+gem 'jquery-ui-rails', '~> 7.0.0'
 
 gem 'nokogiri', '>= 1.10.0'
 
@@ -195,7 +195,7 @@ gem 'redcarpet', '~> 3.5.1'
 gem 'geocoder'
 
 gem 'mini_magick', ">=4.10.0"
-gem 'rmagick', '~> 4.2.5'
+gem 'rmagick', '~> 5.3.0'
 
 gem 'acts_as_list'
 
@@ -355,7 +355,7 @@ gem 'crowdin-api', '~> 1.10.0'
 
 gem "delayed_job_active_record", "~> 4.1"
 
-gem 'rack-cors', '~> 2.0.1'
+gem 'rack-cors', '~> 2.0.2'
 
 # pin http to 5.0 or greater so that statsig does not pull in an older version.
 # older versions depend on http-parser which breaks some developer builds.
