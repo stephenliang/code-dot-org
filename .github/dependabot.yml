@@ -159,3 +159,26 @@ updates:
     labels:
       - "npm"
       - "dependencies"
+  # Platform Packages
+  - package-ecosystem: "npm"
+    directories: 
+    - "/apps/eslint"
+    - "/bin/i18n"
+    - "/tools/scripts/brokenLinkChecker"
+    schedule:
+      interval: "daily"
+  # Infrastructure Packages
+  - package-ecosystem: "npm"
+    directories: 
+    - "/aws/cloudformation"
+    - "/aws/cloudformation/lambdas/sql-user"
+    - "/aws/offsite/aurora-snapshots-fargate"
+    - "/aws/offsite/prune-aurora-backups"
+    schedule:
+      interval: "daily"
+  # Teacher Tools Packages
+  - package-ecosystem: "npm"
+    directories: 
+    - "/bin/generate-pdf"
+    schedule:
+      interval: "daily"
