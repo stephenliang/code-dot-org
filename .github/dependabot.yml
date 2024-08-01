@@ -187,16 +187,16 @@ updates:
     open-pull-requests-limit: 20
   # Docker Images
   - package-ecosystem: "docker"
-  directories: 
-  - "/aws/offsite/aurora-snapshots-fargate"
-  - "/docker/dockerfiles"
-  schedule:
-    interval: "daily"
-  open-pull-requests-limit: 20
+    directories: 
+    - "/aws/offsite/aurora-snapshots-fargate"
+    - "/docker/dockerfiles"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 20
   # Github Actions
   - package-ecosystem: "github-actions"
-  directories: 
-  - "/.github"
-  schedule:
-    interval: "daily"
-  open-pull-requests-limit: 20
+    directories: 
+    - "/.github"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 20
