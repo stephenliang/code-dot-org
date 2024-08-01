@@ -5,7 +5,7 @@
 
 
 #########################################################
-FROM ubuntu:20.04 as base
+FROM ubuntu:24.04 as base
 #########################################################
 # multi-stage build for parallel compiling ruby:
 # see: https://docs.docker.com/build/building/multi-stage/
