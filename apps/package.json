@@ -259,7 +259,7 @@
     "lodash": "^4.17.21",
     "md5": "^2.3.0",
     "memoize-one": "^5.1.1",
-    "messageformat": "2.3.0",
+    "@messageformat/core": "3.0.0",
     "ml-knn": "^3.0.0",
     "moment": "^2.29.4",
     "object-fit-images": "^3.2.3",
