@@ -231,7 +231,7 @@
     "buffer": "^6.0.3",
     "canvg": "gabelerner/canvg",
     "classnames": "^2.3.2",
-    "codemirror": "5.5",
+    "codemirror": "5.58",
     "codemirror-spell-checker": "^1.1.2",
     "csv-parse": "^4.4.6",
     "dapjs": "^2.3.0",
