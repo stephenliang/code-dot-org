@@ -17044,9 +17044,11 @@ es6-shim@latest:
   linkType: hard
 
 "jquery-ui@npm:^1.12.1":
-  version: 1.12.1
-  resolution: "jquery-ui@npm:1.12.1"
-  checksum: 35cb0799575980f36bbac150ec573af32d0f226501ef1a3b9d8cce4e5d993cef5de22e1b58975cabb4746575929e4248fff7f0822e0c6df5686969ffd29aab07
+  version: 1.14.0
+  resolution: "jquery-ui@npm:1.14.0"
+  dependencies:
+    jquery: ">=1.12.0 <5.0.0"
+  checksum: 16e85d54df56c6f0411de92cc2e1ff570ed247f6346735cac4a62f7ef4160f239ba36b4e5e5aaca6bfd34dbf1100da4028673f5097c69bfac8d076f4299f92c5
   languageName: node
   linkType: hard
 
@@ -17054,6 +17056,13 @@ es6-shim@latest:
   version: 1.12.1
   resolution: "jquery@npm:1.12.1"
   checksum: 4afcb8f64ff5b8da69da4afc4ff7f732569c6006c4104870a0533f721bce7f89deb60942569a744cfc05177a5f0372aabaa937692b5102eb4beb2b0cc908c9e4
+  languageName: node
+  linkType: hard
+
+"jquery@npm:>=1.12.0 <5.0.0":
+  version: 3.7.1
+  resolution: "jquery@npm:3.7.1"
+  checksum: 4370b8139d6ae82867eb6f7f21d1edccf1d1bdf41c0840920ea80d366c2cd5dbe1ceebb110ee9772aa839b04400faa1572c5c560b507c688ed7b61cea26c0e27
   languageName: node
   linkType: hard
 
