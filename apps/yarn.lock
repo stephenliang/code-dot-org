@@ -8286,7 +8286,7 @@ __metadata:
     chalk: ^1.1.3
     circular-dependency-plugin: ^5.2.2
     classnames: ^2.3.2
-    codemirror: 5.5
+    codemirror: 5.58
     codemirror-spell-checker: ^1.1.2
     copy-webpack-plugin: ^9.0.1
     css-loader: ^6.2.0
@@ -9496,10 +9496,10 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"codemirror@npm:5.5":
-  version: 5.5.0
-  resolution: "codemirror@npm:5.5.0"
-  checksum: 47c6779e663577b7e4bea0db8cc7f652535f9caa9a4b96c3383bc5d41724580f93df6faf8dfa01901d2b85e22dbf1d59d3eca12a9b7432d28becf351c8149a26
+"codemirror@npm:5.58":
+  version: 5.58.3
+  resolution: "codemirror@npm:5.58.3"
+  checksum: 98fae95a4343fdba878843aa6e14f87e4d49569bfa0bbb50372869ebdea6d0644ceecd0c08f43ecb154cd96bd66677d26b9c4eb7cbd2f52464f1255ae073ddb3
   languageName: node
   linkType: hard
 
