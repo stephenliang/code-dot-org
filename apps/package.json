@@ -334,7 +334,7 @@
     "sprintf-js": "^1.0.3",
     "statsig-js": "^4.50.0",
     "stream-browserify": "^3.0.0",
-    "survey-react": "^1.9.28",
+    "survey-react": "^1.11.11",
     "swiper": "^11.0.5",
     "timers-browserify": "^2.0.12",
     "tone": "14.7.77",
