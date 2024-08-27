@@ -329,7 +329,7 @@
     "seedrandom": "2.4.2",
     "selectize": "^0.12.4",
     "slate": "^0.81.0",
-    "slate-react": "^0.81.0",
+    "slate-react": "^0.109.0",
     "sortabular": "^1.6.0",
     "sprintf-js": "^1.0.3",
     "statsig-js": "^4.50.0",
