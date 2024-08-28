@@ -2570,12 +2570,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blockly/block-shareable-procedures@npm:~4.0.5":
-  version: 4.0.6
-  resolution: "@blockly/block-shareable-procedures@npm:4.0.6"
+"@blockly/block-shareable-procedures@npm:~5.0.0":
+  version: 5.0.4
+  resolution: "@blockly/block-shareable-procedures@npm:5.0.4"
   peerDependencies:
-    blockly: ^10.2.0
-  checksum: ef0ee49918357ba64bcfe21fc31f3011a5a1ef6e2d16ea702c597c434f666a34940245356ec8f783c880a3f8fc794f5d6db9499fd9cb686380dad7a8f16b9505
+    blockly: ^11.0.0
+  checksum: 1fe717f711226346d07ca7f2dc185ad0365dfe28d33ddb3b5a8c5ed6d190528eb859bd4f06675962bdcb5685dcfd5513faec1ceb02fb343f439f72e2626762c5
   languageName: node
   linkType: hard
 
@@ -8196,7 +8196,7 @@ __metadata:
     "@babel/polyfill": ^7.12.1
     "@babel/preset-env": ^7.24.4
     "@babel/preset-react": ^7.24.1
-    "@blockly/block-shareable-procedures": ~4.0.5
+    "@blockly/block-shareable-procedures": ~5.0.0
     "@blockly/field-angle": ^4.0.0
     "@blockly/field-bitmap": ^4.1.0
     "@blockly/field-colour": ^4.0.0
