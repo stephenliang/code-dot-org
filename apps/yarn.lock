@@ -25380,12 +25380,12 @@ es6-shim@latest:
   linkType: hard
 
 "survey-react@npm:^1.9.28":
-  version: 1.9.28
-  resolution: "survey-react@npm:1.9.28"
+  version: 1.11.13
+  resolution: "survey-react@npm:1.11.13"
   peerDependencies:
-    react: ^16.5.0 || ^17.0.1
-    react-dom: ^16.5.0 || ^17.0.1
-  checksum: 61ce48962c5f21b6056b174079f8e07dbcb2e54a6713fc4cc6a5daf27efd6e95e616b1ffd36b44c20aa187d9b7988b965145a079fa1ebeda6bc67714e79d4091
+    react: ^16.5.0 || ^17.0.1 || ^18.1.0
+    react-dom: ^16.5.0 || ^17.0.1 || ^18.1.0
+  checksum: 41dc39df862649323abbe789dde2d1f8acafe9caca5b3940e099b80ffecfd3939618a12cb61c7c06930e2dad839fbfe246a688fcb3228bf7efb151abf05589cc
   languageName: node
   linkType: hard
 
