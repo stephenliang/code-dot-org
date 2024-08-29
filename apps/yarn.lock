@@ -8312,7 +8312,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-storybook: ^0.6.15
     events: ^3.3.0
-    fast-memoize: 2.0.2
+    fast-memoize: 2.5.2
     filesaver.js: 0.2.0
     firmata: ^2.2.0
     focus-trap-react: ^10.1.1
@@ -12854,10 +12854,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"fast-memoize@npm:2.0.2":
-  version: 2.0.2
-  resolution: "fast-memoize@npm:2.0.2"
-  checksum: 7cd3565e91902b11fcb9586a6a6b373b22f6122399a01e857a6791c8b0cc03c835edf3871ef790a42acc966534c7746e85116c6e25263425ec4d81de035ebd4a
+"fast-memoize@npm:2.5.2":
+  version: 2.5.2
+  resolution: "fast-memoize@npm:2.5.2"
+  checksum: 79fa759719ba4eac7e8c22fb3b0eb3f18f4a31e218c00b1eb4a5b53c5781921133a6b84472d59ec5a6ea8f26ad57b43cd99a350c0547ccce51489bc9a5f0b28d
   languageName: node
   linkType: hard
 
