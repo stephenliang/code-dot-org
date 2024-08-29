@@ -23077,11 +23077,11 @@ es6-shim@latest:
   linkType: hard
 
 "rehype-sanitize@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "rehype-sanitize@npm:2.0.2"
+  version: 2.0.3
+  resolution: "rehype-sanitize@npm:2.0.3"
   dependencies:
     hast-util-sanitize: ^1.1.0
-  checksum: f6569e7b71b1d84f2cd28ffce141ebba79ed194b4b17ce49820001bfd87396940311989e7308ce230d080b8db712da34d93746f21e29a8c33dfd0b04bc950af1
+  checksum: 3f889277ee85805d0b05a77d9b14ac351592b94824ca0d6dcee00c148ac230159e68149e4f9ad4dd858b46e49e586b6df5bbc63fd0c14aa947774522334f2d59
   languageName: node
   linkType: hard
 
