@@ -335,7 +335,7 @@
     "statsig-js": "^4.50.0",
     "stream-browserify": "^3.0.0",
     "survey-react": "^1.9.28",
-    "swiper": "^11.0.5",
+    "swiper": "^11.1.11",
     "timers-browserify": "^2.0.12",
     "tone": "14.7.77",
     "unified": "~9.2.0",
