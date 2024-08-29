@@ -8377,7 +8377,7 @@ __metadata:
     p-queue: ^8.0.1
     pa11y-ci: ^2.3.0
     path-browserify: ^1.0.1
-    pepjs: ^0.4.3
+    pepjs: ^0.5.0
     pixelmatch: ^5.2.0
     playground-io: "code-dot-org/playground-io#v0.6.0-cdo.2"
     prettier: 2.8.7
@@ -20618,10 +20618,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pepjs@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "pepjs@npm:0.4.3"
-  checksum: c5986e00baf044ddce8447804d94e175dbfbec14c4fe3bf701066fbe83b2e00a979a49e09274d6b61c75409fbefc94729b867389eeff7be5efe647adf60ebe5d
+"pepjs@npm:^0.5.0":
+  version: 0.5.3
+  resolution: "pepjs@npm:0.5.3"
+  checksum: 70ed9e65413d272d8cd055de7224b4c4a94fca12aed27fc5fe7bfd3a0f8e8c1ce172a944acfcafd7e00de06f86044a561c411563c62533d5bbf1c90d287c0086
   languageName: node
   linkType: hard
 
