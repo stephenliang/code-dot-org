@@ -116,10 +116,10 @@ available-typed-arrays@^1.0.6:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-aws-sdk@^2.50.0:
-  version "2.1563.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1563.0.tgz#9f19e97111616117cd320f7aaffbe7e309d5632d"
-  integrity sha512-CuxRmrAqsTQnVeiLjiKP+3+UfzBW32TmHT2VS+7qcebvgVDaLZ4s3l0aMmusUwCciRCWOcT+20US/Pic0l9WaA==
+aws-sdk@^2.1685.0:
+  version "2.1685.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1685.0.tgz#906d2a5d06a99ac288c9138f0bb6a7e3932e7da4"
+  integrity sha512-axo1by16nZXqHAFu65+/pLnqqaU3ez5ko3jTGDt0byafT7XD948z3WqqrXWT9vJTUF93DdTZ9DEcazj4Ai91cQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
