@@ -322,7 +322,7 @@
     "rehype-sanitize": "^2.0.2",
     "remark-parse": "~8.0.3",
     "remark-rehype": "^4.0.0",
-    "rgbcolor": "0.0.4",
+    "rgbcolor": "0.0.6",
     "rosie": "^2.0.1",
     "sanitize-html": "^1.11.3",
     "save-csv": "^4.0.6",
