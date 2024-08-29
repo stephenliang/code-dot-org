@@ -8389,7 +8389,7 @@ __metadata:
     qrcode.react: ^0.8.0
     qtip2: 2.2.0
     query-string: 4.1.0
-    radium: ^0.25.2
+    radium: ^0.26.0
     react: ~16.14.0
     react-addons-test-utils: ~15.4.0
     react-beautiful-dnd: ^13.1.0
@@ -14819,19 +14819,19 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^2.5.0":
-  version: 2.5.5
-  resolution: "hoist-non-react-statics@npm:2.5.5"
-  checksum: ee2d05e5c7e1398ad84a15b0327f66bd78f38a8e0015e852f954b36434e32eb7e942d5357505020a3a1147f247b165bf1e69d72393e3accab67cafdafeb86230
-  languageName: node
-  linkType: hard
-
-"hoist-non-react-statics@npm:^3.0.1, hoist-non-react-statics@npm:^3.3.0":
+"hoist-non-react-statics@npm:3.3.0, hoist-non-react-statics@npm:^3.0.1, hoist-non-react-statics@npm:^3.3.0":
   version: 3.3.0
   resolution: "hoist-non-react-statics@npm:3.3.0"
   dependencies:
     react-is: ^16.7.0
   checksum: 78f77efc6dd4bfa194a96e8c97248ce59f9bf0e63686ee76cb9ab0183d8bd317fcb6bd25f442c0ef9c19d6db144de0df05b79895fd64cae331dbd6e2e573a565
+  languageName: node
+  linkType: hard
+
+"hoist-non-react-statics@npm:^2.5.0":
+  version: 2.5.5
+  resolution: "hoist-non-react-statics@npm:2.5.5"
+  checksum: ee2d05e5c7e1398ad84a15b0327f66bd78f38a8e0015e852f954b36434e32eb7e942d5357505020a3a1147f247b165bf1e69d72393e3accab67cafdafeb86230
   languageName: node
   linkType: hard
 
@@ -21501,16 +21501,17 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"radium@npm:^0.25.2":
-  version: 0.25.2
-  resolution: "radium@npm:0.25.2"
+"radium@npm:^0.26.0":
+  version: 0.26.2
+  resolution: "radium@npm:0.26.2"
   dependencies:
     exenv: ^1.2.1
+    hoist-non-react-statics: 3.3.0
     inline-style-prefixer: ^4.0.0
     prop-types: ^15.5.8
   peerDependencies:
-    react: ^15.3.0 || ^16.0.0
-  checksum: 8ff170fb13deb58f523eb04c493c3ac776c3f281dd79302eb6c1a230adf3121dabe99b05ab030efcd69694782f9199471146aacecf7282a5211fb9ab917e962d
+    react: ^16.8.0 || ^17.0.0
+  checksum: 3b3cd1d78199c2b4a15150f8c2f1cea6022b93193c1b343bfec07445043695fc52a5142a361f40f13bc9530e3d9d65b3c88b275a76e6c03d97eded75898fe293
   languageName: node
   linkType: hard
 
