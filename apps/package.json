@@ -184,7 +184,7 @@
     "@blockly/plugin-cross-tab-copy-paste": "~5.0.4",
     "@blockly/plugin-scroll-options": "~5.0.8",
     "@blockly/theme-dark": "6.0.4",
-    "@blockly/theme-highcontrast": "5.0.4",
+    "@blockly/theme-highcontrast": "6.0.7",
     "@cdo/interpreted": "link:../dashboard/config/libraries",
     "@code-dot-org/artist": "0.2.1",
     "@code-dot-org/blockly": "4.0.14",
