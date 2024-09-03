@@ -15,10 +15,10 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
-        working-directory: ./github/actions/assign-dependabot-reviewer
         with:
                 node-version: 20
                 cache: 'yarn'
+                cache-dependency-path: "./github/actions/assign-dependabot-reviewer"
 
       - name: Install dependencies
         working-directory: ./github/actions/assign-dependabot-reviewer
