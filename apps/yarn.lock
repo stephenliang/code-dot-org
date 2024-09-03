@@ -3497,6 +3497,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/core@npm:^1.6.0":
+  version: 1.6.7
+  resolution: "@floating-ui/core@npm:1.6.7"
+  dependencies:
+    "@floating-ui/utils": ^0.2.7
+  checksum: ff940c228f7c4f95138c4979ba1c1122d804cac55e514c889cbdb9f76d5bebbd0f7a02ae1d468b66a9e728343d5a79430845781230e012560b4719fdde458461
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:^1.6.1":
+  version: 1.6.10
+  resolution: "@floating-ui/dom@npm:1.6.10"
+  dependencies:
+    "@floating-ui/core": ^1.6.0
+    "@floating-ui/utils": ^0.2.7
+  checksum: dc86989f1b7dc00f2786e2aa369e7c26c7c63c8c5bad0ba9bede0e45df4b9699c6908b0405c92701bcde69e21a4a582d29dc5d1c924ed8d5fe072dfc777558c7
+  languageName: node
+  linkType: hard
+
+"@floating-ui/utils@npm:^0.2.7":
+  version: 0.2.7
+  resolution: "@floating-ui/utils@npm:0.2.7"
+  checksum: 7e6707c4c6d496f86377a97aac0232926953a2da9c2058ed79d8b44031038ef8fcf9743dac7b38c1da7148460194da987814d78af801ec5c278abf9b303adb22
+  languageName: node
+  linkType: hard
+
 "@fortawesome/fontawesome-common-types@npm:^0.2.25":
   version: 0.2.25
   resolution: "@fortawesome/fontawesome-common-types@npm:0.2.25"
@@ -8756,7 +8782,7 @@ __metadata:
     react-select: ^1.2.1
     react-sticky: ^6.0.3
     react-tether: ^1.0.4
-    react-tooltip: ^3.2.7
+    react-tooltip: ^5.28.0
     react-transition-group: 2.9.0
     react-virtualized: ^9.18.5
     react-virtualized-select: ^3.0.1
@@ -9597,6 +9623,13 @@ canvg@gabelerner/canvg:
   version: 2.2.5
   resolution: "classnames@npm:2.2.5"
   checksum: cf6bc29a8aeb1812d947d7f4a19601675bbec6e959127a85754bb10fbedc50d321dbdc15d8245dba74de34aeab1a6b3d0293fe5763934dc535844a7a89a54bc2
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.3.0":
+  version: 2.5.1
+  resolution: "classnames@npm:2.5.1"
+  checksum: da424a8a6f3a96a2e87d01a432ba19315503294ac7e025f9fece656db6b6a0f7b5003bb1fbb51cbb0d9624d964f1b9bb35a51c73af9b2434c7b292c42231c1e5
   languageName: node
   linkType: hard
 
@@ -22309,16 +22342,16 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-tooltip@npm:^3.2.7":
-  version: 3.9.2
-  resolution: "react-tooltip@npm:3.9.2"
+"react-tooltip@npm:^5.28.0":
+  version: 5.28.0
+  resolution: "react-tooltip@npm:5.28.0"
   dependencies:
-    classnames: ^2.2.5
-    prop-types: ^15.6.0
+    "@floating-ui/dom": ^1.6.1
+    classnames: ^2.3.0
   peerDependencies:
-    react: ">=0.14"
-    react-dom: ">=0.14"
-  checksum: b491100db6eb2cff62dc72930cfbce1bb3ccb873e08305a22c9036df40f8604350c55190bdfa284f5daa8529e6ee233ed737581adbf8500fdfd87a83a23477cc
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  checksum: 4d1efae0fbd39ec7f1414bb325582cca2f7541a8d464b61bf3a7c5e119821868aa2d47c28509e7ea3cca844a9655feb56fc466def0edaa8db07ce427146ef3b0
   languageName: node
   linkType: hard
 
