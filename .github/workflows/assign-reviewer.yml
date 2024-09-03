@@ -28,4 +28,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: .github/actions/assign-dependabot-reviewer
-        run: node assign-reviewer.mjs
+        run: node assign-reviewers.mjs
