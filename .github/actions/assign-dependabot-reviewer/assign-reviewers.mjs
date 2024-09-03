@@ -1,20 +1,27 @@
 import axios from 'axios';
 import {setFailed} from '@actions/core';
 import {reviewersMap} from "./config/reviewers.mjs";
+import { Octokit } from '@octokit/action'
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY;
 const PR_NUMBER = process.env.PR_NUMBER;
+const octokit = new Octokit();
 
 const headers = {
     'Authorization': `token ${GITHUB_TOKEN}`,
     'Accept': 'application/vnd.github.v3+json',
 };
 
+/**
+ * Pull the PR details from the
+ * @returns {Promise<any>}
+ */
 async function getPRDetails() {
-    const url = `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}`;
-    const response = await axios.get(url, {headers});
-    return response.data;
+    return await octokit.rest.pulls.get({
+        repo: REPO,
+        pull_number: PR_NUMBER
+    })
 }
 
 async function assignReviewers(team_reviewers) {
