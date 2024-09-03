@@ -18,14 +18,14 @@ jobs:
         with:
                 node-version: 20
                 cache: 'yarn'
-                cache-dependency-path: "./github/actions/assign-dependabot-reviewer"
+                cache-dependency-path: ".github/actions/assign-dependabot-reviewer"
 
       - name: Install dependencies
-        working-directory: ./github/actions/assign-dependabot-reviewer
+        working-directory: .github/actions/assign-dependabot-reviewer
         run: yarn install
 
       - name: Determine and assign reviewer
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        working-directory: ./github/actions/assign-dependabot-reviewer
+        working-directory: .github/actions/assign-dependabot-reviewer
         run: node assign-reviewer.mjs
