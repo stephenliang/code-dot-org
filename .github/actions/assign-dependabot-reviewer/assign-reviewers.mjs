@@ -2,11 +2,12 @@ import axios from 'axios';
 import {setFailed} from '@actions/core';
 import {reviewersMap} from "./config/reviewers.mjs";
 import { Octokit } from '@octokit/action'
+import github from "@actions/github";
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const REPO = process.env.GITHUB_REPOSITORY;
-const REPO_OWNER = process.env.GITHUB_REPOSITORY_OWNER;
-const PR_NUMBER = process.env.PR_NUMBER;
+const REPO = github.context.repo.repo;
+const REPO_OWNER = github.context.repo.owner;
+const PR_NUMBER = github.context.payload.pull_request.number;
 const octokit = new Octokit();
 
 const headers = {
@@ -19,7 +20,7 @@ const headers = {
  * @returns {Promise<any>}
  */
 async function getPRDetails() {
-    console.log(`Retrieving PR details REPO=${REPO} PR=${PR_NUMBER}`);
+    console.log(`Retrieving PR details OWNER=${REPO_OWNER} REPO=${REPO} PR=${PR_NUMBER}`);
     return await octokit.rest.pulls.get({
         owner: REPO_OWNER,
         repo: REPO,
