@@ -5,7 +5,7 @@ import github from "@actions/github";
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 console.log('GH_TOKEN', GITHUB_TOKEN);
-
+console.log('github context', github.context);
 
 const REPO = github.context.repo.repo;
 const REPO_OWNER = github.context.repo.owner;
