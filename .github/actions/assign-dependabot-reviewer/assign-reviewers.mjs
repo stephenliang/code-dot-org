@@ -4,7 +4,13 @@ import {reviewersMap} from "./config/reviewers.mjs";
 import github from "@actions/github";
 import core from "@actions/core";
 
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+console.log('GH_TOKEN', GITHUB_TOKEN);
 const token = core.getInput('GITHUB_TOKEN', {required: true});
+
+console.log('token', token);
+
+
 const REPO = github.context.repo.repo;
 const REPO_OWNER = github.context.repo.owner;
 const PR_NUMBER = github.context.payload.pull_request.number;
