@@ -3,17 +3,17 @@ import {setFailed} from '@actions/core';
 import {reviewersMap} from "./config/reviewers.mjs";
 import github from "@actions/github";
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-console.log('GH_TOKEN', GITHUB_TOKEN);
+const GH_TOKEN = process.env.GH_TOKEN;
+console.log('GH_TOKEN', GH_TOKEN);
 console.log('github context', github.context);
 
 const REPO = github.context.repo.repo;
 const REPO_OWNER = github.context.repo.owner;
 const PR_NUMBER = github.context.payload.pull_request.number;
-const octokit = github.getOctokit(GITHUB_TOKEN)
+const octokit = github.getOctokit(GH_TOKEN)
 
 const headers = {
-    'Authorization': `token ${GITHUB_TOKEN}`,
+    'Authorization': `token ${GH_TOKEN}`,
     'Accept': 'application/vnd.github.v3+json',
 };
 
