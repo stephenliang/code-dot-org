@@ -18,11 +18,12 @@ const headers = {
 };
 
 async function assignReviewers(team_reviewers) {
-    console.log(`Assign reviewers REPO=${REPO} PR=${PR_NUMBER} OWNER=${REPO_OWNER} reviewers=${team_reviewers.values()}`);
+    console.log(`Assign reviewers REPO=${REPO} PR=${PR_NUMBER} OWNER=${REPO_OWNER} reviewers=${team_reviewers}`);
     const response = await octokit.rest.pulls.requestReviewers({
         owner: REPO_OWNER,
         repo: REPO,
         pull_number: PR_NUMBER,
+        team_reviewers
     });
 
     console.log("response", response.data)
