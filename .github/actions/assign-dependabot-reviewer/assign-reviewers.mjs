@@ -59,7 +59,10 @@ async function main() {
         const dependencyName = extractDependencyName(prTitle);
         const reviewer = reviewersMap[dependencyName];
         console.log(`Found ${reviewer} for ${dependencyName}`)
-        reviewers.push(reviewers);
+
+        if (reviewer != null) {
+            reviewers.push(reviewer);
+        }
 
         if (reviewers.length > 0) {
             const assigned = await assignReviewers(reviewers);
