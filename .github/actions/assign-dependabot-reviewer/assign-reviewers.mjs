@@ -17,19 +17,6 @@ const headers = {
     'Accept': 'application/vnd.github.v3+json',
 };
 
-/**
- * Pull the PR details from the
- * @returns {Promise<any>}
- */
-async function getPRDetails() {
-    console.log(`Retrieving PR details OWNER=${REPO_OWNER} REPO=${REPO} PR=${PR_NUMBER}`);
-    return await octokit.rest.pulls.get({
-        owner: REPO_OWNER,
-        repo: REPO,
-        pull_number: PR_NUMBER
-    })
-}
-
 async function assignReviewers(team_reviewers) {
     console.log(`Assign reviewers REPO=${REPO} PR=${PR_NUMBER} reviewers=${team_reviewers}`);
     const url = `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}/requested_reviewers`;
@@ -61,8 +48,7 @@ function extractDependencyName(str) {
 
 async function main() {
     try {
-        const prDetails = await getPRDetails();
-        const prTitle = prDetails.title || '';
+        const prTitle = github.context.payload.pull_request.title || '';
         // Determine the dependency using the title of the PR
 
         const reviewers = new Set();
