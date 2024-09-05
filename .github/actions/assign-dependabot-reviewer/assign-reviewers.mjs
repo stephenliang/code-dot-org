@@ -61,7 +61,7 @@ async function main() {
         console.log(`Found ${reviewer} for ${dependencyName}`)
         reviewers.push(reviewers);
 
-        if (reviewers.size > 0) {
+        if (reviewers.length > 0) {
             const assigned = await assignReviewers(reviewers);
             if (assigned) {
                 console.log(`Successfully assigned reviewers: ${reviewers.join(', ')}`);
