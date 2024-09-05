@@ -1,14 +1,14 @@
 import axios from 'axios';
 import {setFailed} from '@actions/core';
 import {reviewersMap} from "./config/reviewers.mjs";
-import { Octokit } from '@octokit/action'
 import github from "@actions/github";
+import core from "@actions/core";
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const token = core.getInput('GITHUB_TOKEN', {required: true});
 const REPO = github.context.repo.repo;
 const REPO_OWNER = github.context.repo.owner;
 const PR_NUMBER = github.context.payload.pull_request.number;
-const octokit = new Octokit();
+const octokit = github.getOctokit(token)
 
 const headers = {
     'Authorization': `token ${GITHUB_TOKEN}`,
