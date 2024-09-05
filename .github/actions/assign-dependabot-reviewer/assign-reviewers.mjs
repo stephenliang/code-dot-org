@@ -55,16 +55,16 @@ async function main() {
         const prTitle = github.context.payload.pull_request.title || '';
         // Determine the dependency using the title of the PR
 
-        const reviewers = new Set();
+        const reviewers = [];
         const dependencyName = extractDependencyName(prTitle);
         const reviewer = reviewersMap[dependencyName];
         console.log(`Found ${reviewer} for ${dependencyName}`)
-        reviewers.add(reviewers);
+        reviewers.push(reviewers);
 
         if (reviewers.size > 0) {
-            const assigned = await assignReviewers(Array.from(reviewers));
+            const assigned = await assignReviewers(reviewers);
             if (assigned) {
-                console.log(`Successfully assigned reviewers: ${Array.from(reviewers).join(', ')}`);
+                console.log(`Successfully assigned reviewers: ${reviewers.join(', ')}`);
             } else {
                 console.error('Failed to assign reviewers.');
             }
