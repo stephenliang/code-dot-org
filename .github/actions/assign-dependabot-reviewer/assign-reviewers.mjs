@@ -18,11 +18,14 @@ const headers = {
 };
 
 async function assignReviewers(team_reviewers) {
-    console.log(`Assign reviewers REPO=${REPO} PR=${PR_NUMBER} reviewers=${team_reviewers}`);
-    const url = `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}/requested_reviewers`;
-    const response = await axios.post(url, {
-        team_reviewers,
-    }, {headers});
+    console.log(`Assign reviewers REPO=${REPO} PR=${PR_NUMBER} OWNER=${REPO_OWNER} reviewers=${team_reviewers.values()}`);
+    const response = await octokit.rest.pulls.requestReviewers({
+        owner: REPO_OWNER,
+        repo: REPO,
+        pull_number: PR_NUMBER,
+    });
+
+    console.log("response", response.data)
 
     return response.status === 201;
 }
