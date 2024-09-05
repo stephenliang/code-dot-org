@@ -40,7 +40,7 @@ updates:
     directory: "/apps"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 1
+    open-pull-requests-limit: 0
     groups:
       amplitude:
         patterns:
