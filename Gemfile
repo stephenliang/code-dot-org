@@ -176,7 +176,7 @@ gem 'omniauth-windowslive', '~> 0.0.11', github: 'code-dot-org/omniauth-windowsl
 # see: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9284
 gem 'omniauth-rails_csrf_protection', '~> 0.1'
 
-gem 'bootstrap-sass', '~> 2.3.2.2'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'haml', '~> 5.2.0'
 
