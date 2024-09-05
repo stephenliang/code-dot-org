@@ -5,6 +5,7 @@ import { Octokit } from '@octokit/action'
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.GITHUB_REPOSITORY;
+const REPO_OWNER = process.env.GITHUB_REPOSITORY_OWNER;
 const PR_NUMBER = process.env.PR_NUMBER;
 const octokit = new Octokit();
 
@@ -20,6 +21,7 @@ const headers = {
 async function getPRDetails() {
     console.log(`Retrieving PR details REPO=${REPO} PR=${PR_NUMBER}`);
     return await octokit.rest.pulls.get({
+        owner: REPO_OWNER,
         repo: REPO,
         pull_number: PR_NUMBER
     })
