@@ -18,6 +18,7 @@ const headers = {
  * @returns {Promise<any>}
  */
 async function getPRDetails() {
+    console.log(`Retrieving PR details REPO=${REPO} PR=${PR_NUMBER}`);
     return await octokit.rest.pulls.get({
         repo: REPO,
         pull_number: PR_NUMBER
@@ -25,6 +26,7 @@ async function getPRDetails() {
 }
 
 async function assignReviewers(team_reviewers) {
+    console.log(`Assign reviewers REPO=${REPO} PR=${PR_NUMBER} reviewers=${team_reviewers}`);
     const url = `https://api.github.com/repos/${REPO}/pulls/${PR_NUMBER}/requested_reviewers`;
     const response = await axios.post(url, {
         team_reviewers,
