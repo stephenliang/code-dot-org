@@ -2596,11 +2596,11 @@ __metadata:
   linkType: hard
 
 "@blockly/field-bitmap@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@blockly/field-bitmap@npm:4.1.0"
+  version: 4.1.1
+  resolution: "@blockly/field-bitmap@npm:4.1.1"
   peerDependencies:
     blockly: ^10.0.0
-  checksum: 0e1daf5180f54e1d65e7834bee8c5cf95a85a6edbaa15fe283bead84efe10f181107740df425c6bd9179a2ab40248e4aa91229ce3c91221f53f5733f7d0eac8a
+  checksum: 075cd8f44c05405c4d7ec23e2170be67a938bcedcdf3c3312d80716c2b23746013566330f3fdd5cf7977823237505d37b88d22cb0e87cd3c657327bb9c0e8ee0
   languageName: node
   linkType: hard
 
