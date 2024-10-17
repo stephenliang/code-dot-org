@@ -326,7 +326,7 @@
     "save-csv": "^4.0.6",
     "seedrandom": "2.4.2",
     "slate": "^0.81.0",
-    "slate-react": "^0.81.0",
+    "slate-react": "^0.110.2",
     "sortabular": "^1.6.0",
     "sprintf-js": "^1.0.3",
     "statsig-js": "^4.50.0",
