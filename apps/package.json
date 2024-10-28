@@ -300,7 +300,7 @@
     "react-redux": "~8.0.5",
     "react-router": "3.2.6",
     "react-router-dom": "^6.26.0",
-    "react-select": "^1.2.1",
+    "react-select": "^5.8.2",
     "react-sticky": "^6.0.3",
     "react-tether": "^1.0.4",
     "react-tooltip": "^3.2.7",
