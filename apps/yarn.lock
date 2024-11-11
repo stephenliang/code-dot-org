@@ -8651,7 +8651,7 @@ __metadata:
     fast-memoize: 2.0.2
     filesaver.js: 0.2.0
     firmata: ^2.2.0
-    focus-trap-react: ^10.1.1
+    focus-trap-react: ^10.3.1
     fork-ts-checker-webpack-plugin: ^8.0.0
     grunt: ^1.4.1
     grunt-cli: 1.4.3
@@ -13542,26 +13542,26 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"focus-trap-react@npm:^10.1.1":
-  version: 10.1.1
-  resolution: "focus-trap-react@npm:10.1.1"
+"focus-trap-react@npm:^10.3.1":
+  version: 10.3.1
+  resolution: "focus-trap-react@npm:10.3.1"
   dependencies:
-    focus-trap: ^7.4.0
-    tabbable: ^6.1.1
+    focus-trap: ^7.6.1
+    tabbable: ^6.2.0
   peerDependencies:
     prop-types: ^15.8.1
     react: ">=16.3.0"
     react-dom: ">=16.3.0"
-  checksum: 66bf8d9efa0efda77b7dc2591736fa38e2892151362db7543ea81e70187b8d2e25f471a31175eb0596a862ec8c6391c943bc5fbf69cfaaeb61c0ef2aa3e4750c
+  checksum: 7992402b86a2ebada9232f36388fe7997e395365f1ca89927114caf84c53c546940c066b0a60417b01b4b366d97d0ac313d7c65ef69b74d188fc0863f850f480
   languageName: node
   linkType: hard
 
-"focus-trap@npm:^7.4.0":
-  version: 7.4.0
-  resolution: "focus-trap@npm:7.4.0"
+"focus-trap@npm:^7.6.1":
+  version: 7.6.1
+  resolution: "focus-trap@npm:7.6.1"
   dependencies:
-    tabbable: ^6.1.1
-  checksum: e55d07295f1facf3a82fb7b78713c196f893a82a04ec9a8ab95306a3099ac8fc30dba982651e4fa8a0f3fba623e3120baf419a1c31da3c25223c0bfbece340aa
+    tabbable: ^6.2.0
+  checksum: 1dc757fdfa933480a0fb4bcfd53fc8bba2af2ec55459eddd791b4e16e84a300ac4df454a94c999bcda3eeeb4798a849faee3a616d150ace4204fbc7806aab5bd
   languageName: node
   linkType: hard
 
@@ -25371,10 +25371,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"tabbable@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "tabbable@npm:6.1.1"
-  checksum: 348639497262241ce8e0ccb0664ea582a386183107299ee8f27cf7b56bc84f36e09eaf667d3cb4201e789634012a91f7129bcbd49760abe874fbace35b4cf429
+"tabbable@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "tabbable@npm:6.2.0"
+  checksum: f8440277d223949272c74bb627a3371be21735ca9ad34c2570f7e1752bd646ccfc23a9d8b1ee65d6561243f4134f5fbbf1ad6b39ac3c4b586554accaff4a1300
   languageName: node
   linkType: hard
 
