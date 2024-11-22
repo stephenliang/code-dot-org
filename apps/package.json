@@ -183,7 +183,7 @@
     "@blockly/theme-highcontrast": "5.0.4",
     "@cdo/interpreted": "link:../dashboard/config/libraries",
     "@code-dot-org/artist": "0.2.1",
-    "@code-dot-org/blockly": "4.0.14",
+    "@code-dot-org/blockly": "4.1.0",
     "@code-dot-org/craft": "0.2.2",
     "@code-dot-org/dance-party": "2.0.0",
     "@code-dot-org/johnny-five": "2.1.0-cdo.3",
