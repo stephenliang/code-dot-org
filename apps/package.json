@@ -252,7 +252,7 @@
     "jshint": "^2.13.6",
     "jsonic": "^0.3.0",
     "jszip": "3.10.1",
-    "lazysizes": "^4.0.0-rc1",
+    "lazysizes": "^5.0.0",
     "loadable-components": "2.2.3",
     "loader-utils": "^2.0.4",
     "lodash": "^4.17.21",
