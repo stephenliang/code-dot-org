@@ -8740,7 +8740,7 @@ __metadata:
     react-focus-lock: ^2.11.2
     react-google-charts: 2
     react-idle-timer: ^4.2.7
-    react-inspector: 2.3.1
+    react-inspector: 6.0.2
     react-lazy-load: ~3.0.13
     react-loading-skeleton: ^3.1.0
     react-motion: ^0.5.2
@@ -16024,13 +16024,6 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"is-dom@npm:^1.0.9":
-  version: 1.0.9
-  resolution: "is-dom@npm:1.0.9"
-  checksum: 01dfdbe914e0bee113363558344189f1658c7bfb17f7954037bd167eb039ac0fc38aaba23676d81eccb78282e07faa261c80859c70ea7a0c47036d979917bcb8
-  languageName: node
-  linkType: hard
-
 "is-extglob@npm:^2.1.1":
   version: 2.1.1
   resolution: "is-extglob@npm:2.1.1"
@@ -21857,16 +21850,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"react-inspector@npm:2.3.1":
-  version: 2.3.1
-  resolution: "react-inspector@npm:2.3.1"
-  dependencies:
-    babel-runtime: ^6.26.0
-    is-dom: ^1.0.9
-    prop-types: ^15.6.1
+"react-inspector@npm:6.0.2":
+  version: 6.0.2
+  resolution: "react-inspector@npm:6.0.2"
   peerDependencies:
-    react: ^0.14.0 || ^15.0.0 || ^16.0.0
-  checksum: ffd653df4399ff174a9b7c9475a7e3a26e97b1dc98d98dcce8708f769ad1ae3a27f9b5b82cd1ed96abbeab35fa46901472d105ad2761d082f18849060a165fd1
+    react: ^16.8.4 || ^17.0.0 || ^18.0.0
+  checksum: dab7a7daf570c283fdc5d4e07ee8941ee8670af698ab5a27a704602b248e29ab911b117310d64c30a4af93931b2d6ee2a729369e3f5ab7f02df4651692e195a5
   languageName: node
   linkType: hard
 

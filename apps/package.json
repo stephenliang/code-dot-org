@@ -289,7 +289,7 @@
     "react-focus-lock": "^2.11.2",
     "react-google-charts": "2",
     "react-idle-timer": "^4.2.7",
-    "react-inspector": "2.3.1",
+    "react-inspector": "6.0.2",
     "react-lazy-load": "~3.0.13",
     "react-loading-skeleton": "^3.1.0",
     "react-motion": "^0.5.2",
