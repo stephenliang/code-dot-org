@@ -8697,7 +8697,7 @@ __metadata:
     karma-sourcemap-loader: ^0.4.0
     karma-webpack: ^5.0.0
     lazysizes: ^4.0.0-rc1
-    load-grunt-tasks: 3.5.0
+    load-grunt-tasks: 3.5.2
     loadable-components: 2.2.3
     loader-utils: ^2.0.4
     lodash: ^4.17.21
@@ -17901,9 +17901,9 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"load-grunt-tasks@npm:3.5.0":
-  version: 3.5.0
-  resolution: "load-grunt-tasks@npm:3.5.0"
+"load-grunt-tasks@npm:3.5.2":
+  version: 3.5.2
+  resolution: "load-grunt-tasks@npm:3.5.2"
   dependencies:
     arrify: ^1.0.0
     multimatch: ^2.0.0
@@ -17911,7 +17911,7 @@ es6-shim@latest:
     resolve-pkg: ^0.1.0
   peerDependencies:
     grunt: ">=0.4.0"
-  checksum: f7e0d7bd4b95a21a8f4236cc47dc34d85171753786dc4d78da08f1e94e5669fa0d171b375347251662808b6f3e02f55a36ee629d999364130ad60e222b91a1ed
+  checksum: 65d0c7f885beab1cbd3caefd3b78d2bb89421d07922c418194e81648ed9f0821ad1b890134ff20b1f47ffce6e0ad82b5f105e0f10ea9bc486409c5aec7ecf104
   languageName: node
   linkType: hard
 
