@@ -229,7 +229,7 @@
     "buffer": "^6.0.3",
     "canvg": "gabelerner/canvg",
     "classnames": "^2.3.2",
-    "codemirror": "5.5",
+    "codemirror": "5.65",
     "codemirror-spell-checker": "^1.1.2",
     "dapjs": "^2.3.0",
     "details-element-polyfill": "https://github.com/javan/details-element-polyfill",
