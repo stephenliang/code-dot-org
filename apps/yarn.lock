@@ -17267,9 +17267,9 @@ es6-shim@latest:
   linkType: hard
 
 "js-cookie@npm:^2.1.2":
-  version: 2.1.3
-  resolution: "js-cookie@npm:2.1.3"
-  checksum: 7b05429e8b11d7a1f9a1eb667f00f403beb7919ab5d96d97195258e5f0af531ff50e150b389295064f03941784bc42e23b65e743ac2aa39d25c6757066e04aae
+  version: 2.2.1
+  resolution: "js-cookie@npm:2.2.1"
+  checksum: 9b1fb980a1c5e624fd4b28ea4867bb30c71e04c4484bb3a42766344c533faa684de9498e443425479ec68609e96e27b60614bfe354877c449c631529b6d932f2
   languageName: node
   linkType: hard
 
