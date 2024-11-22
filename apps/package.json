@@ -67,7 +67,7 @@
     "@types/react-bootstrap": "^0.32.36",
     "@types/react-router-dom": "^5.3.3",
     "@types/reactabular-table": "^8.14.6",
-    "@types/sinon": "^10.0.14",
+    "@types/sinon": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^7.16.1",
     "@typescript-eslint/parser": "^7.16.1",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
