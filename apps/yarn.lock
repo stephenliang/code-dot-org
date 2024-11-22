@@ -2640,12 +2640,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blockly/theme-dark@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@blockly/theme-dark@npm:6.0.4"
+"@blockly/theme-dark@npm:6.0.7":
+  version: 6.0.7
+  resolution: "@blockly/theme-dark@npm:6.0.7"
   peerDependencies:
     blockly: ^10.0.0
-  checksum: 29b364af1953f70fc1f39fa261571a1f4ccda3a7049707083cfc3f71591e8bde44f34721842b43f5a74c5e8c8942e87c59e3cb078a13ded6fc8e56ffb1ca147f
+  checksum: 445e905c7c5ac6196b26d046c09712ec314d21c2ed27c9a7e0b4fbbaf2436af14f64925e100f82d10f7524c9181f4868e85b4e793a7f049fe038848c75cd75b4
   languageName: node
   linkType: hard
 
@@ -8538,7 +8538,7 @@ __metadata:
     "@blockly/keyboard-navigation": ~0.5.6
     "@blockly/plugin-cross-tab-copy-paste": ~5.0.4
     "@blockly/plugin-scroll-options": ~5.0.8
-    "@blockly/theme-dark": 6.0.4
+    "@blockly/theme-dark": 6.0.7
     "@blockly/theme-highcontrast": 5.0.4
     "@cdo/interpreted": "link:../dashboard/config/libraries"
     "@code-dot-org/artist": 0.2.1
