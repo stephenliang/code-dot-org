@@ -22734,11 +22734,11 @@ es6-shim@latest:
   linkType: hard
 
 "redux-logger@npm:^2.6.1":
-  version: 2.7.4
-  resolution: "redux-logger@npm:2.7.4"
+  version: 2.10.2
+  resolution: "redux-logger@npm:2.10.2"
   dependencies:
     deep-diff: 0.3.4
-  checksum: 0b54c99e8c8ca9d408988e504de820187099bb27987c9b33e8e13d6947d305356c4df28d851f57ea24789dda8c65933a8144733139142167e7786e42a503870c
+  checksum: 470d9cb6bb685be09abeb4ce04676024444cd8efa870092e5432504b558480d451d8114cce51ebe9e50f2cb80fa72e87d9bf3eab83593f31f50a368ef2fd3611
   languageName: node
   linkType: hard
 
