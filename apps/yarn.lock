@@ -19622,9 +19622,9 @@ es6-shim@latest:
   linkType: hard
 
 "object-fit-images@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "object-fit-images@npm:3.2.3"
-  checksum: 85abf54b4f96f9abd132aa2c393dcf520dbd2e85b98f95465b2cfa35370f4d7fd3129175afbf876c4d1d7aa9361716ea38629f2c11b849967d6c4aa93980ff00
+  version: 3.2.4
+  resolution: "object-fit-images@npm:3.2.4"
+  checksum: a1adab3e09fdc4f5addbd0895eeffbaa5018ffabb95382cd1bbf86bb813d21ca575ec4be4fdc5470fdaa25579a781748fd0b37308156d3605004256497d2d264
   languageName: node
   linkType: hard
 
