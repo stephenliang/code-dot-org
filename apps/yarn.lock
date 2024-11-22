@@ -8670,7 +8670,7 @@ __metadata:
     html2canvas: ^0.5.0-beta4
     htmlhint: ^1.1.4
     identity-obj-proxy: ^3.0.0
-    immutable: 3.8.1
+    immutable: 4.3.7
     intro.js: ^7.2.0
     intro.js-react: ^1.0.0
     isolate-react: ^2.3.0
@@ -15534,10 +15534,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"immutable@npm:3.8.1":
-  version: 3.8.1
-  resolution: "immutable@npm:3.8.1"
-  checksum: a37e6d980da48b17ab5540a0fd7b286de20183382319fb818e244f0a309f712bdef332182d9d301186ca4677b6d818ed64b62ffad2945cf96c82bca4c2c3600b
+"immutable@npm:4.3.7":
+  version: 4.3.7
+  resolution: "immutable@npm:4.3.7"
+  checksum: 1c50eb053bb300796551604afff554066f041aa8e15926cf98f6d11d9736b62ad12531c06515dd96375258653878b4736f8051cd20b640f5f976d09fa640e3ec
   languageName: node
   linkType: hard
 
