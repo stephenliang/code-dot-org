@@ -22310,15 +22310,14 @@ es6-shim@latest:
   linkType: hard
 
 "react-tooltip@npm:^3.2.7":
-  version: 3.9.2
-  resolution: "react-tooltip@npm:3.9.2"
+  version: 3.11.6
+  resolution: "react-tooltip@npm:3.11.6"
   dependencies:
-    classnames: ^2.2.5
     prop-types: ^15.6.0
   peerDependencies:
-    react: ">=0.14"
-    react-dom: ">=0.14"
-  checksum: b491100db6eb2cff62dc72930cfbce1bb3ccb873e08305a22c9036df40f8604350c55190bdfa284f5daa8529e6ee233ed737581adbf8500fdfd87a83a23477cc
+    react: "*"
+    react-dom: "*"
+  checksum: b107fb82919fa2431b7847f13a61bd2550d131abe49d65885c4f5245c7b2930da422c2e85c96bfd7a82c2a1b95f028d36dca3153d879647121d97cee9372e024
   languageName: node
   linkType: hard
 
