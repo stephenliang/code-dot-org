@@ -8812,7 +8812,7 @@ __metadata:
     unplugin: ^1.7.1
     video.js: 7.6.6
     vm-browserify: ^1.1.2
-    vmsg: ^0.3.6
+    vmsg: ^0.4.0
     webpack: ^5.90.3
     webpack-bundle-analyzer: ^4.10.1
     webpack-cli: ^5.1.4
@@ -27049,10 +27049,10 @@ temporal@latest:
   languageName: node
   linkType: hard
 
-"vmsg@npm:^0.3.6":
-  version: 0.3.6
-  resolution: "vmsg@npm:0.3.6"
-  checksum: 071a6a957f8b47a3debc933dc2b7e866db3db5dc89c8c1189e2bad5a9e2a233b17170f8d3452dd85e31f6ff372790a97e2ce68392c7143c2882e285da9050160
+"vmsg@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "vmsg@npm:0.4.0"
+  checksum: ba6eca27a35b4166c6aea5576962cf8401765c35a957bba1589f21e1bbe41883062b4053b045126d7c77ec2b2485e656cce34f636097916e1f8957b2332bbdc6
   languageName: node
   linkType: hard
 
