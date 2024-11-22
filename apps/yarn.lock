@@ -8724,7 +8724,7 @@ __metadata:
     pyodide: ^0.25.1
     qrcode.react: ^0.8.0
     qtip2: 2.2.0
-    query-string: 4.1.0
+    query-string: 4.3.4
     radium: ^0.25.2
     react: ^17.0.2
     react-beautiful-dnd: ^13.1.0
@@ -21367,12 +21367,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"query-string@npm:4.1.0":
-  version: 4.1.0
-  resolution: "query-string@npm:4.1.0"
+"query-string@npm:4.3.4, query-string@npm:^4.2.2":
+  version: 4.3.4
+  resolution: "query-string@npm:4.3.4"
   dependencies:
+    object-assign: ^4.1.0
     strict-uri-encode: ^1.0.0
-  checksum: 1eff7ab6dd4283f1df4d7766db112af4b4bf02e20e894d965a57037d2e3c9df1fc8b48018621bf1ff0059168b441bff83a6a5af1ed82042dc0ca3f6fcd4537db
+  checksum: 3b2bae6a8454cf0edf11cf1aa4d1f920398bbdabc1c39222b9bb92147e746fcd97faf00e56f494728fb66b2961b495ba0fde699d5d3bd06b11472d664b36c6cf
   languageName: node
   linkType: hard
 
@@ -21382,16 +21383,6 @@ es6-shim@latest:
   dependencies:
     strict-uri-encode: ^1.0.0
   checksum: 72a1c559afce1fe4dfdb41de2962b3bafbebb3cf47dc200a4bd34fcb19ad93aef0e44185adf74375e129b888eb3f55a289e700d4b275a2835a15b9ede5ad22ed
-  languageName: node
-  linkType: hard
-
-"query-string@npm:^4.2.2":
-  version: 4.3.4
-  resolution: "query-string@npm:4.3.4"
-  dependencies:
-    object-assign: ^4.1.0
-    strict-uri-encode: ^1.0.0
-  checksum: 3b2bae6a8454cf0edf11cf1aa4d1f920398bbdabc1c39222b9bb92147e746fcd97faf00e56f494728fb66b2961b495ba0fde699d5d3bd06b11472d664b36c6cf
   languageName: node
   linkType: hard
 
