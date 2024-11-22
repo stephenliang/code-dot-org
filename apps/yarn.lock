@@ -24646,12 +24646,12 @@ es6-shim@latest:
   linkType: hard
 
 "statsig-js@npm:^4.50.0":
-  version: 4.50.0
-  resolution: "statsig-js@npm:4.50.0"
+  version: 4.53.1
+  resolution: "statsig-js@npm:4.53.1"
   dependencies:
     js-sha256: ^0.11.0
-    uuid: ^8.3.2
-  checksum: 9573f34d29fd105b713862711faa966b0988a6a1fa984dc61a593521b6a9424e534efea14dfe76fb4f9eafaeced7855ee2efaccb461ca9569f7ca5d5607d5a5b
+    uuid: ^9.0.1
+  checksum: 6ba9aa88a0ffc6418d58a1ec7f4ccaf32ae6834fd14db41c228ba3a2b0bafa6dded82c2d48d00227b8652a5d8b0e297a9c6bb6ca28c49727df6776123dccd587
   languageName: node
   linkType: hard
 
@@ -26921,7 +26921,7 @@ temporal@latest:
   languageName: node
   linkType: hard
 
-"uuid@npm:^9.0.0":
+"uuid@npm:^9.0.0, uuid@npm:^9.0.1":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
   bin:
