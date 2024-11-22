@@ -2623,11 +2623,11 @@ __metadata:
   linkType: hard
 
 "@blockly/plugin-cross-tab-copy-paste@npm:~5.0.4":
-  version: 5.0.5
-  resolution: "@blockly/plugin-cross-tab-copy-paste@npm:5.0.5"
+  version: 5.0.11
+  resolution: "@blockly/plugin-cross-tab-copy-paste@npm:5.0.11"
   peerDependencies:
     blockly: ^10.2.0
-  checksum: 27b7da1ef3c21287619e1cd9d9ad6a5db67a83968d1acbb5d5fecfee9a7dc63146da505cceebe4b68befc6bf5fac7a5787221cb4ab8997b2611a2c3273f3c375
+  checksum: f6df91e6dba8f388002f30a39a7750020ea60009508c8b346ff77ed7c37af1508418becc14b8cffcb2df0f4ba169bc2671ea057a89e1a8f0cbb44debf16e3150
   languageName: node
   linkType: hard
 
