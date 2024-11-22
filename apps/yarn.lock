@@ -21836,13 +21836,13 @@ es6-shim@latest:
   linkType: hard
 
 "react-idle-timer@npm:^4.2.7":
-  version: 4.2.7
-  resolution: "react-idle-timer@npm:4.2.7"
+  version: 4.6.4
+  resolution: "react-idle-timer@npm:4.6.4"
   peerDependencies:
-    prop-types: ^15.x.x
-    react: ^16.x.x
-    react-dom: ^16.x.x
-  checksum: f94b3949a59a81678e7040829ecb6a0d570b65c70e63d1721e15d7e31ac7bcde2e5d8d539bb7364a5e480bb089aa2768dce21e90f6af7ccda1a3d6b362b4077d
+    prop-types: ">=15"
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: c5dc791fc6c9188f891e3d38b17575aae7816af5df9fd178b84d94e35dda4e1aa06d286df404cf0701be0b628dda4527d804fbd06f004e552528df2ff5893dfc
   languageName: node
   linkType: hard
 
