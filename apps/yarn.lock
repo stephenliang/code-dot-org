@@ -8714,7 +8714,7 @@ __metadata:
     papaparse: ^5.4.1
     path-browserify: ^1.0.1
     pepjs: ^0.4.3
-    pixelmatch: ^5.2.0
+    pixelmatch: ^6.0.0
     playground-io: "code-dot-org/playground-io#v0.6.0-cdo.2"
     prettier: 2.8.7
     process: ^0.11.10
@@ -20630,14 +20630,14 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pixelmatch@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "pixelmatch@npm:5.2.0"
+"pixelmatch@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "pixelmatch@npm:6.0.0"
   dependencies:
-    pngjs: ^4.0.1
+    pngjs: ^7.0.0
   bin:
     pixelmatch: bin/pixelmatch
-  checksum: 941d4e83cabebe3aafed9b7879449744088aa43ac2c2287d3cff9b155876ba973c52e0677e47483ed3fd0e32092c04cf2fcb86d70e9ba9d55639f93db287c442
+  checksum: 89066e7904083f6e7de86afd26a51ec63fa311f51ee2ca2019eb2284e2b25d84f826da3f86699f857f4e13633dcc7e55912d5de2698f3128b63c14a633f85dcf
   languageName: node
   linkType: hard
 
@@ -20706,10 +20706,10 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"pngjs@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "pngjs@npm:4.0.1"
-  checksum: 9497e08a6c2d850630ba7c8d3738fd36c9db1af7ee8b8c2d4b664e450807a280936dfa1489deb60e6943b968bedd58c9aa93def25a765579d745ea44467fc47f
+"pngjs@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "pngjs@npm:7.0.0"
+  checksum: b19a018930d27de26229c1b3ff250b3a25d09caa22cbb0b0459987d91eb0a560a18ab5d67da45a38ed7514140f26d1db58de83c31159ec101f2bb270a3c707f1
   languageName: node
   linkType: hard
 
