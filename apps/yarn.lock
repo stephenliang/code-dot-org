@@ -8614,7 +8614,7 @@ __metadata:
     babel-plugin-syntax-async-functions: ^6.13.0
     blockly: 10.3.1
     bootstrap-sass: ^3.3.6
-    browser-process-hrtime: 0.1.2
+    browser-process-hrtime: 0.1.3
     buffer: ^6.0.3
     canvg: gabelerner/canvg
     chai: 3.5.0
@@ -8961,10 +8961,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browser-process-hrtime@npm:0.1.2":
-  version: 0.1.2
-  resolution: "browser-process-hrtime@npm:0.1.2"
-  checksum: b76023b763dcdd845705ebf43f237b3410ef80117692ef67794256f07c363ac7deef8f171178f89dc660c8b9aabf54647166f4d23cbdf28fb48d8249cea77d40
+"browser-process-hrtime@npm:0.1.3":
+  version: 0.1.3
+  resolution: "browser-process-hrtime@npm:0.1.3"
+  checksum: e052e0593339ba238eb2e2146b99d79555c195242a280c75a0627a39d938349859df21ea400a2d456b0d7614df8bf61ba34d110f7046e2a9ec69e70e64698e2f
   languageName: node
   linkType: hard
 
