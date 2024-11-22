@@ -22044,13 +22044,14 @@ es6-shim@latest:
   linkType: hard
 
 "react-portal@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "react-portal@npm:4.2.1"
+  version: 4.2.2
+  resolution: "react-portal@npm:4.2.2"
   dependencies:
     prop-types: ^15.5.8
   peerDependencies:
-    react: ^15.0.0-0 || ^16.0.0-0 || ^17.0.0-0
-  checksum: 8cc37a36df2949134e7dffcbe23118aef280db80092d3e5356690b1c03c3d1d3c752c5d164f5e0051f0774151c78b1e2b174540019b53b53881bdf3b40fed7ef
+    react: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
+    react-dom: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
+  checksum: dc7cd0c6907d1859c0eca4571108934ac791eb9eaf020529a26d4732b7bb556a53bf7e87e868f9918bd60c58f512cc36a49aef5671c964d0a49494168fb2abe0
   languageName: node
   linkType: hard
 
