@@ -341,7 +341,7 @@
     "vm-browserify": "^1.1.2",
     "vmsg": "^0.3.6",
     "wgxpath": "^1.2.0",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^3.0.0"
   },
   "packageManager": "yarn@3.6.3"
 }
