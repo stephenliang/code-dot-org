@@ -8722,7 +8722,7 @@ __metadata:
     prop-types: ^15.6.2
     pusher-js: 4.1.0
     pyodide: ^0.25.1
-    qrcode.react: ^0.8.0
+    qrcode.react: ^0.9.0
     qtip2: 2.2.0
     query-string: 4.1.0
     radium: ^0.25.2
@@ -21323,15 +21323,15 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"qrcode.react@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "qrcode.react@npm:0.8.0"
+"qrcode.react@npm:^0.9.0":
+  version: 0.9.3
+  resolution: "qrcode.react@npm:0.9.3"
   dependencies:
     prop-types: ^15.6.0
     qr.js: 0.0.0
   peerDependencies:
     react: ^15.5.3 || ^16.0.0
-  checksum: 9fcaef850276a4b64be317e6d404816bf8aabc18438064996c38e6c5bd61c329343cae1eb1291f006571b5ead58660b53f2e64b5dffc3545e14ab4b498f136a1
+  checksum: 174710c8dcd247071099eda2ea32b5f22a0f907744568bae3fd3cdb4f01e2e55f0f7dbe7e7b6cb80309bf5e069e9af076a98c55e4e4b8f75eb87cfbe1205be81
   languageName: node
   linkType: hard
 
