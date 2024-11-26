@@ -8716,7 +8716,7 @@ __metadata:
     pepjs: ^0.4.3
     pixelmatch: ^5.2.0
     playground-io: "code-dot-org/playground-io#v0.6.0-cdo.2"
-    prettier: 2.8.7
+    prettier: 3.4.0
     process: ^0.11.10
     progress-bar-webpack-plugin: ^2.1.0
     prop-types: ^15.6.2
@@ -20957,12 +20957,12 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.7":
-  version: 2.8.7
-  resolution: "prettier@npm:2.8.7"
+"prettier@npm:3.4.0":
+  version: 3.4.0
+  resolution: "prettier@npm:3.4.0"
   bin:
-    prettier: bin-prettier.js
-  checksum: fdc8f2616f099f5f0d685907f4449a70595a0fc1d081a88919604375989e0d5e9168d6121d8cc6861f21990b31665828e00472544d785d5940ea08a17660c3a6
+    prettier: bin/prettier.cjs
+  checksum: 600896ad0250afbcb4be97b41a2d72b878729d85308cbb6a6a8e668de8c3795559e2731b3fbb7f1d9bb5c76161a4110fd6f898d20af739853923336e55cb609a
   languageName: node
   linkType: hard
 

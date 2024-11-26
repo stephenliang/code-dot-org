@@ -137,7 +137,7 @@
     "magicast": "^0.3.3",
     "mocha": "^10.6.0",
     "mock-firmata": "0.2.0",
-    "prettier": "2.8.7",
+    "prettier": "3.4.0",
     "process": "^0.11.10",
     "progress-bar-webpack-plugin": "^2.1.0",
     "react-refresh": "^0.14.0",
