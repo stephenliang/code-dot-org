@@ -95,7 +95,7 @@ group :development, :test do
   gem 'ruby-prof', '>= 1.7.0'
   gem 'vcr', require: false
   # For unit testing.
-  gem 'webmock', '~> 3.8', require: false
+  gem 'webmock', '~> 3.24', require: false
 
   gem 'faker', '~> 3.4', require: false
   gem 'fakeredis', require: false
