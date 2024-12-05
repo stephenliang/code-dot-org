@@ -8797,7 +8797,7 @@ __metadata:
     stylelint: ^15.0.0
     stylelint-config-standard: ^33.0.0
     stylelint-config-standard-scss: ^9.0.0
-    survey-react: ^1.9.28
+    survey-react: ^1.12.13
     swiper: ^11.0.5
     terser-webpack-plugin: ^5.3.10
     timers-browserify: ^2.0.12
@@ -25340,13 +25340,13 @@ es6-shim@latest:
   languageName: node
   linkType: hard
 
-"survey-react@npm:^1.9.28":
-  version: 1.9.28
-  resolution: "survey-react@npm:1.9.28"
+"survey-react@npm:^1.12.13":
+  version: 1.12.13
+  resolution: "survey-react@npm:1.12.13"
   peerDependencies:
-    react: ^16.5.0 || ^17.0.1
-    react-dom: ^16.5.0 || ^17.0.1
-  checksum: 61ce48962c5f21b6056b174079f8e07dbcb2e54a6713fc4cc6a5daf27efd6e95e616b1ffd36b44c20aa187d9b7988b965145a079fa1ebeda6bc67714e79d4091
+    react: ^16.5.0 || ^17.0.1 || ^18.1.0
+    react-dom: ^16.5.0 || ^17.0.1 || ^18.1.0
+  checksum: 4640962a14290fb5007e967ec99e5111efeaa88f0e9f14ef7d3c69c783ff7b3c87d2a0c655d799615cd9e18a96c144dd2cebe5e332fad911468262e9c5ed66ca
   languageName: node
   linkType: hard
 
