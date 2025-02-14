@@ -10408,7 +10408,7 @@ __metadata:
     stylelint: "npm:^15.0.0"
     stylelint-config-standard: "npm:^33.0.0"
     stylelint-config-standard-scss: "npm:^9.0.0"
-    survey-react: "npm:^1.9.28"
+    survey-react: "npm:^1.12.23"
     swiper: "npm:^11.0.5"
     terser-webpack-plugin: "npm:^5.3.10"
     timers-browserify: "npm:^2.0.12"
@@ -27473,13 +27473,13 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"survey-react@npm:^1.9.28":
-  version: 1.9.28
-  resolution: "survey-react@npm:1.9.28"
+"survey-react@npm:^1.12.23":
+  version: 1.12.23
+  resolution: "survey-react@npm:1.12.23"
   peerDependencies:
-    react: ^16.5.0 || ^17.0.1
-    react-dom: ^16.5.0 || ^17.0.1
-  checksum: 10/98202dd41024d574c37a36a87be3b65a4cb38d112e27cedfeda63e573a29ed2dd6fc10d7475a87da7e26242cae6c10643897af547ddedae42dfc9b46af56264d
+    react: ^16.5.0 || ^17.0.1 || ^18.1.0
+    react-dom: ^16.5.0 || ^17.0.1 || ^18.1.0
+  checksum: 10/8419d99d1a8e013a8ea01e5b1cfa9dd5d0984f3ed6a66556e848ca7fa8e82138a33518098b800d7e0bc9c72765c495498ddb9c4980b863216f5d1cdbc3e53ec9
   languageName: node
   linkType: hard
 
