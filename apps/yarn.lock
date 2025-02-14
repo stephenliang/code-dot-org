@@ -3403,6 +3403,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.7.2":
+  version: 7.26.9
+  resolution: "@babel/runtime@npm:7.26.9"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 10/08edd07d774eafbf157fdc8450ed6ddd22416fdd8e2a53e4a00349daba1b502c03ab7f7ad3ad3a7c46b9a24d99b5697591d0f852ee2f84642082ef7dda90b83d
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15":
   version: 7.23.9
   resolution: "@babel/template@npm:7.23.9"
@@ -10370,7 +10379,7 @@ __metadata:
     react-tooltip: "npm:^3.2.7"
     react-transition-group: "npm:2.9.0"
     react-typist: "npm:^2.0.5"
-    react-virtualized: "npm:^9.18.5"
+    react-virtualized: "npm:^9.22.6"
     react-virtualized-select: "npm:^3.0.1"
     react-with-context: "npm:^2.0.0"
     reactabular-sticky: "npm:^8.14.0"
@@ -11408,7 +11417,7 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.1.1":
+"clsx@npm:^1.0.4, clsx@npm:^1.1.1":
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 10/5ded6f61f15f1fa0350e691ccec43a28b12fb8e64c8e94715f2a937bc3722d4c3ed41d6e945c971fc4dcc2a7213a43323beaf2e1c28654af63ba70c9968a8643
@@ -12966,7 +12975,7 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"dom-helpers@npm:^5.0.1, dom-helpers@npm:^5.2.0, dom-helpers@npm:^5.2.1":
+"dom-helpers@npm:^5.0.1, dom-helpers@npm:^5.1.3, dom-helpers@npm:^5.2.0, dom-helpers@npm:^5.2.1":
   version: 5.2.1
   resolution: "dom-helpers@npm:5.2.1"
   dependencies:
@@ -24425,19 +24434,20 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-virtualized@npm:^9.18.5":
-  version: 9.18.5
-  resolution: "react-virtualized@npm:9.18.5"
+"react-virtualized@npm:^9.22.6":
+  version: 9.22.6
+  resolution: "react-virtualized@npm:9.22.6"
   dependencies:
-    babel-runtime: "npm:^6.26.0"
-    classnames: "npm:^2.2.3"
-    dom-helpers: "npm:^2.4.0 || ^3.0.0"
-    loose-envify: "npm:^1.3.0"
-    prop-types: "npm:^15.6.0"
+    "@babel/runtime": "npm:^7.7.2"
+    clsx: "npm:^1.0.4"
+    dom-helpers: "npm:^5.1.3"
+    loose-envify: "npm:^1.4.0"
+    prop-types: "npm:^15.7.2"
+    react-lifecycles-compat: "npm:^3.0.4"
   peerDependencies:
-    react: ^15.3.0 || ^16.0.0-alpha
-    react-dom: ^15.3.0 || ^16.0.0-alpha
-  checksum: 10/4adab310f13951f2f466314fc39d5d72de45f8c095e728d271882d9d10209b216940ecaa7b2dc8e64cac402236776bd348ec9f96e8d0a30ccb5de299f8b459b4
+    react: ^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10/57c24aa6226e628d970dd57b5d20693aec1ebc456c33667833779d26b82addbcbf03b65d874ad25154fb65a070a6a52d3dbdc699932442f1862246ee5d7e328c
   languageName: node
   linkType: hard
 
