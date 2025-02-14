@@ -10357,7 +10357,7 @@ __metadata:
     react-onclickoutside: "npm:~5.11.1"
     react-paginate: "npm:^6.3.0"
     react-pointable: "npm:^1.1.1"
-    react-portal: "npm:^4.2.1"
+    react-portal: "npm:^4.3.0"
     react-redux: "npm:~8.0.5"
     react-refresh: "npm:^0.14.0"
     react-refresh-typescript: "npm:^2.0.9"
@@ -24028,14 +24028,15 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-portal@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "react-portal@npm:4.2.1"
+"react-portal@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "react-portal@npm:4.3.0"
   dependencies:
     prop-types: "npm:^15.5.8"
   peerDependencies:
-    react: ^15.0.0-0 || ^16.0.0-0 || ^17.0.0-0
-  checksum: 10/b72b2ee7bd93c72b6e284a5ce985728c8c872dbd8d35c2cdcae6a86dd1a7f40c692ef1bc4e24ed30e8816a3ae085fdaa4eca68587b91b60039da6cbb9eb20c09
+    react: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0 || ^19.0.0
+    react-dom: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0 || ^19.0.0
+  checksum: 10/ab2285bfb08bfb6e4e9b6c1d7ec99806ad1da1deab34c0179159c6a012afb44ec28e498c944d1e48e011c61ca9b2b3315ab73c0eba2821293982215900795032
   languageName: node
   linkType: hard
 
