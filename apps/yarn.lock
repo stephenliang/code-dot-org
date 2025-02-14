@@ -10296,7 +10296,7 @@ __metadata:
     js-file-download: "npm:^0.4.12"
     jshint: "npm:^2.13.6"
     json-parse-better-errors: "npm:^1.0.1"
-    jsonic: "npm:^0.3.0"
+    jsonic: "npm:^2.16.0"
     jszip: "npm:3.10.1"
     karma: "npm:^6.4.2"
     karma-chrome-launcher: "npm:^3.2.0"
@@ -19425,10 +19425,12 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"jsonic@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "jsonic@npm:0.3.0"
-  checksum: 10/def37e50b83d18c857850fc19f716de5c22340216c03a63697c84e63f5ba864339489df00015dfdf538a050d13b72693ceaab873fc40f99e34fe8d82d951e773
+"jsonic@npm:^2.16.0":
+  version: 2.16.0
+  resolution: "jsonic@npm:2.16.0"
+  bin:
+    jsonic: bin/jsonic
+  checksum: 10/c1ebba747438072fde1656f397080e50f2b65c41b31f8e622d8b4d8d160f6302245795eea8d71b28dd987c0422b5328f99bff9d841f8f15027d870e8eb1b125f
   languageName: node
   linkType: hard
 
