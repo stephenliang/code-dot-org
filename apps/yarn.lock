@@ -10396,7 +10396,7 @@ __metadata:
     seedrandom: "npm:2.4.2"
     sinon: "npm:^11.0.0"
     sinon-chai: "npm:^3.1.0"
-    slate: "npm:^0.81.0"
+    slate: "npm:^0.112.0"
     slate-react: "npm:^0.81.0"
     sortabular: "npm:^1.6.0"
     source-map-loader: "npm:^4.0.1"
@@ -17335,17 +17335,17 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
+"immer@npm:^10.0.3":
+  version: 10.1.1
+  resolution: "immer@npm:10.1.1"
+  checksum: 10/9dacf1e8c201d69191ccd88dc5d733bafe166cd45a5a360c5d7c88f1de0dff974a94114d72b35f3106adfe587fcfb131c545856184a2247d89d735ad25589863
+  languageName: node
+  linkType: hard
+
 "immer@npm:^9.0.16":
   version: 9.0.19
   resolution: "immer@npm:9.0.19"
   checksum: 10/b111cdf64748f7390e6c308b0c0bfbc5e27280f83bb3be6a13f945a8f1800f11c890609b2ba00af888821271e9e6a766b1d777c8fe1e61673bfd4932823c8912
-  languageName: node
-  linkType: hard
-
-"immer@npm:^9.0.6":
-  version: 9.0.14
-  resolution: "immer@npm:9.0.14"
-  checksum: 10/e0692b187f8f64f871a3c19ab6089ec8749d42c3bcddee4ee4f1c740d66a805b6da866b29df149c34b0519506d914a74aeffe4df32625fe45ddec8e00ff317c8
   languageName: node
   linkType: hard
 
@@ -26394,14 +26394,14 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"slate@npm:^0.81.0":
-  version: 0.81.0
-  resolution: "slate@npm:0.81.0"
+"slate@npm:^0.112.0":
+  version: 0.112.0
+  resolution: "slate@npm:0.112.0"
   dependencies:
-    immer: "npm:^9.0.6"
+    immer: "npm:^10.0.3"
     is-plain-object: "npm:^5.0.0"
     tiny-warning: "npm:^1.0.3"
-  checksum: 10/23fc22bd3f36b8c31cf24dc17328157c5e272afa9df692dc1ba0ab82888f86f12a2be01989d910d92108c5b6ebde0c98488cce4057d6b80cb249beb49b6f1a44
+  checksum: 10/0858ac2edce8f872ec1fa2b05a519cfa9733d9e59c2c09aa2bea792bcd8a689c8b065a3878f1ce7bd267748c3eddd42efdfb5e9c2e73364f79be6ca31b80be94
   languageName: node
   linkType: hard
 
