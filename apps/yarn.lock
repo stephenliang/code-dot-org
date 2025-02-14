@@ -10260,7 +10260,7 @@ __metadata:
     fast-memoize: "npm:2.0.2"
     filesaver.js: "npm:0.2.0"
     firmata: "npm:^2.2.0"
-    focus-trap-react: "npm:^10.1.1"
+    focus-trap-react: "npm:^11.0.3"
     fork-ts-checker-webpack-plugin: "npm:^8.0.0"
     grunt: "npm:^1.4.1"
     grunt-cli: "npm:1.4.3"
@@ -15287,26 +15287,27 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"focus-trap-react@npm:^10.1.1":
-  version: 10.1.1
-  resolution: "focus-trap-react@npm:10.1.1"
+"focus-trap-react@npm:^11.0.3":
+  version: 11.0.3
+  resolution: "focus-trap-react@npm:11.0.3"
   dependencies:
-    focus-trap: "npm:^7.4.0"
-    tabbable: "npm:^6.1.1"
+    focus-trap: "npm:^7.6.4"
+    tabbable: "npm:^6.2.0"
   peerDependencies:
-    prop-types: ^15.8.1
-    react: ">=16.3.0"
-    react-dom: ">=16.3.0"
-  checksum: 10/c7dcae701d12694735bffefefa32e6a6090412a134e70b13ce546e955890c71af42e716784123ec8e22fcc3608dbd1de54466aeb9251b39dfb03c9f3c7ffb707
+    "@types/react": ^18.0.0 || ^19.0.0
+    "@types/react-dom": ^18.0.0 || ^19.0.0
+    react: ^18.0.0 || ^19.0.0
+    react-dom: ^18.0.0 || ^19.0.0
+  checksum: 10/b37eb54de07ffbb94e19bc274dbe7b5882b2690dbe643ca2e4b4be92f1e8dec193df2d313ac6374dacbb249a5b936228d5ac14f288e986e52b4719a59687a076
   languageName: node
   linkType: hard
 
-"focus-trap@npm:^7.4.0":
-  version: 7.4.0
-  resolution: "focus-trap@npm:7.4.0"
+"focus-trap@npm:^7.6.4":
+  version: 7.6.4
+  resolution: "focus-trap@npm:7.6.4"
   dependencies:
-    tabbable: "npm:^6.1.1"
-  checksum: 10/3422276eb6e86f8cb5b36294b9b80a73d047434a3013818fd7163718e3cbaef8dba499b89d36ce4883550e1932eab166eefa086e436cd9d9f2a5f6e6f895254d
+    tabbable: "npm:^6.2.0"
+  checksum: 10/75bf7aa4500935d24682ef4180c427d4f2fd9a1fd8ba5440c285c9bed9bbd591692a1dc014e6004a5a273ba35e2eea3f5718b592220df27ac242262e40e0d4fc
   languageName: node
   linkType: hard
 
@@ -27511,10 +27512,10 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"tabbable@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "tabbable@npm:6.1.1"
-  checksum: 10/bdf4cfab5300c8ae83ab773be7e5725b9061f9972f340528e056016a7f8a022a12d794c7b2bbe5856cdda205047076421a5dced27d925347c0f02efcc47361f3
+"tabbable@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "tabbable@npm:6.2.0"
+  checksum: 10/980fa73476026e99dcacfc0d6e000d41d42c8e670faf4682496d30c625495e412c4369694f2a15cf1e5252d22de3c396f2b62edbe8d60b5dadc40d09e3f2dde3
   languageName: node
   linkType: hard
 
