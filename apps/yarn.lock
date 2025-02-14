@@ -10326,7 +10326,7 @@ __metadata:
     pepjs: "npm:^0.4.3"
     pixelmatch: "npm:^5.2.0"
     playground-io: "code-dot-org/playground-io#v0.6.0-cdo.2"
-    prettier: "npm:2.8.7"
+    prettier: "npm:3.5.1"
     process: "npm:^0.11.10"
     progress-bar-webpack-plugin: "npm:^2.1.0"
     prop-types: "npm:^15.6.2"
@@ -22893,12 +22893,12 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.7":
-  version: 2.8.7
-  resolution: "prettier@npm:2.8.7"
+"prettier@npm:3.5.1":
+  version: 3.5.1
+  resolution: "prettier@npm:3.5.1"
   bin:
-    prettier: bin-prettier.js
-  checksum: 10/5d5acc2015dcd9ae4033c0ea3189820920149137100750c897d384bc9058c79c78af94ca892f3bc7c5b6da0661a50357e8eb9eb455c4c1da156b1d0757f54a8a
+    prettier: bin/prettier.cjs
+  checksum: 10/09ab168e651e50c2c79804d65f17a68129ce1c573830b2fb08c988b585add8076b8d995789034d66a14338d6b8835e8c591e0fc1bc90f4344af9645738636d01
   languageName: node
   linkType: hard
 
