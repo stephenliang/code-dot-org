@@ -4587,6 +4587,58 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/core@npm:^1.6.0":
+  version: 1.6.9
+  resolution: "@floating-ui/core@npm:1.6.9"
+  dependencies:
+    "@floating-ui/utils": "npm:^0.2.9"
+  checksum: 10/656fcd383da17fffca2efa0635cbe3c0b835c3312949e30bd19d05bf42479f2ac22aaf336a6a31cb160621fc6f35cfc9e115e76c5cf48ba96e33474d123ced22
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:^1.0.0":
+  version: 1.6.13
+  resolution: "@floating-ui/dom@npm:1.6.13"
+  dependencies:
+    "@floating-ui/core": "npm:^1.6.0"
+    "@floating-ui/utils": "npm:^0.2.9"
+  checksum: 10/4bb732baf3270007741bcdc91be1de767b2bb5d8b891eb838e5f1e7c4cccad998643dbdd4e8b8cec4c5d12c9898f80febc68e9793dd6e26a445283c4fb1b6a78
+  languageName: node
+  linkType: hard
+
+"@floating-ui/react-dom@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@floating-ui/react-dom@npm:2.1.2"
+  dependencies:
+    "@floating-ui/dom": "npm:^1.0.0"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 10/2a67dc8499674e42ff32c7246bded185bb0fdd492150067caf9568569557ac4756a67787421d8604b0f241e5337de10762aee270d9aeef106d078a0ff13596c4
+  languageName: node
+  linkType: hard
+
+"@floating-ui/react@npm:^0.27.3":
+  version: 0.27.4
+  resolution: "@floating-ui/react@npm:0.27.4"
+  dependencies:
+    "@floating-ui/react-dom": "npm:^2.1.2"
+    "@floating-ui/utils": "npm:^0.2.9"
+    tabbable: "npm:^6.0.0"
+  peerDependencies:
+    react: ">=17.0.0"
+    react-dom: ">=17.0.0"
+  checksum: 10/4c76b322d5fe7bfab423de4902191eaa664e273181d1882c122665b4064736b67c6499c95623162ea371de716270b1803f5a060b69e8e81e6668bb5fe9bf1619
+  languageName: node
+  linkType: hard
+
+"@floating-ui/utils@npm:^0.2.9":
+  version: 0.2.9
+  resolution: "@floating-ui/utils@npm:0.2.9"
+  checksum: 10/0ca786347db3dd8d9034b86d1449fabb96642788e5900cc5f2aee433cd7b243efbcd7a165bead50b004ee3f20a90ddebb6a35296fc41d43cfd361b6f01b69ffb
+  languageName: node
+  linkType: hard
+
 "@fortawesome/fontawesome-common-types@npm:^0.2.25":
   version: 0.2.25
   resolution: "@fortawesome/fontawesome-common-types@npm:0.2.25"
@@ -10342,7 +10394,7 @@ __metadata:
     react-bootstrap-2: "npm:react-bootstrap@^2.7.4"
     react-color: "npm:^2.17.3"
     react-csv: "npm:^2.0.3"
-    react-datepicker: "npm:1.6.0"
+    react-datepicker: "npm:8.0.0"
     react-debounce-input: "npm:^3.2.2"
     react-dom: "npm:^17.0.2"
     react-dom-confetti: "npm:^0.2.0"
@@ -11415,6 +11467,13 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10/cdfb57fa6c7649bbff98d9028c2f0de2f91c86f551179541cf784b1cfdc1562dcb951955f46d54d930a3879931a980e32a46b598acaea274728dbe068deca919
+  languageName: node
+  linkType: hard
+
 "co@npm:^4.6.0":
   version: 4.6.0
   resolution: "co@npm:4.6.0"
@@ -12336,6 +12395,13 @@ canvg@gabelerner/canvg:
     es-errors: "npm:^1.3.0"
     is-data-view: "npm:^1.0.1"
   checksum: 10/96f34f151bf02affb7b9f98762fb7aca1dd5f4553cb57b80bce750ca609c15d33ca659568ef1d422f7e35680736cbccb893a3d4b012760c758c1446bbdc4c6db
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "date-fns@npm:4.1.0"
+  checksum: 10/d5f6e9de5bbc52310f786099e18609289ed5e30af60a71e0646784c8185ddd1d0eebcf7c96b7faaaefc4a8366f3a3a4244d099b6d0866ee2bec80d1361e64342
   languageName: node
   linkType: hard
 
@@ -22647,13 +22713,6 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"popper.js@npm:^1.14.1":
-  version: 1.14.3
-  resolution: "popper.js@npm:1.14.3"
-  checksum: 10/9aa2e3fb5a35ebe265d647ed04d83cf43a4cf26b04072966413f12a8f86f5f816be9c18d0b13a428efe074914bf39b314ecab384304d3e53eea131a0805582c2
-  languageName: node
-  linkType: hard
-
 "portfinder@npm:^1.0.17":
   version: 1.0.32
   resolution: "portfinder@npm:1.0.32"
@@ -23639,19 +23698,17 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-datepicker@npm:1.6.0":
-  version: 1.6.0
-  resolution: "react-datepicker@npm:1.6.0"
+"react-datepicker@npm:8.0.0":
+  version: 8.0.0
+  resolution: "react-datepicker@npm:8.0.0"
   dependencies:
-    classnames: "npm:^2.2.5"
-    prop-types: "npm:^15.6.0"
-    react-onclickoutside: "npm:^6.7.1"
-    react-popper: "npm:^0.9.1"
+    "@floating-ui/react": "npm:^0.27.3"
+    clsx: "npm:^2.1.1"
+    date-fns: "npm:^4.1.0"
   peerDependencies:
-    moment: ^2.20.0
-    react: ^16.0.0
-    react-dom: ^16.0.0
-  checksum: 10/8590f236443d44546e9da851a562097fe11fc470f6a07ed0ed28cc04e89120f15a8e03fee4e1b6eb8ccf1b928e1199b5e1fd5271240309bf5fcf43fea23734a2
+    react: ^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc
+    react-dom: ^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc
+  checksum: 10/f6d67b5ecf43ed19782319aaad2e32eb340b2a48f0f02799198cd5728ca1a0d663774f5d7b55e31da257b759738cc55dd9c1ff46c386f86ef515df20fff78906
   languageName: node
   linkType: hard
 
@@ -23958,16 +24015,6 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-onclickoutside@npm:^6.7.1":
-  version: 6.7.1
-  resolution: "react-onclickoutside@npm:6.7.1"
-  peerDependencies:
-    react: ^15.5.x || ^16.x
-    react-dom: ^15.5.x || ^16.x
-  checksum: 10/798fe3bdad1022d9a26b3dca8f6baf18c73a94ee8fbdcd249407f52a2fdc37c9687fd062231a03f576e011af2d626bac29738a5012cee28218f4f6155319d86b
-  languageName: node
-  linkType: hard
-
 "react-onclickoutside@npm:~5.11.1":
   version: 5.11.1
   resolution: "react-onclickoutside@npm:5.11.1"
@@ -24012,19 +24059,6 @@ canvg@gabelerner/canvg:
     prop-types: ^15.5.10
     react: ^15.0.0-0 || ^16.0.0-0
   checksum: 10/9c8ef7df05de5c845ff147c5405a4ba7a6078df2a743b6fa49b9e965212e07c9a484df11cc47b716a74b220428b10d7395828e06e4d11892cefcaa3b53d3f4c1
-  languageName: node
-  linkType: hard
-
-"react-popper@npm:^0.9.1":
-  version: 0.9.5
-  resolution: "react-popper@npm:0.9.5"
-  dependencies:
-    popper.js: "npm:^1.14.1"
-    prop-types: "npm:^15.6.1"
-  peerDependencies:
-    react: 0.14.x || ^15.0.0 || ^16.0.0
-    react-dom: 0.14.x || ^15.0.0 || ^16.0.0
-  checksum: 10/2a7ae532d0ccab8057f223979b249d4d834e94468dec920c4bd67256124999f38d0e14ca1fb93fa4f74a7c12554e04a067b41a2d53a1b133f94a5c2eaff240a7
   languageName: node
   linkType: hard
 
@@ -27508,6 +27542,13 @@ canvg@gabelerner/canvg:
   version: 3.2.4
   resolution: "symbol-tree@npm:3.2.4"
   checksum: 10/c09a00aadf279d47d0c5c46ca3b6b2fbaeb45f0a184976d599637d412d3a70bbdc043ff33effe1206dea0e36e0ad226cb957112e7ce9a4bf2daedf7fa4f85c53
+  languageName: node
+  linkType: hard
+
+"tabbable@npm:^6.0.0":
+  version: 6.2.0
+  resolution: "tabbable@npm:6.2.0"
+  checksum: 10/980fa73476026e99dcacfc0d6e000d41d42c8e670faf4682496d30c625495e412c4369694f2a15cf1e5252d22de3c396f2b62edbe8d60b5dadc40d09e3f2dde3
   languageName: node
   linkType: hard
 
