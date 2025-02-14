@@ -10200,9 +10200,9 @@ __metadata:
     "@types/mocha": "npm:^10.0.1"
     "@types/papaparse": "npm:^5.3.14"
     "@types/qrcode.react": "npm:^1.0.5"
-    "@types/react": "npm:^18.0.28"
+    "@types/react": "npm:^19.0.8"
     "@types/react-bootstrap": "npm:^0.32.36"
-    "@types/react-dom": "npm:^18.0.11"
+    "@types/react-dom": "npm:^19.0.3"
     "@types/react-router-dom": "npm:^5.3.3"
     "@types/react-select": "npm:^1.2.1"
     "@types/react-typist": "npm:^2.0.6"
@@ -10336,7 +10336,7 @@ __metadata:
     qtip2: "npm:2.2.0"
     query-string: "npm:4.1.0"
     radium: "npm:^0.25.2"
-    react: "npm:^17.0.2"
+    react: "npm:^19.0.0"
     react-beautiful-dnd: "npm:^13.1.0"
     react-bootstrap: "npm:^0.33.1"
     react-bootstrap-2: "npm:react-bootstrap@^2.7.4"
@@ -10344,7 +10344,7 @@ __metadata:
     react-csv: "npm:^2.0.3"
     react-datepicker: "npm:1.6.0"
     react-debounce-input: "npm:^3.2.2"
-    react-dom: "npm:^17.0.2"
+    react-dom: "npm:^19.0.0"
     react-dom-confetti: "npm:^0.2.0"
     react-draggable: "npm:^4.4.6"
     react-focus-on: "npm:^3.9.4"
@@ -23717,16 +23717,14 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
+"react-dom@npm:^19.0.0":
+  version: 19.0.0
+  resolution: "react-dom@npm:19.0.0"
   dependencies:
-    loose-envify: "npm:^1.1.0"
-    object-assign: "npm:^4.1.1"
-    scheduler: "npm:^0.20.2"
+    scheduler: "npm:^0.25.0"
   peerDependencies:
-    react: 17.0.2
-  checksum: 10/0b3836131a64da8b1c2c852cc28b09c21a738c33c7a8d6021ac20d5619d753c8ee5fff8f97c95f2fc33053e44c2cbce9657453e21c55900164e6e0c3e955e826
+    react: ^19.0.0
+  checksum: 10/aa64a2f1991042f516260e8b0eca0ae777b6c8f1aa2b5ae096e80bbb6ac9b005aef2bca697969841d34f7e1819556263476bdfea36c35092e8d9aefde3de2d9a
   languageName: node
   linkType: hard
 
@@ -24473,13 +24471,10 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-    object-assign: "npm:^4.1.1"
-  checksum: 10/ece60c31c1d266d132783aaaffa185d2e4c9b4db144f853933ec690cee1e0600c8929a1dd0a9e79323eea8e2df636c9a06d40f6cfdc9f797f65225433e67f707
+"react@npm:^19.0.0":
+  version: 19.0.0
+  resolution: "react@npm:19.0.0"
+  checksum: 10/2490969c503f644703c88990d20e4011fa6119ddeca451e9de48f6d7ab058d670d2852a5fcd3aa3cd90a923ab2815d532637bd4a814add402ae5c0d4f129ee71
   languageName: node
   linkType: hard
 
@@ -25830,6 +25825,13 @@ canvg@gabelerner/canvg:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: 10/0c4557aa37bafca44ff21dc0ea7c92e2dbcb298bc62eae92b29a39b029134f02fb23917d6ebc8b1fa536b4184934314c20d8864d156a9f6357f3398aaf7bfda8
+  languageName: node
+  linkType: hard
+
+"scheduler@npm:^0.25.0":
+  version: 0.25.0
+  resolution: "scheduler@npm:0.25.0"
+  checksum: 10/e661e38503ab29a153429a99203fefa764f28b35c079719eb5efdd2c1c1086522f6653d8ffce388209682c23891a6d1d32fa6badf53c35fb5b9cd0c55ace42de
   languageName: node
   linkType: hard
 
