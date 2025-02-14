@@ -10332,7 +10332,7 @@ __metadata:
     prop-types: "npm:^15.6.2"
     pusher-js: "npm:4.1.0"
     pyodide: "npm:^0.25.1"
-    qrcode.react: "npm:^0.8.0"
+    qrcode.react: "npm:^4.2.0"
     qtip2: "npm:2.2.0"
     query-string: "npm:4.1.0"
     radium: "npm:^0.25.2"
@@ -23252,22 +23252,12 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"qr.js@npm:0.0.0":
-  version: 0.0.0
-  resolution: "qr.js@npm:0.0.0"
-  checksum: 10/a05943d13cbc478e48935de8669b72312fe02de05057c35ebfab59a574c084530a9afb9ee651d53c8c870a54f9ec93ea7b63231de202740ce16a71c797e37ce9
-  languageName: node
-  linkType: hard
-
-"qrcode.react@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "qrcode.react@npm:0.8.0"
-  dependencies:
-    prop-types: "npm:^15.6.0"
-    qr.js: "npm:0.0.0"
+"qrcode.react@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "qrcode.react@npm:4.2.0"
   peerDependencies:
-    react: ^15.5.3 || ^16.0.0
-  checksum: 10/409d5584697db9a17ad33143d26307102a27317f4fd60a66d492ab515f780d601cd423a6373c1ea057f0bd14a8e34e48d0e70f4ee475c22382fb98890e5a9e37
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10/665036d88b160e6d5de4e24d101bc63bd2b76712802e874bbffe56c6b6e5fe50c63f02c3cba2975b2e2b555c1f1e112cbb42987f8cb3a626ce2d17023cfde6ac
   languageName: node
   linkType: hard
 
