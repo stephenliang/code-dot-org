@@ -246,7 +246,7 @@ gem 'aws-sdk-secretsmanager'
 # Lint tools
 group :development, :staging, :levelbuilder, :test do
   gem 'haml_lint', require: false
-  gem 'rubocop', '~> 1.28', require: false
+  gem 'rubocop', '~> 1.72', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-rails-accessibility', require: false
