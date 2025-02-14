@@ -170,7 +170,7 @@ gem 'omniauth-microsoft_v2_auth', github: 'dooly-ai/omniauth-microsoft_v2_auth'
 # see: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9284
 gem 'omniauth-rails_csrf_protection', '~> 1.0.2'
 
-gem 'bootstrap-sass', '~> 2.3.2.2'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'haml', '~> 5.2.0'
 
