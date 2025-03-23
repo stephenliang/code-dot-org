@@ -10409,7 +10409,7 @@ __metadata:
     stylelint-config-standard: "npm:^33.0.0"
     stylelint-config-standard-scss: "npm:^9.0.0"
     survey-react: "npm:^1.9.28"
-    swiper: "npm:^11.0.5"
+    swiper: "npm:^11.2.6"
     terser-webpack-plugin: "npm:^5.3.10"
     timers-browserify: "npm:^2.0.12"
     tone: "npm:14.7.77"
@@ -27497,10 +27497,10 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"swiper@npm:^11.0.5":
-  version: 11.0.5
-  resolution: "swiper@npm:11.0.5"
-  checksum: 10/4a544e9551336ddbdd5f45ebdde0de5086f855e08b48eaa2bed7f5c16a27dd28ef9accdbb232de8639dea0c2588a3139f9865fdb6342e82850a62cdea69cdc4d
+"swiper@npm:^11.2.6":
+  version: 11.2.6
+  resolution: "swiper@npm:11.2.6"
+  checksum: 10/1c4e32ee5ecbd2d0e281bb3d186622af3702482da12b4a003238b9e03087e4f4710d74071e362d49253271a13090e70ec9d5e0f2900eca3b59a791ec0d8fcbc7
   languageName: node
   linkType: hard
 
