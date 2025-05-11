@@ -5871,13 +5871,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.19.0":
-  version: 1.19.0
-  resolution: "@remix-run/router@npm:1.19.0"
-  checksum: 10/13a881fc47ca3571dcad298f6f19218c84f09f0dda38695d874a9fb1b496e42b6b37b777169d283cd1f5098a1470fa76c5143c53eb5a4078202bd12ea1541d29
-  languageName: node
-  linkType: hard
-
 "@restart/hooks@npm:^0.4.9":
   version: 0.4.9
   resolution: "@restart/hooks@npm:0.4.9"
@@ -10363,7 +10356,7 @@ __metadata:
     react-refresh-typescript: "npm:^2.0.9"
     react-resizable-layout: "npm:^0.7.2"
     react-router: "npm:3.2.6"
-    react-router-dom: "npm:^6.26.0"
+    react-router-dom: "npm:^7.6.0"
     react-select: "npm:^1.2.1"
     react-sticky: "npm:^6.0.3"
     react-tether: "npm:^1.0.4"
@@ -11807,6 +11800,13 @@ canvg@gabelerner/canvg:
   version: 0.6.0
   resolution: "cookie@npm:0.6.0"
   checksum: 10/c1f8f2ea7d443b9331680598b0ae4e6af18a618c37606d1bbdc75bec8361cce09fe93e727059a673f2ba24467131a9fb5a4eec76bb1b149c1b3e1ccb268dc583
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "cookie@npm:1.0.2"
+  checksum: 10/f5817cdc84d8977761b12549eba29435e675e65c7fef172bc31737788cd8adc83796bf8abe6d950554e7987325ad2d9ac2971c5bd8ff0c4f81c145f82e4ab1be
   languageName: node
   linkType: hard
 
@@ -24184,16 +24184,15 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.26.0":
-  version: 6.26.0
-  resolution: "react-router-dom@npm:6.26.0"
+"react-router-dom@npm:^7.6.0":
+  version: 7.6.0
+  resolution: "react-router-dom@npm:7.6.0"
   dependencies:
-    "@remix-run/router": "npm:1.19.0"
-    react-router: "npm:6.26.0"
+    react-router: "npm:7.6.0"
   peerDependencies:
-    react: ">=16.8"
-    react-dom: ">=16.8"
-  checksum: 10/be433029a0759d5faa2cd2cb28dd3c88106cdb46042c2e804e301aefad3db17aa9021b4e3d533e0fdcde5767ed0e1d296c04fecbc3e41231c3d8be9cc307018a
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 10/e24b9c6cb04448e3f3effb79399294aeffc22e9b99e179befa861bd2f5464d6e6a1caaf2971aeded9cbdb7fd279552ed43aa3043cc823186f95fdc8b1d84fa27
   languageName: node
   linkType: hard
 
@@ -24215,14 +24214,19 @@ canvg@gabelerner/canvg:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.26.0":
-  version: 6.26.0
-  resolution: "react-router@npm:6.26.0"
+"react-router@npm:7.6.0":
+  version: 7.6.0
+  resolution: "react-router@npm:7.6.0"
   dependencies:
-    "@remix-run/router": "npm:1.19.0"
+    cookie: "npm:^1.0.1"
+    set-cookie-parser: "npm:^2.6.0"
   peerDependencies:
-    react: ">=16.8"
-  checksum: 10/d0c79a0f95a88730c0d2bfd098da9d6bdd4d7f08d4e1ddd152b5d013d3c01064afdd6fed57d4d3fa50c42c412e6d00e9217b2abd6cdbf4aaf810b7c33e728400
+    react: ">=18"
+    react-dom: ">=18"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10/093ace0b706522ea551d279d18fa320ae904ea47e6b7f80532f0d4badee518d3cd454481b3cb89c3e68222571620c5bccdd52be770c2783c575308a4395d9015
   languageName: node
   linkType: hard
 
@@ -26112,6 +26116,13 @@ canvg@gabelerner/canvg:
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
   checksum: 10/8980ebf7ae9eb945bb036b6e283c547ee783a1ad557a82babf758a065e2fb6ea337fd82cac30dd565c1e606e423f30024a19fff7afbf4977d784720c4026a8ef
+  languageName: node
+  linkType: hard
+
+"set-cookie-parser@npm:^2.6.0":
+  version: 2.7.1
+  resolution: "set-cookie-parser@npm:2.7.1"
+  checksum: 10/c92b1130032693342bca13ea1b1bc93967ab37deec4387fcd8c2a843c0ef2fd9a9f3df25aea5bb3976cd05a91c2cf4632dd6164d6e1814208fb7d7e14edd42b4
   languageName: node
   linkType: hard
 
