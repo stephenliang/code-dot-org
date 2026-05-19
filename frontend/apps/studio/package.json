@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b && vite build",
+    "build:mobile": "tsc -b && CAPACITOR_BUILD=1 vite build --base=./",
     "dev": "vite dev",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "preview": "vite preview",
+    "snapshot:k5-ai-decisions": "node --import tsx/esm scripts/snapshot-k5-ai-decisions.ts",
     "test": "vitest --run --passWithNoTests",
     "typecheck": "tsc -b --noEmit"
   },
@@ -19,6 +21,9 @@
     "extends": "@code-dot-org/lint-config/stylelint/index.mjs"
   },
   "dependencies": {
+    "@capacitor-community/text-to-speech": "^5.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
     "@code-dot-org/component-library": "workspace:*",
     "@code-dot-org/component-library-styles": "workspace:*",
     "@code-dot-org/core": "workspace:*",
@@ -53,6 +58,7 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "catalog:",
     "vite": "catalog:",
+    "vite-plugin-pwa": "^0.21.0",
     "vite-plugin-rails": "^0.5.0",
     "vitest": "catalog:"
   }
