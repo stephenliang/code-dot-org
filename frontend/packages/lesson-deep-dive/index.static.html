@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutor+ Lesson Deep Dive</title>
+    <style>
+      body {
+        margin: 0;
+        background: #292f36;
+      }
+
+      /* Static-build-only chrome: lets a shared file reach all three mock
+         scenarios without a query string. Deliberately unobtrusive so it does
+         not read as part of the design. */
+      .ldd-scenario-switcher {
+        position: fixed;
+        right: 12px;
+        bottom: 12px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 8px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 6px;
+        background: rgba(20, 24, 28, 0.82);
+        backdrop-filter: blur(4px);
+        font:
+          11px/1 ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          monospace;
+        letter-spacing: 0.04em;
+        opacity: 0.55;
+        transition: opacity 0.15s ease;
+      }
+
+      .ldd-scenario-switcher:hover,
+      .ldd-scenario-switcher:focus-within {
+        opacity: 1;
+      }
+
+      .ldd-scenario-switcher span {
+        color: rgba(255, 255, 255, 0.45);
+        text-transform: uppercase;
+      }
+
+      .ldd-scenario-switcher button {
+        padding: 4px 7px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.72);
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .ldd-scenario-switcher button:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+      }
+
+      .ldd-scenario-switcher button[aria-pressed='true'] {
+        background: #a374d6;
+        color: #fff;
+      }
+
+      .ldd-scenario-switcher button:focus-visible {
+        outline: 2px solid #a374d6;
+        outline-offset: 2px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .ldd-scenario-switcher {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="lesson-deep-dive-container"></div>
+    <script type="module" src="/src/staticMain.tsx"></script>
+  </body>
+</html>

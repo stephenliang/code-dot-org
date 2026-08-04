@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "vite build",
+    "build:static": "vite build --config vite.static.config.ts",
     "dev": "vite",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
